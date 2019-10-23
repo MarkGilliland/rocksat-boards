@@ -491,12 +491,238 @@
 <rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
 <rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
 </package>
+<package name="TEENSY-4.0" urn="urn:adsk.eagle:footprint:37268/1" locally_modified="yes" library_version="1">
+<description>&lt;h3&gt;Teensy 4.0 Footprint&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:34&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.1"&lt;/li&gt;
+&lt;li&gt;Area:0.7x1.4"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;Teensy 4.0&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-8.89" y1="-17.78" x2="-8.89" y2="17.78" width="0.127" layer="51"/>
+<wire x1="-8.89" y1="17.78" x2="8.89" y2="17.78" width="0.127" layer="51"/>
+<wire x1="8.89" y1="17.78" x2="8.89" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="8.89" y1="-17.78" x2="3.81" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="3.81" y1="-17.78" x2="-3.81" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="-17.78" x2="-8.89" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="-19.05" x2="3.81" y2="-19.05" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="-19.05" x2="-3.81" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="3.81" y1="-19.05" x2="3.81" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="-8.89" y1="-17.78" x2="-8.89" y2="17.78" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="-17.78" x2="-8.89" y2="17.78" width="0.127" layer="22"/>
+<wire x1="8.89" y1="17.78" x2="8.89" y2="-17.78" width="0.127" layer="22"/>
+<wire x1="8.89" y1="17.78" x2="8.89" y2="-17.78" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="17.78" x2="8.89" y2="17.78" width="0.127" layer="22"/>
+<wire x1="-8.89" y1="17.78" x2="8.89" y2="17.78" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="-17.78" x2="-8.89" y2="-17.78" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="-17.78" x2="-8.89" y2="-17.78" width="0.127" layer="22"/>
+<pad name="13" x="-7.62" y="16.51" drill="1.016" diameter="1.8796"/>
+<pad name="14" x="-7.62" y="13.97" drill="1.016" diameter="1.8796"/>
+<pad name="15" x="-7.62" y="11.43" drill="1.016" diameter="1.8796"/>
+<pad name="16" x="-7.62" y="8.89" drill="1.016" diameter="1.8796"/>
+<pad name="17" x="-7.62" y="6.35" drill="1.016" diameter="1.8796"/>
+<pad name="18" x="-7.62" y="3.81" drill="1.016" diameter="1.8796"/>
+<pad name="19" x="-7.62" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="20" x="-7.62" y="-1.27" drill="1.016" diameter="1.8796"/>
+<pad name="21" x="-7.62" y="-3.81" drill="1.016" diameter="1.8796"/>
+<pad name="22" x="-7.62" y="-6.35" drill="1.016" diameter="1.8796"/>
+<pad name="23" x="-7.62" y="-8.89" drill="1.016" diameter="1.8796"/>
+<pad name="3V" x="-7.62" y="-11.43" drill="1.016" diameter="1.8796"/>
+<pad name="AGND" x="-7.62" y="-13.97" drill="1.016" diameter="1.8796"/>
+<pad name="VIN" x="-7.62" y="-16.51" drill="1.016" diameter="1.8796"/>
+<pad name="12" x="7.62" y="16.51" drill="1.016" diameter="1.8796"/>
+<pad name="11" x="7.62" y="13.97" drill="1.016" diameter="1.8796"/>
+<pad name="10" x="7.62" y="11.43" drill="1.016" diameter="1.8796"/>
+<pad name="9" x="7.62" y="8.89" drill="1.016" diameter="1.8796"/>
+<pad name="8" x="7.62" y="6.35" drill="1.016" diameter="1.8796"/>
+<pad name="7" x="7.62" y="3.81" drill="1.016" diameter="1.8796"/>
+<pad name="6" x="7.62" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="5" x="7.62" y="-1.27" drill="1.016" diameter="1.8796"/>
+<pad name="4" x="7.62" y="-3.81" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="7.62" y="-6.35" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="7.62" y="-8.89" drill="1.016" diameter="1.8796"/>
+<pad name="1" x="7.62" y="-11.43" drill="1.016" diameter="1.8796"/>
+<pad name="0" x="7.62" y="-13.97" drill="1.016" diameter="1.8796"/>
+<pad name="GND1" x="7.62" y="-16.51" drill="1.016" diameter="1.8796"/>
+<pad name="ON/OFF" x="-5.08" y="16.51" drill="1.016" diameter="1.8796"/>
+<pad name="PROG" x="-2.54" y="16.51" drill="1.016" diameter="1.8796"/>
+<pad name="GND" x="0" y="16.51" drill="1.016" diameter="1.8796"/>
+<pad name="3.3V" x="2.54" y="16.51" drill="1.016" diameter="1.8796"/>
+<pad name="VBAT" x="5.08" y="16.51" drill="1.016" diameter="1.8796"/>
+<pad name="VUSB" x="-5.08" y="-13.97" drill="1.016" diameter="1.8796"/>
+<text x="0" y="18.034" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-19.304" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<text x="-5.3975" y="-17.4625" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">VIN</text>
+<text x="-5.3975" y="-12.3825" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">VIN</text>
+<text x="-2.8575" y="-15.24" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">VUSB</text>
+<text x="-5.3975" y="-1.905" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">A6</text>
+<text x="-5.3975" y="0.635" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">A5</text>
+<text x="-5.3975" y="3.175" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">A4</text>
+<text x="-5.3975" y="5.715" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">A3</text>
+<text x="-5.3975" y="8.255" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">A2</text>
+<text x="-5.3975" y="10.795" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">A1</text>
+<text x="-5.3975" y="13.335" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">A0</text>
+<text x="6.35" y="14.605" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">11</text>
+<text x="6.35" y="12.065" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">10</text>
+<text x="6.35" y="9.2075" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">9</text>
+<text x="6.35" y="6.6675" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">8</text>
+<text x="6.35" y="4.445" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">7</text>
+<text x="6.35" y="1.5875" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">6</text>
+<text x="6.35" y="-0.9525" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">5</text>
+<text x="6.35" y="-3.4925" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">4</text>
+<text x="6.35" y="-6.0325" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">3</text>
+<text x="6.35" y="-8.5725" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">2</text>
+<text x="6.35" y="-11.1125" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">1</text>
+<text x="6.35" y="-13.6525" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">0</text>
+<text x="6.35" y="-15.24" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">GND</text>
+<text x="-9.2075" y="-5.3975" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">A8</text>
+<text x="-9.2075" y="-7.9375" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">A9</text>
+<text x="-9.2075" y="-12.7" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">AGND</text>
+<text x="-1.905" y="14.9225" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">PROG</text>
+<text x="0.3175" y="14.9225" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">GND</text>
+<text x="2.8575" y="14.9225" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">3.3V</text>
+<text x="5.3975" y="14.9225" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">VBAT</text>
+<text x="-4.445" y="14.9225" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">ON/OFF</text>
+<text x="-9.2075" y="-2.8575" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">A7</text>
+<text x="-9.2075" y="17.145" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">13</text>
+<text x="9.2075" y="15.875" size="0.8128" layer="21" font="vector" ratio="15" rot="R270" align="bottom-right">12</text>
+<text x="-9.2075" y="-10.4775" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">3V</text>
+<text x="-9.2075" y="-5.3975" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270">A8</text>
+<text x="-9.2075" y="-7.9375" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270">A9</text>
+<text x="-9.2075" y="-12.7" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270">AGND</text>
+<text x="-9.2075" y="-2.8575" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270">A7</text>
+<text x="-9.2075" y="17.145" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270">13</text>
+<text x="-9.2075" y="-10.4775" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270">3V</text>
+<text x="-5.3975" y="-12.3825" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-right">VIN</text>
+<text x="-2.8575" y="-15.24" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-right">VUSB</text>
+<text x="-5.3975" y="-17.4625" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-right">VIN</text>
+<text x="-5.3975" y="-1.905" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-right">A6</text>
+<text x="-5.3975" y="0.635" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-right">A5</text>
+<text x="-5.3975" y="3.175" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-right">A4</text>
+<text x="-5.3975" y="5.715" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-right">A3</text>
+<text x="-5.3975" y="8.255" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-right">A2</text>
+<text x="-5.3975" y="10.795" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-right">A1</text>
+<text x="-4.445" y="14.9225" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">ON/OFF</text>
+<text x="-1.905" y="14.9225" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">PROG</text>
+<text x="0.3175" y="14.9225" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">GND</text>
+<text x="2.8575" y="14.9225" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">3.3V</text>
+<text x="5.3975" y="14.9225" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">VBAT</text>
+<text x="9.2075" y="15.875" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90">12</text>
+<text x="6.35" y="-15.24" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">GND</text>
+<text x="6.35" y="-13.6525" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">0</text>
+<text x="6.35" y="-11.1125" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">1</text>
+<text x="6.35" y="-8.5725" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">2</text>
+<text x="6.35" y="-6.0325" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">3</text>
+<text x="6.35" y="-3.4925" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">4</text>
+<text x="6.35" y="-0.9525" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">5</text>
+<text x="6.35" y="1.5875" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">6</text>
+<text x="6.35" y="4.445" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">7</text>
+<text x="6.35" y="6.6675" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">8</text>
+<text x="6.35" y="9.2075" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">9</text>
+<text x="6.35" y="12.065" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">10</text>
+<text x="6.35" y="14.605" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">11</text>
+<text x="-5.3975" y="13.335" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-right">A0</text>
+</package>
+<package name="TEENSY-4.0_NOSILK" urn="urn:adsk.eagle:footprint:37269/1" locally_modified="yes" library_version="1">
+<description>&lt;h3&gt;Teensy 3 Footprint- No Silk Label on Pins&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:37&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.1"&lt;/li&gt;
+&lt;li&gt;Area:0.7x1.4"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;Teensy 3.1&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-8.89" y1="-17.78" x2="-8.89" y2="17.78" width="0.127" layer="51"/>
+<wire x1="-8.89" y1="17.78" x2="8.89" y2="17.78" width="0.127" layer="51"/>
+<wire x1="8.89" y1="17.78" x2="8.89" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="8.89" y1="-17.78" x2="3.81" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="3.81" y1="-17.78" x2="-3.81" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="-17.78" x2="-8.89" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="-19.05" x2="3.81" y2="-19.05" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="-19.05" x2="-3.81" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="3.81" y1="-19.05" x2="3.81" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="-8.89" y1="-17.78" x2="-8.89" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-17.78" x2="-8.89" y2="17.78" width="0.127" layer="22"/>
+<wire x1="8.89" y1="17.78" x2="8.89" y2="-17.78" width="0.127" layer="22"/>
+<wire x1="8.89" y1="17.78" x2="8.89" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="17.78" x2="8.89" y2="17.78" width="0.127" layer="22"/>
+<wire x1="-8.89" y1="17.78" x2="8.89" y2="17.78" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-17.78" x2="-8.89" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-17.78" x2="-8.89" y2="-17.78" width="0.127" layer="22"/>
+<pad name="13" x="-7.62" y="16.51" drill="1.016" diameter="1.8796"/>
+<pad name="14" x="-7.62" y="13.97" drill="1.016" diameter="1.8796"/>
+<pad name="15" x="-7.62" y="11.43" drill="1.016" diameter="1.8796"/>
+<pad name="16" x="-7.62" y="8.89" drill="1.016" diameter="1.8796"/>
+<pad name="17" x="-7.62" y="6.35" drill="1.016" diameter="1.8796"/>
+<pad name="18" x="-7.62" y="3.81" drill="1.016" diameter="1.8796"/>
+<pad name="19" x="-7.62" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="20" x="-7.62" y="-1.27" drill="1.016" diameter="1.8796"/>
+<pad name="21" x="-7.62" y="-3.81" drill="1.016" diameter="1.8796"/>
+<pad name="22" x="-7.62" y="-6.35" drill="1.016" diameter="1.8796"/>
+<pad name="23" x="-7.62" y="-8.89" drill="1.016" diameter="1.8796"/>
+<pad name="3V" x="-7.62" y="-11.43" drill="1.016" diameter="1.8796"/>
+<pad name="AGND" x="-7.62" y="-13.97" drill="1.016" diameter="1.8796"/>
+<pad name="VIN" x="-7.62" y="-16.51" drill="1.016" diameter="1.8796"/>
+<pad name="12" x="7.62" y="16.51" drill="1.016" diameter="1.8796"/>
+<pad name="11" x="7.62" y="13.97" drill="1.016" diameter="1.8796"/>
+<pad name="10" x="7.62" y="11.43" drill="1.016" diameter="1.8796"/>
+<pad name="9" x="7.62" y="8.89" drill="1.016" diameter="1.8796"/>
+<pad name="8" x="7.62" y="6.35" drill="1.016" diameter="1.8796"/>
+<pad name="7" x="7.62" y="3.81" drill="1.016" diameter="1.8796"/>
+<pad name="6" x="7.62" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="5" x="7.62" y="-1.27" drill="1.016" diameter="1.8796"/>
+<pad name="4" x="7.62" y="-3.81" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="7.62" y="-6.35" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="7.62" y="-8.89" drill="1.016" diameter="1.8796"/>
+<pad name="1" x="7.62" y="-11.43" drill="1.016" diameter="1.8796"/>
+<pad name="0" x="7.62" y="-13.97" drill="1.016" diameter="1.8796"/>
+<pad name="GND1" x="7.62" y="-16.51" drill="1.016" diameter="1.8796"/>
+<pad name="ON/OFF" x="-5.08" y="16.51" drill="1.016" diameter="1.8796"/>
+<pad name="PROG" x="-2.54" y="16.51" drill="1.016" diameter="1.8796"/>
+<pad name="GND" x="0" y="16.51" drill="1.016" diameter="1.8796"/>
+<pad name="3.3V" x="2.54" y="16.51" drill="1.016" diameter="1.8796"/>
+<pad name="VBAT" x="5.08" y="16.51" drill="1.016" diameter="1.8796"/>
+<pad name="VUSB" x="-5.08" y="-13.97" drill="1.016" diameter="1.8796"/>
+<text x="0" y="18.034" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-19.304" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT223" urn="urn:adsk.eagle:package:43439/1" type="box" library_version="8">
 <description>Small Outline Transistor</description>
 <packageinstances>
 <packageinstance name="SOT223"/>
+</packageinstances>
+</package3d>
+<package3d name="TEENSY-3.1" urn="urn:adsk.eagle:package:37333/1" locally_modified="yes" type="box" library_version="1">
+<description>Teensy 3 Footprint
+Specifications:
+Pin count:37
+Pin pitch: 0.1"
+Area:0.7x1.4"
+
+Example device(s):
+Teensy 3.1
+</description>
+<packageinstances>
+<packageinstance name="TEENSY-4.0"/>
+</packageinstances>
+</package3d>
+<package3d name="TEENSY-3.1_NOSILK" urn="urn:adsk.eagle:package:37332/1" locally_modified="yes" type="box" library_version="1">
+<description>Teensy 3 Footprint- No Silk Label on Pins
+Specifications:
+Pin count:37
+Pin pitch: 0.1"
+Area:0.7x1.4"
+
+Example device(s):
+Teensy 3.1
+</description>
+<packageinstances>
+<packageinstance name="TEENSY-4.0_NOSILK"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -511,6 +737,50 @@
 <pin name="GND" x="0" y="-15.24" length="middle" rot="R90"/>
 <text x="-15.24" y="2.54" size="1.27" layer="95">&gt;NAME</text>
 <text x="-15.24" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TEENSY-40-1" library_version="1">
+<description>&lt;h3&gt;Teensy 4.0&lt;/h3&gt;
+&lt;p&gt;Breaks out all the PTH pins on the Teensy 4.0. Does not break out all of the additional SMD pins on the underside of the Teensy, or the external crystal pins. &lt;/p&gt;</description>
+<wire x1="-15.24" y1="-33.02" x2="-15.24" y2="30.48" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="30.48" x2="12.7" y2="30.48" width="0.254" layer="94"/>
+<wire x1="12.7" y1="30.48" x2="12.7" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-33.02" x2="-15.24" y2="-33.02" width="0.254" layer="94"/>
+<text x="-5.08" y="30.734" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-5.08" y="-33.274" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="GND1" x="-17.78" y="-30.48" length="short" direction="pwr"/>
+<pin name="GND" x="-17.78" y="-27.94" length="short" direction="pwr"/>
+<pin name="VBAT" x="-17.78" y="-15.24" length="short" direction="pwr"/>
+<pin name="3.3V" x="-17.78" y="-12.7" length="short" direction="pwr"/>
+<pin name="3V" x="-17.78" y="-10.16" length="short" direction="pwr"/>
+<pin name="VIN" x="-17.78" y="-7.62" length="short" direction="pwr"/>
+<pin name="AGND" x="-17.78" y="-25.4" length="short" direction="pwr"/>
+<pin name="A0/14" x="-17.78" y="27.94" length="short"/>
+<pin name="A1/15" x="-17.78" y="25.4" length="short"/>
+<pin name="A2/16" x="-17.78" y="22.86" length="short"/>
+<pin name="A3/17" x="-17.78" y="20.32" length="short"/>
+<pin name="A4/18/SDA0" x="15.24" y="22.86" length="short" rot="R180"/>
+<pin name="A5/19/SCL0" x="15.24" y="20.32" length="short" rot="R180"/>
+<pin name="A6/20*" x="-17.78" y="12.7" length="short"/>
+<pin name="A7/21*" x="-17.78" y="10.16" length="short"/>
+<pin name="A8/22*" x="-17.78" y="7.62" length="short"/>
+<pin name="A9/23*" x="-17.78" y="5.08" length="short"/>
+<pin name="10*/TX2/CS" x="15.24" y="-30.48" length="short" rot="R180"/>
+<pin name="11/DOUT" x="15.24" y="-27.94" length="short" rot="R180"/>
+<pin name="12/DIN" x="15.24" y="-25.4" length="short" rot="R180"/>
+<pin name="13/SCK" x="15.24" y="-22.86" length="short" rot="R180"/>
+<pin name="ON/OFF" x="-17.78" y="2.54" length="short"/>
+<pin name="VUSB" x="-17.78" y="-17.78" length="short" direction="pwr"/>
+<pin name="8/TX3" x="15.24" y="-7.62" length="short" rot="R180"/>
+<pin name="7/RX3" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="6*" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="5*" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="4*" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="3*" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="2" x="15.24" y="7.62" length="short" rot="R180"/>
+<pin name="1/TX1" x="15.24" y="10.16" length="short" rot="R180"/>
+<pin name="0/RX1" x="15.24" y="12.7" length="short" rot="R180"/>
+<pin name="9*/RX2" x="15.24" y="-10.16" length="short" rot="R180"/>
+<pin name="PROG" x="15.24" y="27.94" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -534,6 +804,111 @@ AZ1117CH-3.3TRG1DICT-ND</description>
 </package3dinstances>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEENSY-4.0" prefix="B" library_version="1">
+<description>&lt;h3&gt;Teensy 4.0 Footprint&lt;/h3&gt;
+&lt;p&gt;Mechanical footprint with connectors for Teensy Development Board with ARM Cortex.&lt;/p&gt;
+
+&lt;b&gt;&lt;p&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/15583"&gt;Teensy 4.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TEENSY-40-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SILK" package="TEENSY-4.0">
+<connects>
+<connect gate="G$1" pin="0/RX1" pad="0"/>
+<connect gate="G$1" pin="1/TX1" pad="1"/>
+<connect gate="G$1" pin="10*/TX2/CS" pad="10"/>
+<connect gate="G$1" pin="11/DOUT" pad="11"/>
+<connect gate="G$1" pin="12/DIN" pad="12"/>
+<connect gate="G$1" pin="13/SCK" pad="13"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3*" pad="3"/>
+<connect gate="G$1" pin="3.3V" pad="3.3V"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="4*" pad="4"/>
+<connect gate="G$1" pin="5*" pad="5"/>
+<connect gate="G$1" pin="6*" pad="6"/>
+<connect gate="G$1" pin="7/RX3" pad="7"/>
+<connect gate="G$1" pin="8/TX3" pad="8"/>
+<connect gate="G$1" pin="9*/RX2" pad="9"/>
+<connect gate="G$1" pin="A0/14" pad="14"/>
+<connect gate="G$1" pin="A1/15" pad="15"/>
+<connect gate="G$1" pin="A2/16" pad="16"/>
+<connect gate="G$1" pin="A3/17" pad="17"/>
+<connect gate="G$1" pin="A4/18/SDA0" pad="18"/>
+<connect gate="G$1" pin="A5/19/SCL0" pad="19"/>
+<connect gate="G$1" pin="A6/20*" pad="20"/>
+<connect gate="G$1" pin="A7/21*" pad="21"/>
+<connect gate="G$1" pin="A8/22*" pad="22"/>
+<connect gate="G$1" pin="A9/23*" pad="23"/>
+<connect gate="G$1" pin="AGND" pad="AGND"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND1" pad="GND1"/>
+<connect gate="G$1" pin="ON/OFF" pad="ON/OFF"/>
+<connect gate="G$1" pin="PROG" pad="PROG"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+<connect gate="G$1" pin="VUSB" pad="VUSB"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37333/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="SF_ID" value="DEV-12646" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="NOSILK" package="TEENSY-4.0_NOSILK">
+<connects>
+<connect gate="G$1" pin="0/RX1" pad="0"/>
+<connect gate="G$1" pin="1/TX1" pad="1"/>
+<connect gate="G$1" pin="10*/TX2/CS" pad="10"/>
+<connect gate="G$1" pin="11/DOUT" pad="11"/>
+<connect gate="G$1" pin="12/DIN" pad="12"/>
+<connect gate="G$1" pin="13/SCK" pad="13"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3*" pad="3"/>
+<connect gate="G$1" pin="3.3V" pad="3.3V"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="4*" pad="4"/>
+<connect gate="G$1" pin="5*" pad="5"/>
+<connect gate="G$1" pin="6*" pad="6"/>
+<connect gate="G$1" pin="7/RX3" pad="7"/>
+<connect gate="G$1" pin="8/TX3" pad="8"/>
+<connect gate="G$1" pin="9*/RX2" pad="9"/>
+<connect gate="G$1" pin="A0/14" pad="14"/>
+<connect gate="G$1" pin="A1/15" pad="15"/>
+<connect gate="G$1" pin="A2/16" pad="16"/>
+<connect gate="G$1" pin="A3/17" pad="17"/>
+<connect gate="G$1" pin="A4/18/SDA0" pad="18"/>
+<connect gate="G$1" pin="A5/19/SCL0" pad="19"/>
+<connect gate="G$1" pin="A6/20*" pad="20"/>
+<connect gate="G$1" pin="A7/21*" pad="21"/>
+<connect gate="G$1" pin="A8/22*" pad="22"/>
+<connect gate="G$1" pin="A9/23*" pad="23"/>
+<connect gate="G$1" pin="AGND" pad="AGND"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND1" pad="GND1"/>
+<connect gate="G$1" pin="ON/OFF" pad="ON/OFF"/>
+<connect gate="G$1" pin="PROG" pad="PROG"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+<connect gate="G$1" pin="VUSB" pad="VUSB"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37332/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="SF_ID" value="DEV-12646" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -9609,6 +9984,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="B1" library="PowerManagementParts" deviceset="TEENSY-4.0" device="SILK" package3d_urn="urn:adsk.eagle:package:37333/1"/>
+<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
+<part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10128,8 +10506,21 @@ and 1 wire per position.</text>
 <description>Teensy Connections
 &lt;Connections for the Teensy and possible datalogging capability. Do not include op-amps here.&gt;</description>
 <plain>
+<text x="175.26" y="25.4" size="2.54" layer="94">Graham Braly
+Mark Gilliland</text>
+<text x="271.78" y="25.4" size="2.54" layer="94" align="bottom-right">RockSat-X: Mines</text>
 </plain>
 <instances>
+<instance part="B1" gate="G$1" x="40.64" y="55.88" smashed="yes">
+<attribute name="NAME" x="35.56" y="86.614" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="35.56" y="22.606" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME2" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10139,8 +10530,17 @@ and 1 wire per position.</text>
 <sheet>
 <description>Channel Control and Sense &lt;Current Sense circuits, outputs, and multiplexing&gt;</description>
 <plain>
+<text x="175.26" y="25.4" size="2.54" layer="94">Graham Braly
+Mark Gilliland</text>
+<text x="271.78" y="25.4" size="2.54" layer="94" align="bottom-right">RockSat-X: Mines</text>
 </plain>
 <instances>
+<instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME3" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
 </instances>
 <busses>
 </busses>
