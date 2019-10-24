@@ -15520,7 +15520,7 @@ Mark Gilliland</text>
 <attribute name="NAME" x="67.0814" y="151.13" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="71.882" y="151.13" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="D11" gate="G$1" x="76.2" y="170.18" rot="R90"/>
+<instance part="D11" gate="G$1" x="83.82" y="170.18" rot="R90"/>
 <instance part="U$23" gate="G$1" x="203.2" y="170.18" smashed="yes" rot="MR180">
 <attribute name="NAME" x="208.28" y="170.18" size="1.778" layer="95" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="208.28" y="172.72" size="1.778" layer="96" font="vector" rot="MR180"/>
@@ -15529,7 +15529,7 @@ Mark Gilliland</text>
 <attribute name="NAME" x="204.2414" y="151.13" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="209.042" y="151.13" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="D12" gate="G$1" x="213.36" y="170.18" rot="R90"/>
+<instance part="D12" gate="G$1" x="220.98" y="170.18" rot="R90"/>
 <instance part="RN4" gate="-3" x="58.42" y="180.34" rot="R90"/>
 <instance part="RN4" gate="-4" x="195.58" y="180.34" rot="R90"/>
 <instance part="RN3" gate="-3" x="50.8" y="172.72"/>
