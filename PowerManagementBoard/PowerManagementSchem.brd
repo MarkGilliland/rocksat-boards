@@ -2472,6 +2472,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-261.62" y="-589.28" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$21" library="PowerManagementParts" package="FLAT_LED" value="FLAT_LED" x="-261.62" y="-593.09"/>
+<element name="U$25" library="PowerManagementParts" package="FLAT_LED" value="FLAT_LED" x="-261.62" y="-595.63"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2576,8 +2577,12 @@ design rules under a new name.</description>
 <contactref element="U$17" pad="ANODE"/>
 <contactref element="RN4" pad="14"/>
 <contactref element="U$22" pad="3"/>
+<contactref element="RN4" pad="13"/>
+<contactref element="U$23" pad="3"/>
+<wire x1="-225.425" y1="-529.7678" x2="-226.695" y2="-529.7678" width="0" layer="19" extent="1-1"/>
 <wire x1="-242.83" y1="-551.41" x2="-226.695" y2="-529.7678" width="0" layer="19" extent="1-1"/>
-<wire x1="-158.75" y1="-471.17" x2="-226.695" y2="-529.7678" width="0" layer="19" extent="1-1"/>
+<wire x1="-242.83" y1="-571.73" x2="-242.83" y2="-551.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-158.75" y1="-471.17" x2="-225.425" y2="-529.7678" width="0" layer="19" extent="1-1"/>
 <wire x1="30.48" y1="74.93" x2="-158.75" y2="-471.17" width="0" layer="19" extent="1-1"/>
 <wire x1="-34.61" y1="149.86" x2="30.48" y2="74.93" width="0" layer="19" extent="1-1"/>
 <wire x1="-74.61" y1="149.86" x2="-34.61" y2="149.86" width="0" layer="19" extent="1-1"/>
@@ -3022,9 +3027,17 @@ design rules under a new name.</description>
 </signal>
 <signal name="12V-CAM">
 <contactref element="U$11" pad="PIN1"/>
+<contactref element="R20" pad="1"/>
+<contactref element="U9" pad="9"/>
+<wire x1="-242.722" y1="-556.26" x2="-227.33" y2="-509.0922" width="0" layer="19" extent="1-1"/>
+<wire x1="-147.828" y1="-422.91" x2="-227.33" y2="-509.0922" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="12V-STA">
 <contactref element="U$12" pad="PIN1"/>
+<contactref element="R21" pad="1"/>
+<contactref element="U9" pad="13"/>
+<wire x1="-242.722" y1="-576.58" x2="-229.87" y2="-509.0922" width="0" layer="19" extent="1-1"/>
+<wire x1="-147.828" y1="-440.69" x2="-229.87" y2="-509.0922" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V-DIG-STA">
 <contactref element="R16" pad="1"/>
@@ -3150,22 +3163,12 @@ design rules under a new name.</description>
 <wire x1="-245.11" y1="-544.512" x2="-227.965" y2="-509.0922" width="0" layer="19" extent="1-1"/>
 <wire x1="-239.878" y1="-556.26" x2="-245.11" y2="-544.512" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$35">
-<contactref element="R20" pad="1"/>
-<contactref element="U9" pad="9"/>
-<wire x1="-242.722" y1="-556.26" x2="-227.33" y2="-509.0922" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="N$36">
 <contactref element="U$23" pad="4"/>
 <contactref element="R21" pad="2"/>
 <contactref element="U9" pad="12"/>
 <wire x1="-245.11" y1="-564.832" x2="-229.235" y2="-509.0922" width="0" layer="19" extent="1-1"/>
 <wire x1="-239.878" y1="-576.58" x2="-245.11" y2="-564.832" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$37">
-<contactref element="R21" pad="1"/>
-<contactref element="U9" pad="13"/>
-<wire x1="-242.722" y1="-576.58" x2="-229.87" y2="-509.0922" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V-ACT-MAG">
 <contactref element="U$24" pad="PIN2"/>
@@ -3187,11 +3190,6 @@ design rules under a new name.</description>
 <contactref element="RN4" pad="3"/>
 <wire x1="-226.695" y1="-539.5722" x2="-226.695" y2="-517.0678" width="0" layer="19" extent="1-1"/>
 <wire x1="-247.39" y1="-551.41" x2="-226.695" y2="-539.5722" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$42">
-<contactref element="RN4" pad="13"/>
-<contactref element="U$23" pad="3"/>
-<wire x1="-242.83" y1="-571.73" x2="-225.425" y2="-529.7678" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$43">
 <contactref element="RN4" pad="4"/>
