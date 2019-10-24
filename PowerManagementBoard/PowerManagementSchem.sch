@@ -10850,12 +10850,12 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <part name="U$5" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.01Ω"/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
-<part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="5.0" package3d_urn="urn:adsk.eagle:package:14276/1"/>
-<part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="5.0" package3d_urn="urn:adsk.eagle:package:14276/1"/>
-<part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="5.0" package3d_urn="urn:adsk.eagle:package:14276/1"/>
-<part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="5.0" package3d_urn="urn:adsk.eagle:package:14276/1"/>
-<part name="H5" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="5.0" package3d_urn="urn:adsk.eagle:package:14276/1"/>
-<part name="H6" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="5.0" package3d_urn="urn:adsk.eagle:package:14276/1"/>
+<part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0"/>
+<part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0"/>
+<part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0"/>
+<part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0"/>
+<part name="H5" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0"/>
+<part name="H6" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0"/>
 <part name="U$13" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.01Ω"/>
 <part name="U$14" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
@@ -10904,6 +10904,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$20" library="PowerManagementParts" deviceset="FLAT_LED" device=""/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330"/>
+<part name="U$21" library="PowerManagementParts" deviceset="FLAT_LED" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11529,6 +11530,7 @@ and 1 wire per position.</text>
 <text x="175.26" y="25.4" size="2.54" layer="94">Graham Braly
 Mark Gilliland</text>
 <text x="271.78" y="25.4" size="2.54" layer="94" align="bottom-right">RockSat-X: Mines</text>
+<text x="119.38" y="137.16" size="1.778" layer="91">test for git</text>
 </plain>
 <instances>
 <instance part="U8" gate="G$1" x="71.12" y="134.62" smashed="yes">
@@ -11546,6 +11548,7 @@ Mark Gilliland</text>
 <instance part="U$19" gate="G$1" x="177.8" y="127"/>
 <instance part="GND21" gate="1" x="172.72" y="96.52"/>
 <instance part="GND22" gate="1" x="172.72" y="137.16"/>
+<instance part="U$21" gate="1" x="121.92" y="124.46"/>
 </instances>
 <busses>
 </busses>
@@ -11722,6 +11725,11 @@ Mark Gilliland</text>
 <pinref part="U$18" gate="G$1" pin="VDD"/>
 <wire x1="175.26" y1="144.78" x2="170.18" y2="144.78" width="0.1524" layer="91"/>
 <label x="170.18" y="144.78" size="1.778" layer="95" align="center-right"/>
+</segment>
+<segment>
+<pinref part="U8" gate="G$1" pin="3.3V"/>
+<wire x1="53.34" y1="121.92" x2="45.72" y2="121.92" width="0.1524" layer="91"/>
+<label x="45.72" y="121.92" size="1.778" layer="95" align="center-right"/>
 </segment>
 </net>
 <net name="5V-DIG-TX-SNS" class="0">
@@ -12849,37 +12857,37 @@ Mark Gilliland</text>
 <text x="175.26" y="25.4" size="2.54" layer="94">Graham Braly
 Mark Gilliland</text>
 <text x="271.78" y="25.4" size="2.54" layer="94" align="bottom-right">RockSat-X: Mines</text>
-<text x="99.06" y="175.26" size="2.54" layer="97">5V-ACT</text>
-<text x="38.1" y="175.26" size="2.54" layer="97">5V-DIG</text>
+<text x="154.94" y="177.8" size="2.54" layer="97">5V-ACT</text>
+<text x="30.48" y="187.96" size="2.54" layer="97">12V-CAM</text>
 <text x="15.24" y="205.74" size="2.54" layer="97">12V Control</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
 <instance part="FRAME5" gate="G$2" x="172.72" y="0"/>
-<instance part="U$22" gate="G$1" x="45.72" y="157.48" smashed="yes" rot="MR180">
-<attribute name="NAME" x="50.8" y="157.48" size="1.778" layer="95" font="vector" rot="MR180"/>
-<attribute name="VALUE" x="50.8" y="160.02" size="1.778" layer="96" font="vector" rot="MR180"/>
+<instance part="U$22" gate="G$1" x="66.04" y="157.48" smashed="yes" rot="MR180">
+<attribute name="NAME" x="71.12" y="157.48" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="71.12" y="160.02" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
-<instance part="R20" gate="G$1" x="48.26" y="142.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="46.7614" y="138.43" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="51.562" y="138.43" size="1.778" layer="96" rot="R90"/>
+<instance part="R20" gate="G$1" x="68.58" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="67.0814" y="138.43" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="71.882" y="138.43" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="D11" gate="G$1" x="55.88" y="157.48" rot="R90"/>
-<instance part="U$23" gate="G$1" x="157.48" y="157.48" smashed="yes" rot="MR180">
-<attribute name="NAME" x="162.56" y="157.48" size="1.778" layer="95" font="vector" rot="MR180"/>
-<attribute name="VALUE" x="162.56" y="160.02" size="1.778" layer="96" font="vector" rot="MR180"/>
+<instance part="D11" gate="G$1" x="76.2" y="157.48" rot="R90"/>
+<instance part="U$23" gate="G$1" x="213.36" y="160.02" smashed="yes" rot="MR180">
+<attribute name="NAME" x="218.44" y="160.02" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="218.44" y="162.56" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
-<instance part="R21" gate="G$1" x="160.02" y="142.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="158.5214" y="138.43" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="163.322" y="138.43" size="1.778" layer="96" rot="R90"/>
+<instance part="R21" gate="G$1" x="215.9" y="144.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="214.4014" y="140.97" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="219.202" y="140.97" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="D12" gate="G$1" x="167.64" y="157.48" rot="R90"/>
-<instance part="RN4" gate="-3" x="38.1" y="167.64" rot="R90"/>
-<instance part="RN4" gate="-4" x="149.86" y="167.64" rot="R90"/>
-<instance part="RN3" gate="-3" x="30.48" y="160.02"/>
-<instance part="RN3" gate="-4" x="142.24" y="160.02"/>
-<instance part="U9" gate="G3" x="35.56" y="132.08" rot="R180"/>
-<instance part="U9" gate="G4" x="147.32" y="132.08" rot="R180"/>
+<instance part="D12" gate="G$1" x="223.52" y="160.02" rot="R90"/>
+<instance part="RN4" gate="-3" x="58.42" y="167.64" rot="R90"/>
+<instance part="RN4" gate="-4" x="205.74" y="170.18" rot="R90"/>
+<instance part="RN3" gate="-3" x="50.8" y="160.02"/>
+<instance part="RN3" gate="-4" x="198.12" y="162.56"/>
+<instance part="U9" gate="G3" x="55.88" y="132.08" rot="R180"/>
+<instance part="U9" gate="G4" x="203.2" y="134.62" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -12888,41 +12896,43 @@ Mark Gilliland</text>
 <segment>
 <pinref part="U$22" gate="G$1" pin="D"/>
 <pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="152.4" x2="48.26" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="149.86" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="149.86" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
-<junction x="48.26" y="149.86"/>
-<wire x1="43.18" y1="149.86" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="144.78" x2="40.64" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="152.4" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="149.86" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="149.86" x2="63.5" y2="149.86" width="0.1524" layer="91"/>
+<junction x="68.58" y="149.86"/>
+<wire x1="63.5" y1="149.86" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="144.78" x2="60.96" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U9" gate="G3" pin="IN+"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="137.16" x2="48.26" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="134.62" x2="40.64" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="137.16" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="134.62" x2="60.96" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U9" gate="G3" pin="IN-"/>
+<wire x1="68.58" y1="134.62" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
+<junction x="68.58" y="134.62"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
 <pinref part="U$23" gate="G$1" pin="D"/>
 <pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="160.02" y1="152.4" x2="160.02" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="149.86" x2="160.02" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="149.86" x2="154.94" y2="149.86" width="0.1524" layer="91"/>
-<junction x="160.02" y="149.86"/>
-<wire x1="154.94" y1="149.86" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="144.78" x2="152.4" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="154.94" x2="215.9" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="152.4" x2="215.9" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="152.4" x2="210.82" y2="152.4" width="0.1524" layer="91"/>
+<junction x="215.9" y="152.4"/>
+<wire x1="210.82" y1="152.4" x2="210.82" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="147.32" x2="208.28" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="U9" gate="G4" pin="IN+"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
 <pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="137.16" x2="160.02" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="134.62" x2="152.4" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="139.7" x2="215.9" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="137.16" x2="208.28" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="U9" gate="G4" pin="IN-"/>
 </segment>
 </net>
@@ -12930,38 +12940,54 @@ Mark Gilliland</text>
 <segment>
 <pinref part="U$22" gate="G$1" pin="G"/>
 <pinref part="RN3" gate="-3" pin="2"/>
-<wire x1="40.64" y1="160.02" x2="38.1" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="160.02" x2="58.42" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="RN4" gate="-3" pin="1"/>
-<wire x1="38.1" y1="160.02" x2="35.56" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="162.56" x2="38.1" y2="160.02" width="0.1524" layer="91"/>
-<junction x="38.1" y="160.02"/>
+<wire x1="58.42" y1="160.02" x2="55.88" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="162.56" x2="58.42" y2="160.02" width="0.1524" layer="91"/>
+<junction x="58.42" y="160.02"/>
 </segment>
 </net>
-<net name="N$41" class="0">
+<net name="12V" class="0">
 <segment>
 <pinref part="RN4" gate="-3" pin="2"/>
-<wire x1="38.1" y1="172.72" x2="48.26" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="172.72" x2="68.58" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="U$22" gate="G$1" pin="S"/>
-<wire x1="48.26" y1="172.72" x2="48.26" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="172.72" x2="68.58" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="172.72" x2="68.58" y2="175.26" width="0.1524" layer="91"/>
+<junction x="68.58" y="172.72"/>
+<label x="68.58" y="175.26" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
 <pinref part="RN4" gate="-4" pin="2"/>
 <pinref part="U$23" gate="G$1" pin="S"/>
-<wire x1="149.86" y1="172.72" x2="160.02" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="172.72" x2="160.02" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="175.26" x2="215.9" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="175.26" x2="215.9" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$43" class="0">
 <segment>
 <pinref part="RN4" gate="-4" pin="1"/>
-<wire x1="149.86" y1="162.56" x2="149.86" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="165.1" x2="205.74" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="RN3" gate="-4" pin="2"/>
-<wire x1="149.86" y1="160.02" x2="147.32" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="162.56" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U$23" gate="G$1" pin="G"/>
-<wire x1="149.86" y1="160.02" x2="152.4" y2="160.02" width="0.1524" layer="91"/>
-<junction x="149.86" y="160.02"/>
+<wire x1="205.74" y1="162.56" x2="208.28" y2="162.56" width="0.1524" layer="91"/>
+<junction x="205.74" y="162.56"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="RN3" gate="-3" pin="1"/>
+<wire x1="45.72" y1="160.02" x2="43.18" y2="160.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="12V-CAM-SNS" class="0">
+<segment>
+<pinref part="U9" gate="G3" pin="OUT"/>
+<wire x1="30.48" y1="139.7" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
+<label x="27.94" y="139.7" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
