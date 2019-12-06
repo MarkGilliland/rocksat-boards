@@ -6844,6 +6844,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="48.26" y="180.34" size="2.54" layer="94">Barebones Arduino Circuit</text>
 <text x="203.2" y="154.94" size="2.54" layer="94">Stepper Motor Driver</text>
 <text x="157.48" y="177.8" size="2.54" layer="94">Connection Breakout</text>
+<text x="200.66" y="17.78" size="2.54" layer="94" font="vector">(Experiment Control Board)</text>
 </plain>
 <instances>
 <instance part="U1" gate="U1" x="68.58" y="134.62"/>
