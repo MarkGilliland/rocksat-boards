@@ -2069,6 +2069,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="USB_diff" width="0.8128" drill="0">
+<clearance class="1" value="0.2032"/>
+</class>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
@@ -2317,19 +2320,7 @@ Camera</text>
 <label x="40.64" y="71.12" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="LIDAR-D-" class="0">
-<segment>
-<pinref part="J8" gate="G$1" pin="D-"/>
-<wire x1="30.48" y1="152.4" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
-<label x="25.4" y="152.4" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="J1-L-DATA" gate="G$1" pin="D-"/>
-<wire x1="154.94" y1="154.94" x2="152.4" y2="154.94" width="0.1524" layer="91"/>
-<label x="152.4" y="154.94" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="LIDAR-D+" class="0">
+<net name="LIDAR-D_P" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="D+"/>
 <wire x1="30.48" y1="149.86" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
@@ -2341,7 +2332,7 @@ Camera</text>
 <label x="152.4" y="152.4" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="MAG-D+" class="0">
+<net name="MAG-D_P" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="D+"/>
 <wire x1="76.2" y1="149.86" x2="73.66" y2="149.86" width="0.1524" layer="91"/>
@@ -2351,18 +2342,6 @@ Camera</text>
 <pinref part="J3-M-DATA" gate="G$1" pin="D+"/>
 <wire x1="154.94" y1="114.3" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
 <label x="152.4" y="114.3" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="MAG-D-" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="D-"/>
-<wire x1="76.2" y1="152.4" x2="73.66" y2="152.4" width="0.1524" layer="91"/>
-<label x="73.66" y="152.4" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="J3-M-DATA" gate="G$1" pin="D-"/>
-<wire x1="154.94" y1="116.84" x2="152.4" y2="116.84" width="0.1524" layer="91"/>
-<label x="152.4" y="116.84" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="USB-5V-MAG" class="0">
@@ -2377,19 +2356,7 @@ Camera</text>
 <label x="152.4" y="119.38" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="STA-D+" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="D+"/>
-<wire x1="76.2" y1="124.46" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
-<label x="73.66" y="124.46" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="J5-S-DATA" gate="G$1" pin="D+"/>
-<wire x1="154.94" y1="78.74" x2="152.4" y2="78.74" width="0.1524" layer="91"/>
-<label x="152.4" y="78.74" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="STA-D-" class="0">
+<net name="STA-D_N" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="D-"/>
 <wire x1="76.2" y1="127" x2="73.66" y2="127" width="0.1524" layer="91"/>
@@ -2444,6 +2411,42 @@ Camera</text>
 <pinref part="J3" gate="G$1" pin="6"/>
 <pinref part="TP3" gate="G$1" pin="TP"/>
 <wire x1="60.96" y1="45.72" x2="73.66" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MAG-D_N" class="0">
+<segment>
+<pinref part="J3-M-DATA" gate="G$1" pin="D-"/>
+<wire x1="154.94" y1="116.84" x2="152.4" y2="116.84" width="0.1524" layer="91"/>
+<label x="152.4" y="116.84" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="D-"/>
+<wire x1="76.2" y1="152.4" x2="73.66" y2="152.4" width="0.1524" layer="91"/>
+<label x="73.66" y="152.4" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="STA-D_P" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="D+"/>
+<wire x1="76.2" y1="124.46" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
+<label x="73.66" y="124.46" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="J5-S-DATA" gate="G$1" pin="D+"/>
+<wire x1="154.94" y1="78.74" x2="152.4" y2="78.74" width="0.1524" layer="91"/>
+<label x="152.4" y="78.74" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="LIDAR-D_N" class="0">
+<segment>
+<pinref part="J1-L-DATA" gate="G$1" pin="D-"/>
+<wire x1="154.94" y1="154.94" x2="152.4" y2="154.94" width="0.1524" layer="91"/>
+<label x="152.4" y="154.94" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="J8" gate="G$1" pin="D-"/>
+<wire x1="30.48" y1="152.4" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
+<label x="25.4" y="152.4" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
