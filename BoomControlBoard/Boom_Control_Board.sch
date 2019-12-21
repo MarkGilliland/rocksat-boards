@@ -7264,48 +7264,47 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="PowerManagementParts">
 <packages>
 <package name="MOLEX_4PIN">
-<pad name="PIN1" x="4.572" y="0" drill="1.1176" diameter="1.778"/>
-<pad name="PIN2" x="1.524" y="0" drill="1.1176" diameter="1.778"/>
-<pad name="PIN3" x="-1.524" y="0" drill="1.1176" diameter="1.778"/>
-<pad name="PIN4" x="-4.572" y="0" drill="1.1176" diameter="1.778"/>
-<hole x="6.731" y="-4.318" drill="2.667"/>
-<hole x="-6.731" y="-4.318" drill="2.667"/>
-<wire x1="8.89" y1="-7.874" x2="8.128" y2="-7.874" width="0.127" layer="21"/>
-<wire x1="8.128" y1="-7.874" x2="-8.128" y2="-7.874" width="0.127" layer="21"/>
-<wire x1="-8.128" y1="-7.874" x2="-8.89" y2="-7.874" width="0.127" layer="21"/>
-<wire x1="-8.89" y1="-7.874" x2="-8.89" y2="-7.112" width="0.127" layer="21"/>
-<wire x1="-8.89" y1="-7.112" x2="-8.89" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-8.89" y1="1.27" x2="8.89" y2="1.27" width="0.127" layer="21"/>
-<wire x1="8.89" y1="1.27" x2="8.89" y2="-7.112" width="0.127" layer="21"/>
-<wire x1="8.89" y1="-7.112" x2="8.89" y2="-7.874" width="0.127" layer="21"/>
-<wire x1="8.89" y1="1.27" x2="8.89" y2="-7.112" width="0.127" layer="21"/>
-<wire x1="8.89" y1="-7.112" x2="8.89" y2="-16.256" width="0.127" layer="21"/>
-<wire x1="8.89" y1="-16.256" x2="-8.89" y2="-16.256" width="0.127" layer="21"/>
-<wire x1="-8.89" y1="-16.256" x2="-8.89" y2="-7.874" width="0.127" layer="21"/>
-<rectangle x1="7.874" y1="-0.762" x2="8.89" y2="1.27" layer="21"/>
-<wire x1="8.89" y1="-7.112" x2="8.128" y2="-7.874" width="0.127" layer="21"/>
-<wire x1="-8.89" y1="-7.112" x2="-8.128" y2="-7.874" width="0.127" layer="21"/>
+<pad name="PIN1" x="4.4958" y="0" drill="1.1176" diameter="1.778"/>
+<pad name="PIN2" x="1.4986" y="0" drill="1.1176" diameter="1.778"/>
+<pad name="PIN3" x="-1.4986" y="0" drill="1.1176" diameter="1.778"/>
+<pad name="PIN4" x="-4.4958" y="0" drill="1.1176" diameter="1.778"/>
+<wire x1="-7.8232" y1="-16.764" x2="-7.8232" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-7.8232" y1="-8.89" x2="-7.8232" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-7.8232" y1="-7.62" x2="-7.8232" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-7.8232" y1="1.016" x2="7.8232" y2="1.016" width="0.127" layer="21"/>
+<wire x1="7.8232" y1="1.016" x2="7.8232" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="7.8232" y1="-7.62" x2="7.8232" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="7.8232" y1="-8.89" x2="7.8232" y2="-16.764" width="0.127" layer="21"/>
+<wire x1="7.8232" y1="-16.764" x2="-7.8232" y2="-16.764" width="0.127" layer="21"/>
+<rectangle x1="6.4008" y1="-0.762" x2="7.8232" y2="1.016" layer="21"/>
+<pad name="MH1" x="-6.6548" y="-4.318" drill="2.413"/>
+<pad name="MH2" x="6.6548" y="-4.318" drill="2.413"/>
+<wire x1="-7.8232" y1="-8.89" x2="-6.35" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-8.89" x2="6.35" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-8.89" x2="7.8232" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-7.8232" y1="-7.62" x2="-6.35" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="7.8232" y1="-7.62" x2="6.35" y2="-8.89" width="0.127" layer="21"/>
 </package>
 <package name="MOLEX_3PIN">
-<pad name="PIN1" x="3.048" y="0" drill="1.1176" diameter="1.778"/>
+<pad name="PIN1" x="2.9972" y="0" drill="1.1176" diameter="1.778"/>
 <pad name="PIN2" x="0" y="0" drill="1.1176" diameter="1.778"/>
-<pad name="PIN3" x="-3.048" y="0" drill="1.1176" diameter="1.778"/>
-<hole x="5.207" y="-4.318" drill="2.667"/>
-<hole x="-5.207" y="-4.318" drill="2.667"/>
+<pad name="PIN3" x="-2.9972" y="0" drill="1.1176" diameter="1.778"/>
 <wire x1="6.35" y1="-8.89" x2="5.588" y2="-8.89" width="0.127" layer="21"/>
 <wire x1="5.588" y1="-8.89" x2="-5.588" y2="-8.89" width="0.127" layer="21"/>
 <wire x1="-5.588" y1="-8.89" x2="-6.35" y2="-8.89" width="0.127" layer="21"/>
 <wire x1="-6.35" y1="-8.89" x2="-6.35" y2="-8.128" width="0.127" layer="21"/>
-<wire x1="-6.35" y1="-8.128" x2="-6.35" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-6.35" y1="1.27" x2="6.35" y2="1.27" width="0.127" layer="21"/>
-<wire x1="6.35" y1="1.27" x2="6.35" y2="-8.128" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-8.128" x2="-6.35" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="1.016" x2="6.35" y2="1.016" width="0.127" layer="21"/>
+<wire x1="6.35" y1="1.016" x2="6.35" y2="-8.128" width="0.127" layer="21"/>
 <wire x1="6.35" y1="-8.128" x2="6.35" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="6.35" y1="-8.89" x2="6.35" y2="-16.256" width="0.127" layer="21"/>
-<wire x1="6.35" y1="-16.256" x2="-6.35" y2="-16.256" width="0.127" layer="21"/>
-<wire x1="-6.35" y1="-16.256" x2="-6.35" y2="-8.89" width="0.127" layer="21"/>
-<rectangle x1="5.842" y1="0.254" x2="6.35" y2="1.27" layer="21"/>
+<wire x1="6.35" y1="-8.89" x2="6.35" y2="-16.764" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-16.764" x2="-6.35" y2="-16.764" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-16.764" x2="-6.35" y2="-8.89" width="0.127" layer="21"/>
+<rectangle x1="5.842" y1="0" x2="6.35" y2="1.016" layer="21"/>
 <wire x1="6.35" y1="-8.128" x2="5.588" y2="-8.89" width="0.127" layer="21"/>
 <wire x1="-6.35" y1="-8.128" x2="-5.588" y2="-8.89" width="0.127" layer="21"/>
+<pad name="MH1" x="-5.1435" y="-4.318" drill="2.413"/>
+<pad name="MH2" x="5.1435" y="-4.318" drill="2.413"/>
 </package>
 <package name="RFS-1280-1">
 <wire x1="10.16" y1="11.684" x2="10.16" y2="8.89" width="0.127" layer="21"/>
@@ -7823,7 +7822,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MOUNT-HOLE" urn="urn:adsk.eagle:component:14301/1" prefix="H" library_version="1">
+<deviceset name="MOUNT-HOLE" urn="urn:adsk.eagle:component:14301/2" prefix="H" library_version="2">
 <description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; with drill center marker</description>
 <gates>
 <gate name="G$1" symbol="MOUNT-HOLE" x="0" y="0"/>
@@ -7834,7 +7833,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3dinstance package3d_urn="urn:adsk.eagle:package:14271/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="15" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="3.0" package="3,0">
@@ -7842,7 +7843,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3dinstance package3d_urn="urn:adsk.eagle:package:14277/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="3.3" package="3,3">
@@ -7850,7 +7853,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3dinstance package3d_urn="urn:adsk.eagle:package:14278/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="3.6" package="3,6">
@@ -7858,7 +7863,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3dinstance package3d_urn="urn:adsk.eagle:package:14272/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="4.1" package="4,1">
@@ -7866,7 +7873,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3dinstance package3d_urn="urn:adsk.eagle:package:14273/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="4.5" package="4,5">
@@ -7874,7 +7883,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3dinstance package3d_urn="urn:adsk.eagle:package:14274/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="5.0" package="5,0">
@@ -7882,7 +7893,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3dinstance package3d_urn="urn:adsk.eagle:package:14276/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="3.2" package="3,2">
@@ -7890,7 +7903,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3dinstance package3d_urn="urn:adsk.eagle:package:14275/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="7" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="4.3" package="4,3">
@@ -7898,7 +7913,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3dinstance package3d_urn="urn:adsk.eagle:package:14289/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="5.5" package="5,5">
@@ -7906,7 +7923,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3dinstance package3d_urn="urn:adsk.eagle:package:14279/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
