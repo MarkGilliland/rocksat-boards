@@ -1,0 +1,7 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"1";"";"CONN_03X22X3_SILK_MALE_PTH";"2X3";"J3";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";
+"1";"FEMALE 2x3";"CONN_03X2FEMALE";"2X3";"J7";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";
+"1";"LIDAR-CONV-PLACEHOLDER";"LIDAR-CONV-PLACEHOLDER";"LIDAR-PLACEHOLDER";"U$4";"";"";
+"3";"RPI-PLACEHOLDER";"RPI-PLACEHOLDER";"RPI-ZERO-EDGE";"PH-L, PH-M, PH-S";"A part that shows the different mechanical constraints of a Raspberry Pi Zero when mounted on a board on-edge";"";
+"3";"TPPAD1-17";"TPPAD1-17";"P1-17";"TP1, TP2, TP3";"Test pad";"";
+"9";"USB3150-30-130-AMANUFACTURABLE";"USB3150-30-130-AMANUFACTURABLE";"GCT_USB3150-30-EASIER";"J1, J1-L-DATA, J2, J2-L-PWR, J3-M-DATA, J4-M-PWR, J5-S-DATA, J6-S-PWR, J8";"Vertical Through Hole Type B Micro USB Plug w/ Shell Stakes and Pegs";"";

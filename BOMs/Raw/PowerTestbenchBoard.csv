@@ -1,0 +1,18 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"1";"";"CONN_02";"1X02";"J2";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";
+"1";"";"CONN_023.5MM";"SCREWTERMINAL-3.5MM-2";"J4";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";
+"1";"";"CONN_04";"1X04";"J6";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";
+"1";"";"CONN_12";"1X12";"J1";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";
+"1";"";"JP1E";"JP1";"TP8";"JUMPER";"";
+"3";"";"LED-3MM-NO_SILK";"LED_3MM-NS";"D1, D4, D5";"LED (Generic)";"";
+"3";"0.1Ω";"R-US_R1206";"R1206";"R1, R2, R3";"RESISTOR, American symbol";"";
+"1";"1.2kΩ";"R-US_R0805";"R0805";"R6";"RESISTOR, American symbol";"";
+"1";"182-025-213R531";"182-025-213R531";"182-025-213R531";"J9";"CONN D-SUB RCPT 25POS R/A SOLDER";"";
+"1";"182-037-213R531";"182-037-213R531";"182-037-213R531";"J8";"CONN D-SUB RCPT 37POS R/A SOLDER";"";
+"2";"330Ω";"R-US_R0805";"R0805";"R4, R5";"RESISTOR, American symbol";"";
+"2";"5.7V Zener";"ZENER-GENERICSMB";"SMB";"D2, D3";"";"";
+"4";"BANANA-PLUG";"BANANA-PLUG";"BANANA-JACK";"J-5V-ACT, J-5V-DIG, J-12V, J-GND";"";"";
+"4";"MOUNT-HOLE3.3";"MOUNT-HOLE3.3";"3,3";"H1, H2, H3, H4";"MOUNTING HOLE with drill center marker";"";
+"2";"POWER_JACK";"POWER_JACK";"POWER_JACK_PTH";"J3, J5";"Power Jack Connector";"";
+"3";"SPDT-SWITCH";"SPDT-SWITCH";"SWITCH_SPDT_PTH_11.6X4.0MM";"S1, S2, S3";"";"";
+"11";"TPPAD1-13";"TPPAD1-13";"P1-13";"TP1, TP2, TP3, TP4, TP5, TP7, TP9, TP10, TP11, TP12, TP13";"Test pad";"";

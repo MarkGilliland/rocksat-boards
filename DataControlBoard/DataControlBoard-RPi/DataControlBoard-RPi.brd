@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="2.5" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="2.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -34,7 +34,7 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -168,11 +168,11 @@
 Cam</text>
 <text x="39.6875" y="10.16" size="1.778" layer="21">DATA</text>
 <text x="52.3875" y="9.144" size="1.778" layer="21">PWR</text>
-<text x="14.478" y="-8.89" size="1.016" layer="25">Raspberry Pi Backplane
+<text x="22.098" y="0.635" size="1.016" layer="25">Raspberry Pi Backplane
 DataControlBoard-RPi
 Mark Gilliland, Graham Braly
 2019 Mines RockSat-X</text>
-<text x="34.798" y="-7.112" size="1.778" layer="25">Rev 1.0</text>
+<text x="22.733" y="11.303" size="1.778" layer="25">Rev 1.0</text>
 <text x="33.782" y="20.828" size="1.016" layer="25" font="vector" rot="R270">Boom 
 Cam 
 USB</text>
@@ -385,6 +385,35 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <description>TEST PAD</description>
 <packageinstances>
 <packageinstance name="P1-17"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="holes" urn="urn:adsk.eagle:library:237">
+<description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="3,0" urn="urn:adsk.eagle:footprint:14240/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.0 mm with drill center</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="1.6" width="0.2032" layer="21"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="48">3,0</text>
+<hole x="0" y="0" drill="3"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="3,0" urn="urn:adsk.eagle:package:14277/1" type="box" library_version="1">
+<description>MOUNTING HOLE 3.0 mm with drill center</description>
+<packageinstances>
+<packageinstance name="3,0"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -611,6 +640,9 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="0" x="8.89" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="8.89" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
+<element name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0" x="15.875" y="5.08" smashed="yes"/>
+<element name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0" x="47.625" y="5.08" smashed="yes"/>
+<element name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0" x="4.191" y="24.13" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -732,18 +764,14 @@ design rules under a new name.</description>
 <wire x1="43.18" y1="17.907" x2="43.561" y2="17.526" width="0.2032" layer="1"/>
 <wire x1="47.14781875" y1="17.526" x2="48.641" y2="16.03281875" width="0.2032" layer="1"/>
 <wire x1="43.561" y1="17.526" x2="47.14781875" y2="17.526" width="0.2032" layer="1"/>
-<wire x1="48.641" y1="9.240175" x2="48.641" y2="16.03281875" width="0.2032" layer="1"/>
 <wire x1="29.972" y1="7.732" x2="30.226" y2="7.478" width="0.2032" layer="1"/>
 <wire x1="30.226" y1="7.478" x2="30.226" y2="5.68418125" width="0.2032" layer="1"/>
 <wire x1="30.226" y1="5.68418125" x2="30.95718125" y2="4.953" width="0.2032" layer="1"/>
-<wire x1="36.352825" y1="7.366" x2="43.688" y2="7.366" width="0.2032" layer="1"/>
-<wire x1="45.680003125" y1="7.239" x2="46.639825" y2="7.239" width="0.2032" layer="1"/>
-<wire x1="45.553790625" y1="7.3652125" x2="45.680003125" y2="7.239" width="0.2032" layer="1"/>
-<wire x1="43.6887875" y1="7.3652125" x2="45.553790625" y2="7.3652125" width="0.2032" layer="1"/>
 <wire x1="43.688" y1="7.366" x2="43.6887875" y2="7.3652125" width="0.2032" layer="1"/>
 <wire x1="33.939825" y1="4.953" x2="36.352825" y2="7.366" width="0.2032" layer="1"/>
 <wire x1="30.95718125" y1="4.953" x2="33.939825" y2="4.953" width="0.2032" layer="1"/>
-<wire x1="46.639825" y1="7.239" x2="48.641" y2="9.240175" width="0.2032" layer="1"/>
+<wire x1="43.688" y1="7.366" x2="48.641" y2="16.03281875" width="0" layer="19" extent="1-1"/>
+<wire x1="36.352825" y1="7.366" x2="43.688" y2="7.366" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB-5V-MAG">
 <contactref element="J1" pad="1"/>
@@ -804,18 +832,15 @@ design rules under a new name.</description>
 <wire x1="42.799" y1="17.74918125" x2="43.40318125" y2="17.145" width="0.2032" layer="1"/>
 <wire x1="43.40318125" y1="17.145" x2="46.99" y2="17.145" width="0.2032" layer="1"/>
 <wire x1="46.99" y1="17.145" x2="48.26" y2="15.875" width="0.2032" layer="1"/>
-<wire x1="46.482" y1="7.62" x2="48.26" y2="9.398" width="0.2032" layer="1"/>
 <wire x1="42.799" y1="19.7335" x2="42.799" y2="17.74918125" width="0.2032" layer="1"/>
-<wire x1="48.26" y1="9.398" x2="48.26" y2="15.875" width="0.2032" layer="1"/>
 <wire x1="30.622" y1="8.382" x2="30.622" y2="5.857" width="0.2032" layer="1"/>
 <wire x1="30.622" y1="5.857" x2="30.607" y2="5.842" width="0.2032" layer="1"/>
 <wire x1="30.607" y1="5.842" x2="31.115" y2="5.334" width="0.2032" layer="1"/>
-<wire x1="46.3557875" y1="7.7462125" x2="46.482" y2="7.62" width="0.2032" layer="1"/>
-<wire x1="43.9412" y1="7.7462125" x2="46.3557875" y2="7.7462125" width="0.2032" layer="1"/>
 <wire x1="43.9404125" y1="7.747" x2="43.9412" y2="7.7462125" width="0.2032" layer="1"/>
 <wire x1="33.782" y1="5.334" x2="36.195" y2="7.747" width="0.2032" layer="1"/>
-<wire x1="36.195" y1="7.747" x2="43.9404125" y2="7.747" width="0.2032" layer="1"/>
 <wire x1="31.115" y1="5.334" x2="33.782" y2="5.334" width="0.2032" layer="1"/>
+<wire x1="43.9404125" y1="7.747" x2="48.26" y2="15.875" width="0" layer="19" extent="1-1"/>
+<wire x1="36.195" y1="7.747" x2="43.9404125" y2="7.747" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STA-D_P" class="1">
 <contactref element="J2" pad="3"/>
