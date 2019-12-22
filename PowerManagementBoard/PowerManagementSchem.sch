@@ -11874,6 +11874,9 @@ Supply</text>
 solder-cup style. Use 3d printed
 jig to mount to board using bolts
 and 1 wire per position.</text>
+<text x="38.1" y="175.26" size="1.778" layer="97">Note: Must connect these nets!</text>
+<text x="180.34" y="45.72" size="1.778" layer="97">What is the purpose of this header?
+I forget, either way it must be labelled</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="78.74" y="121.92" smashed="yes">
