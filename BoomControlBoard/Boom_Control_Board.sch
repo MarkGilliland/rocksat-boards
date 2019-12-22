@@ -9393,9 +9393,9 @@ This device uses the ground pad under the IC</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="SparkFun-IC-Microcontroller" deviceset="ATMEGA328P_TQFP" device="" value="ATMEGA328P_TQFP"/>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="Servo Header"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="6_PIN_SERIAL_CABLE" device="PTH" value="FTDI Header"/>
+<part name="U1" library="SparkFun-IC-Microcontroller" deviceset="ATMEGA328P_TQFP" device="" value="ATMEGA328P"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="Servo"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="6_PIN_SERIAL_CABLE" device="PTH" value="FTDI"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0805-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0805-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0805-25V-(+80/-20%)" value="0.1uF"/>
@@ -9431,14 +9431,14 @@ This device uses the ground pad under the IC</description>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1"/>
 <part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2-REDUNDANT" value="RESET"/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D1" library="SparkFun-LED" deviceset="LED-GREEN" device="1206" value="GREEN"/>
+<part name="D1" library="SparkFun-LED" deviceset="LED-GREEN" device="1206"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="1kΩ"/>
-<part name="D3" library="SparkFun-LED" deviceset="LED-GREEN" device="1206" value="GREEN"/>
+<part name="D3" library="SparkFun-LED" deviceset="LED-GREEN" device="1206"/>
 <part name="CAMERA_BOOM_MOTOR" library="SparkFun-Connectors" deviceset="CONN_06" device="LOCK_LONGPADS"/>
 <part name="ANTENNA_BOOM_MOTOR" library="SparkFun-Connectors" deviceset="CONN_02" device="LOCK_LONGPADS"/>
 <part name="LIMIT_SWITCHES" library="SparkFun-Connectors" deviceset="CONN_08" device="LOCK_LONGPADS"/>
-<part name="CAMERA_CONTROL_PINS" library="SparkFun-Connectors" deviceset="CONN_02" device="LOCK_LONGPADS"/>
+<part name="CAMERA_GPIO" library="SparkFun-Connectors" deviceset="CONN_02" device="LOCK_LONGPADS"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="10k"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="10k"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="10k"/>
@@ -9454,7 +9454,7 @@ This device uses the ground pad under the IC</description>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="S2" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-PTH-11.6X4.0MM"/>
+<part name="S2" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-PTH-11.6X4.0MM" value="ANTENNA_SELECT"/>
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-EIA3216-16V-10%(TANT)" value="10uF"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-EIA3216-16V-10%(TANT)" value="10uF"/>
@@ -9467,8 +9467,10 @@ This device uses the ground pad under the IC</description>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_07" device="LOCK"/>
 <part name="U$5" library="PowerManagementParts" deviceset="RFS-1280-1" device=""/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_04" device="LOCK"/>
-<part name="J7" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND"/>
+<part name="J7" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
 <part name="J8" library="SparkFun-Connectors" deviceset="CONN_04" device="LOCK"/>
+<part name="GND" library="SparkFun-Connectors" deviceset="CONN_02" device="LOCK_LONGPADS"/>
+<part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9644,7 +9646,7 @@ This device uses the ground pad under the IC</description>
 <attribute name="VALUE" x="35.56" y="70.866" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="35.56" y="45.212" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="CAMERA_CONTROL_PINS" gate="G$1" x="238.76" y="99.06" smashed="yes" rot="R180">
+<instance part="CAMERA_GPIO" gate="G$1" x="238.76" y="99.06" smashed="yes" rot="R180">
 <attribute name="VALUE" x="241.3" y="103.886" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="241.3" y="93.472" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
@@ -9756,6 +9758,13 @@ This device uses the ground pad under the IC</description>
 <instance part="J8" gate="J1" x="129.54" y="149.86" smashed="yes">
 <attribute name="VALUE" x="124.46" y="142.494" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="124.46" y="157.988" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="GND" gate="G$1" x="127" y="134.62" smashed="yes">
+<attribute name="VALUE" x="124.46" y="129.794" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="124.46" y="140.208" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="GND24" gate="1" x="134.62" y="132.08" smashed="yes">
+<attribute name="VALUE" x="134.62" y="131.826" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -9973,7 +9982,7 @@ This device uses the ground pad under the IC</description>
 <label x="215.9" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CAMERA_CONTROL_PINS" gate="G$1" pin="2"/>
+<pinref part="CAMERA_GPIO" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="96.52" x2="228.6" y2="96.52" width="0.1524" layer="91"/>
 <label x="215.9" y="96.52" size="1.778" layer="95"/>
 </segment>
@@ -10060,6 +10069,13 @@ This device uses the ground pad under the IC</description>
 <pinref part="J8" gate="J1" pin="1"/>
 <wire x1="134.62" y1="147.32" x2="137.16" y2="147.32" width="0.1524" layer="91"/>
 <label x="137.16" y="147.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="GND" gate="G$1" pin="1"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+<pinref part="GND" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="137.16" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
+<junction x="134.62" y="134.62"/>
 </segment>
 </net>
 <net name="DTR" class="0">
@@ -10497,7 +10513,7 @@ This device uses the ground pad under the IC</description>
 <label x="91.44" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CAMERA_CONTROL_PINS" gate="G$1" pin="1"/>
+<pinref part="CAMERA_GPIO" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="99.06" x2="228.6" y2="99.06" width="0.1524" layer="91"/>
 <label x="215.9" y="99.06" size="1.778" layer="95"/>
 </segment>

@@ -7310,9 +7310,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="U1" library="SparkFun-IC-Microcontroller" deviceset="ATMEGA328P_TQFP" device="" value="ATMEGA328P_TQFP"/>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="Servo Header"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="6_PIN_SERIAL_CABLE" device="PTH" value="FTDI Header"/>
+<part name="U1" library="SparkFun-IC-Microcontroller" deviceset="ATMEGA328P_TQFP" device="" value="ATMEGA328P"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="Servo"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="6_PIN_SERIAL_CABLE" device="PTH" value="FTDI"/>
 <part name="ULN2803" library="SparkFun-IC-Special-Function" deviceset="ULN2803" device="SOICW"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="10UF" device="-0805-10V-10%" value="10uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0805-25V-(+80/-20%)" value="0.1uF"/>
@@ -7353,24 +7353,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2-REDUNDANT" value="RESET"/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="S1M" device="" package3d_urn="urn:adsk.eagle:package:43460/3"/>
-<part name="D1" library="SparkFun-LED" deviceset="LED-GREEN" device="1206" value="GREEN"/>
-<part name="U$3" library="PowerManagementParts" deviceset="BUK9880-55A" device="" package3d_urn="urn:adsk.eagle:package:43439/1"/>
+<part name="D1" library="SparkFun-LED" deviceset="LED-GREEN" device="1206"/>
+<part name="U$3" library="PowerManagementParts" deviceset="BUK9880-55A" device="" package3d_urn="urn:adsk.eagle:package:43439/1" value=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="1kΩ"/>
-<part name="D3" library="SparkFun-LED" deviceset="LED-GREEN" device="1206" value="GREEN"/>
+<part name="D3" library="SparkFun-LED" deviceset="LED-GREEN" device="1206"/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO_SILK" value=""/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE" value="FEMALE 2x3"/>
 <part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="S1M" device="" package3d_urn="urn:adsk.eagle:package:43460/3"/>
-<part name="U$4" library="PowerManagementParts" deviceset="BUK9880-55A" device="" package3d_urn="urn:adsk.eagle:package:43439/1"/>
+<part name="U$4" library="PowerManagementParts" deviceset="BUK9880-55A" device="" package3d_urn="urn:adsk.eagle:package:43439/1" value=""/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO_SILK" value=""/>
-<part name="J6" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND"/>
+<part name="J6" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
 <part name="J7" library="SparkFun-Connectors" deviceset="CONN_04" device="LOCK"/>
 <part name="J8" library="SparkFun-Connectors" deviceset="CONN_04" device="LOCK"/>
 <part name="J9" library="SparkFun-Connectors" deviceset="CONN_04" device="LOCK"/>
+<part name="GND" library="SparkFun-Connectors" deviceset="CONN_02" device="LOCK_LONGPADS"/>
+<part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7610,6 +7612,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="170.18" y="119.634" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="170.18" y="135.128" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="GND" gate="G$1" x="172.72" y="111.76" smashed="yes">
+<attribute name="VALUE" x="170.18" y="106.934" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="170.18" y="117.348" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="GND16" gate="1" x="180.34" y="109.22" smashed="yes">
+<attribute name="VALUE" x="180.34" y="108.966" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7779,6 +7788,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="200.66" y1="45.72" x2="200.66" y2="43.18" width="0.1524" layer="91"/>
 <junction x="200.66" y="45.72"/>
 <pinref part="GND15" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND" gate="G$1" pin="1"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+<pinref part="GND" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="114.3" x2="180.34" y2="111.76" width="0.1524" layer="91"/>
+<junction x="180.34" y="111.76"/>
 </segment>
 </net>
 <net name="DTR" class="0">
