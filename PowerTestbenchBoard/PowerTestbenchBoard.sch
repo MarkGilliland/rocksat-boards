@@ -11473,7 +11473,6 @@ LED</description>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.1Ω"/>
 <part name="TP8" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 <part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
-<part name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="S1" library="PowerManagementParts" deviceset="SPDT-SWITCH" device=""/>
 <part name="S2" library="PowerManagementParts" deviceset="SPDT-SWITCH" device=""/>
 <part name="S3" library="PowerManagementParts" deviceset="SPDT-SWITCH" device=""/>
@@ -11587,10 +11586,6 @@ LED</description>
 <instance part="TP5" gate="G$1" x="162.56" y="40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="163.83" y="41.91" size="1.778" layer="95" rot="R270"/>
 <attribute name="TP_SIGNAL_NAME" x="161.29" y="39.37" size="1.778" layer="97" rot="R270"/>
-</instance>
-<instance part="TP6" gate="G$1" x="177.8" y="40.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="179.07" y="41.91" size="1.778" layer="95" rot="R270"/>
-<attribute name="TP_SIGNAL_NAME" x="176.53" y="39.37" size="1.778" layer="97" rot="R270"/>
 </instance>
 <instance part="S1" gate="G$1" x="45.72" y="137.16" smashed="yes">
 <attribute name="NAME" x="46.99" y="140.208" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -11775,11 +11770,6 @@ LED</description>
 <label x="157.48" y="40.64" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="TP6" gate="G$1" pin="TP"/>
-<wire x1="175.26" y1="40.64" x2="172.72" y2="40.64" width="0.1524" layer="91"/>
-<label x="172.72" y="40.64" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="76.2" y1="101.6" x2="76.2" y2="99.06" width="0.1524" layer="91"/>
 <label x="76.2" y="99.06" size="1.778" layer="95"/>
@@ -11803,6 +11793,11 @@ LED</description>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="60.96" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
 <label x="68.58" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="12.7" x2="66.04" y2="12.7" width="0.1524" layer="91"/>
+<label x="66.04" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LASER-UART-1" class="0">
