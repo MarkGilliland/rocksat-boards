@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-12-23T18:35:09Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.4.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.5723,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "DataControlBoard-Teensy"
+        },
+        "Owner": "Mark Gilliland <mgilliland@mymail.mines.edu>",
+        "Size": {
+            "X": 66.04,
+            "Y": 88.9
+        }
+    }
+}
