@@ -14786,6 +14786,7 @@ LED</description>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
+<part name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -14794,6 +14795,7 @@ LED</description>
 <text x="15.24" y="162.56" size="1.778" layer="97">Power Input</text>
 <text x="142.24" y="165.1" size="1.778" layer="97">Conn to Data Control Board</text>
 <text x="223.52" y="172.72" size="1.778" layer="97">Conn to Experiments</text>
+<text x="124.46" y="71.12" size="1.778" layer="97">Option to Connect 5V-Dig-In and 5V-Act-In together</text>
 </plain>
 <instances>
 <instance part="J8" gate="G$1" x="240.03" y="121.92" smashed="yes" rot="MR0">
@@ -14992,6 +14994,10 @@ LED</description>
 <instance part="C6" gate="G$1" x="88.9" y="78.74" smashed="yes">
 <attribute name="NAME" x="89.916" y="79.375" size="1.778" layer="95"/>
 <attribute name="VALUE" x="89.916" y="74.549" size="1.778" layer="96"/>
+</instance>
+<instance part="JP1" gate="A" x="144.78" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="144.78" y="62.23" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="144.78" y="69.215" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -15613,6 +15619,13 @@ LED</description>
 <wire x1="144.78" y1="35.56" x2="142.24" y2="35.56" width="0.1524" layer="91"/>
 <label x="142.24" y="35.56" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="147.32" y1="66.04" x2="149.86" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="66.04" x2="149.86" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
+<label x="152.4" y="68.58" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="5V-ACT-IN" class="0">
 <segment>
@@ -15630,6 +15643,13 @@ LED</description>
 <pinref part="TP3" gate="G$1" pin="TP"/>
 <wire x1="144.78" y1="30.48" x2="142.24" y2="30.48" width="0.1524" layer="91"/>
 <label x="142.24" y="30.48" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="1"/>
+<wire x1="147.32" y1="63.5" x2="149.86" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="63.5" x2="149.86" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="60.96" x2="152.4" y2="60.96" width="0.1524" layer="91"/>
+<label x="152.4" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12V-IN" class="0">
