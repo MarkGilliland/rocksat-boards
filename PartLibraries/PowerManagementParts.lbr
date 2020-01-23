@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1540,10 +1540,10 @@ https://www.digikey.com/product-detail/en/texas-instruments/INA4180A2IPWR/296-49
 <description>INA 4180 Current Sense amplifier (TSSOP14 package)
 https://www.digikey.com/product-detail/en/texas-instruments/INA4180A2IPWR/296-49095-1-ND/9091907</description>
 <gates>
-<gate name="G1" symbol="CURRENT_AMP" x="12.7" y="2.54"/>
-<gate name="G2" symbol="CURRENT_AMP" x="53.34" y="2.54"/>
-<gate name="G3" symbol="CURRENT_AMP" x="12.7" y="-27.94"/>
-<gate name="G4" symbol="CURRENT_AMP" x="53.34" y="-27.94"/>
+<gate name="G1" symbol="CURRENT_AMP" x="12.7" y="2.54" swaplevel="1"/>
+<gate name="G2" symbol="CURRENT_AMP" x="53.34" y="2.54" swaplevel="1"/>
+<gate name="G3" symbol="CURRENT_AMP" x="12.7" y="-27.94" swaplevel="1"/>
+<gate name="G4" symbol="CURRENT_AMP" x="53.34" y="-27.94" swaplevel="1"/>
 <gate name="G$5" symbol="CURRENT_AMP_SUPPLY" x="63.5" y="5.08"/>
 </gates>
 <devices>
