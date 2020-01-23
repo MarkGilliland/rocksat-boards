@@ -12956,6 +12956,7 @@ Mark Gilliland</text>
 <attribute name="NAME" x="116.84" y="144.78" size="1.27" layer="94" rot="R180"/>
 <attribute name="VALUE" x="116.84" y="172.72" size="1.27" layer="94" rot="R180"/>
 </instance>
+<instance part="U7" gate="G$5" x="231.14" y="172.72" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -13004,12 +13005,24 @@ Mark Gilliland</text>
 <wire x1="30.48" y1="142.24" x2="30.48" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U7" gate="G$5" pin="GND"/>
+<wire x1="231.14" y1="144.78" x2="231.14" y2="142.24" width="0.1524" layer="91"/>
+<label x="231.14" y="142.24" size="1.27" layer="95"/>
+</segment>
 </net>
 <net name="MNGR-3.3V" class="0">
 <segment>
 <pinref part="U6" gate="G$5" pin="V+"/>
 <wire x1="30.48" y1="175.26" x2="30.48" y2="190.5" width="0.1524" layer="91"/>
 <label x="30.48" y="177.8" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$5" pin="V+"/>
+<wire x1="231.14" y1="177.8" x2="223.52" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="177.8" x2="223.52" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="182.88" x2="215.9" y2="182.88" width="0.1524" layer="91"/>
+<label x="218.44" y="182.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -13408,6 +13421,7 @@ Mark Gilliland</text>
 <attribute name="NAME" x="116.84" y="43.18" size="1.27" layer="94" rot="R180"/>
 <attribute name="VALUE" x="116.84" y="71.12" size="1.27" layer="94" rot="R180"/>
 </instance>
+<instance part="U9" gate="G$5" x="96.52" y="68.58" smashed="yes" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -13805,6 +13819,21 @@ Mark Gilliland</text>
 <wire x1="33.02" y1="76.2" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
 <label x="27.94" y="76.2" size="1.778" layer="95" rot="R90"/>
 <pinref part="R39" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="MNGR-3.3V" class="0">
+<segment>
+<pinref part="U9" gate="G$5" pin="V+"/>
+<wire x1="96.52" y1="73.66" x2="91.44" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="73.66" x2="91.44" y2="76.2" width="0.1524" layer="91"/>
+<label x="91.44" y="76.2" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="U9" gate="G$5" pin="GND"/>
+<wire x1="96.52" y1="40.64" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
+<label x="96.52" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
