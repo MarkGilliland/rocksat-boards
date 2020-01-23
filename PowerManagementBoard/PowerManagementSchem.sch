@@ -10904,19 +10904,19 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <part name="U8" library="PowerManagementParts" deviceset="TEENSY-4.0" device="SILK" package3d_urn="urn:adsk.eagle:package:37333/1"/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
-<part name="U$1" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
+<part name="Q1" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.01Ω"/>
 <part name="U6" library="PowerManagementParts" deviceset="INA4180-SPLIT" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$6" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
+<part name="Q2" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.01Ω"/>
-<part name="U$7" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
+<part name="Q3" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.01Ω"/>
-<part name="U$8" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
+<part name="Q4" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.01Ω"/>
-<part name="U$4" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
+<part name="Q10" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.01Ω"/>
-<part name="U$5" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
+<part name="Q9" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.01Ω"/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0"/>
@@ -10925,13 +10925,13 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0"/>
 <part name="H5" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0"/>
 <part name="H6" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0"/>
-<part name="U$13" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
+<part name="Q8" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.01Ω"/>
-<part name="U$14" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
+<part name="Q7" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.01Ω"/>
-<part name="U$15" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
+<part name="Q6" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.01Ω"/>
-<part name="U$16" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
+<part name="Q5" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.01Ω"/>
 <part name="U7" library="PowerManagementParts" deviceset="INA4180-SPLIT" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -10959,10 +10959,10 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <part name="FRAME5" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="D9" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="S1M" device="" package3d_urn="urn:adsk.eagle:package:43460/3"/>
 <part name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="S1M" device="" package3d_urn="urn:adsk.eagle:package:43460/3"/>
-<part name="U$22" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
+<part name="Q11" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.01Ω"/>
 <part name="D11" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="S1M" device="" package3d_urn="urn:adsk.eagle:package:43460/3"/>
-<part name="U$23" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
+<part name="Q12" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.01Ω"/>
 <part name="D12" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="S1M" device="" package3d_urn="urn:adsk.eagle:package:43460/3"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -12058,7 +12058,7 @@ Mark Gilliland</text>
 <attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="U$1" gate="G$1" x="60.96" y="175.26" smashed="yes" rot="MR180">
+<instance part="Q1" gate="G$1" x="60.96" y="175.26" smashed="yes" rot="MR180">
 <attribute name="NAME" x="66.04" y="185.42" size="1.778" layer="95" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="66.04" y="187.96" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
@@ -12070,7 +12070,7 @@ Mark Gilliland</text>
 <instance part="GND17" gate="1" x="30.48" y="137.16" smashed="yes">
 <attribute name="VALUE" x="27.94" y="134.62" size="1.778" layer="96"/>
 </instance>
-<instance part="U$6" gate="G$1" x="127" y="175.26" smashed="yes" rot="MR180">
+<instance part="Q2" gate="G$1" x="127" y="175.26" smashed="yes" rot="MR180">
 <attribute name="NAME" x="132.08" y="185.42" size="1.778" layer="95" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="132.08" y="187.96" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
@@ -12078,7 +12078,7 @@ Mark Gilliland</text>
 <attribute name="NAME" x="128.0414" y="156.21" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="132.842" y="156.21" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$7" gate="G$1" x="198.12" y="177.8" smashed="yes" rot="MR180">
+<instance part="Q3" gate="G$1" x="198.12" y="177.8" smashed="yes" rot="MR180">
 <attribute name="NAME" x="203.2" y="187.96" size="1.778" layer="95" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="203.2" y="190.5" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
@@ -12086,7 +12086,7 @@ Mark Gilliland</text>
 <attribute name="NAME" x="199.1614" y="158.75" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="203.962" y="158.75" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$8" gate="G$1" x="261.62" y="177.8" smashed="yes" rot="MR180">
+<instance part="Q4" gate="G$1" x="261.62" y="177.8" smashed="yes" rot="MR180">
 <attribute name="NAME" x="266.7" y="187.96" size="1.778" layer="95" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="266.7" y="190.5" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
@@ -12164,7 +12164,7 @@ Mark Gilliland</text>
 <nets>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="G"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="55.88" y1="180.34" x2="55.88" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="177.8" x2="50.8" y2="177.8" width="0.1524" layer="91"/>
 <junction x="55.88" y="177.8"/>
@@ -12174,7 +12174,7 @@ Mark Gilliland</text>
 </net>
 <net name="5V-DIG" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="S"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="63.5" y1="180.34" x2="63.5" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="190.5" x2="55.88" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="190.5" x2="63.5" y2="198.12" width="0.1524" layer="91"/>
@@ -12188,7 +12188,7 @@ Mark Gilliland</text>
 </segment>
 <segment>
 <wire x1="193.04" y1="193.04" x2="200.66" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="S"/>
+<pinref part="Q3" gate="G$1" pin="S"/>
 <wire x1="200.66" y1="193.04" x2="200.66" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="193.04" x2="200.66" y2="195.58" width="0.1524" layer="91"/>
 <junction x="200.66" y="193.04"/>
@@ -12216,7 +12216,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="170.18" x2="63.5" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="167.64" x2="63.5" y2="165.1" width="0.1524" layer="91"/>
@@ -12271,7 +12271,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="G"/>
+<pinref part="Q2" gate="G$1" pin="G"/>
 <wire x1="121.92" y1="180.34" x2="121.92" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="177.8" x2="116.84" y2="177.8" width="0.1524" layer="91"/>
 <junction x="121.92" y="177.8"/>
@@ -12281,7 +12281,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="D"/>
+<pinref part="Q2" gate="G$1" pin="D"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="170.18" x2="129.54" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="167.64" x2="129.54" y2="165.1" width="0.1524" layer="91"/>
@@ -12298,7 +12298,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="G"/>
+<pinref part="Q3" gate="G$1" pin="G"/>
 <wire x1="193.04" y1="182.88" x2="193.04" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="180.34" x2="187.96" y2="180.34" width="0.1524" layer="91"/>
 <junction x="193.04" y="180.34"/>
@@ -12308,7 +12308,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="D"/>
+<pinref part="Q3" gate="G$1" pin="D"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="172.72" x2="200.66" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="170.18" x2="200.66" y2="167.64" width="0.1524" layer="91"/>
@@ -12325,7 +12325,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="G"/>
+<pinref part="Q4" gate="G$1" pin="G"/>
 <wire x1="256.54" y1="182.88" x2="256.54" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="180.34" x2="251.46" y2="180.34" width="0.1524" layer="91"/>
 <junction x="256.54" y="180.34"/>
@@ -12335,7 +12335,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="D"/>
+<pinref part="Q4" gate="G$1" pin="D"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="172.72" x2="264.16" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="170.18" x2="264.16" y2="167.64" width="0.1524" layer="91"/>
@@ -12417,7 +12417,7 @@ Mark Gilliland</text>
 <net name="5V-ACT" class="0">
 <segment>
 <wire x1="121.92" y1="190.5" x2="129.54" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="S"/>
+<pinref part="Q2" gate="G$1" pin="S"/>
 <wire x1="129.54" y1="190.5" x2="129.54" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="190.5" x2="129.54" y2="193.04" width="0.1524" layer="91"/>
 <junction x="129.54" y="190.5"/>
@@ -12430,7 +12430,7 @@ Mark Gilliland</text>
 </segment>
 <segment>
 <wire x1="256.54" y1="193.04" x2="264.16" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="S"/>
+<pinref part="Q4" gate="G$1" pin="S"/>
 <wire x1="264.16" y1="193.04" x2="264.16" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="193.04" x2="264.16" y2="195.58" width="0.1524" layer="91"/>
 <junction x="264.16" y="193.04"/>
@@ -12460,7 +12460,7 @@ Mark Gilliland</text>
 <text x="10.16" y="106.68" size="2.54" layer="97">Magnet Experiment</text>
 </plain>
 <instances>
-<instance part="U$4" gate="G$1" x="127" y="73.66" smashed="yes" rot="MR180">
+<instance part="Q10" gate="G$1" x="127" y="73.66" smashed="yes" rot="MR180">
 <attribute name="NAME" x="132.08" y="83.82" size="1.778" layer="95" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="132.08" y="86.36" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
@@ -12468,7 +12468,7 @@ Mark Gilliland</text>
 <attribute name="NAME" x="128.0414" y="54.61" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="132.842" y="54.61" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$5" gate="G$1" x="53.34" y="73.66" smashed="yes" rot="MR180">
+<instance part="Q9" gate="G$1" x="53.34" y="73.66" smashed="yes" rot="MR180">
 <attribute name="NAME" x="58.42" y="83.82" size="1.778" layer="95" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="58.42" y="86.36" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
@@ -12482,7 +12482,7 @@ Mark Gilliland</text>
 <attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="U$13" gate="G$1" x="256.54" y="172.72" smashed="yes" rot="MR180">
+<instance part="Q8" gate="G$1" x="256.54" y="172.72" smashed="yes" rot="MR180">
 <attribute name="NAME" x="261.62" y="185.42" size="1.778" layer="95" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="261.62" y="187.96" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
@@ -12490,7 +12490,7 @@ Mark Gilliland</text>
 <attribute name="NAME" x="257.5814" y="153.67" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="262.382" y="153.67" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$14" gate="G$1" x="193.04" y="172.72" smashed="yes" rot="MR180">
+<instance part="Q7" gate="G$1" x="193.04" y="172.72" smashed="yes" rot="MR180">
 <attribute name="NAME" x="198.12" y="185.42" size="1.778" layer="95" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="198.12" y="187.96" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
@@ -12498,7 +12498,7 @@ Mark Gilliland</text>
 <attribute name="NAME" x="194.0814" y="153.67" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="198.882" y="153.67" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$15" gate="G$1" x="127" y="172.72" smashed="yes" rot="MR180">
+<instance part="Q6" gate="G$1" x="127" y="172.72" smashed="yes" rot="MR180">
 <attribute name="NAME" x="132.08" y="185.42" size="1.778" layer="95" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="132.08" y="187.96" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
@@ -12506,7 +12506,7 @@ Mark Gilliland</text>
 <attribute name="NAME" x="128.0414" y="153.67" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="132.842" y="153.67" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$16" gate="G$1" x="53.34" y="172.72" smashed="yes" rot="MR180">
+<instance part="Q5" gate="G$1" x="53.34" y="172.72" smashed="yes" rot="MR180">
 <attribute name="NAME" x="58.42" y="185.42" size="1.778" layer="95" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="58.42" y="187.96" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
@@ -12624,7 +12624,7 @@ Mark Gilliland</text>
 <nets>
 <net name="N$21" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="G"/>
+<pinref part="Q10" gate="G$1" pin="G"/>
 <wire x1="121.92" y1="78.74" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
 <junction x="121.92" y="76.2"/>
@@ -12634,7 +12634,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="D"/>
+<pinref part="Q10" gate="G$1" pin="D"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="68.58" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="66.04" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
@@ -12651,7 +12651,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="G"/>
+<pinref part="Q9" gate="G$1" pin="G"/>
 <wire x1="48.26" y1="78.74" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
 <junction x="48.26" y="76.2"/>
@@ -12661,7 +12661,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="D"/>
+<pinref part="Q9" gate="G$1" pin="D"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="68.58" x2="55.88" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="66.04" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
@@ -12678,7 +12678,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="G"/>
+<pinref part="Q8" gate="G$1" pin="G"/>
 <wire x1="251.46" y1="177.8" x2="251.46" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="175.26" x2="246.38" y2="175.26" width="0.1524" layer="91"/>
 <junction x="251.46" y="175.26"/>
@@ -12688,7 +12688,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="D"/>
+<pinref part="Q8" gate="G$1" pin="D"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="259.08" y1="167.64" x2="259.08" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="165.1" x2="259.08" y2="162.56" width="0.1524" layer="91"/>
@@ -12705,7 +12705,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="U$14" gate="G$1" pin="G"/>
+<pinref part="Q7" gate="G$1" pin="G"/>
 <wire x1="187.96" y1="177.8" x2="187.96" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="175.26" x2="182.88" y2="175.26" width="0.1524" layer="91"/>
 <junction x="187.96" y="175.26"/>
@@ -12715,7 +12715,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="U$14" gate="G$1" pin="D"/>
+<pinref part="Q7" gate="G$1" pin="D"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="167.64" x2="195.58" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="165.1" x2="195.58" y2="162.56" width="0.1524" layer="91"/>
@@ -12732,7 +12732,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="U$15" gate="G$1" pin="G"/>
+<pinref part="Q6" gate="G$1" pin="G"/>
 <wire x1="121.92" y1="177.8" x2="121.92" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="175.26" x2="116.84" y2="175.26" width="0.1524" layer="91"/>
 <junction x="121.92" y="175.26"/>
@@ -12742,7 +12742,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="U$15" gate="G$1" pin="D"/>
+<pinref part="Q6" gate="G$1" pin="D"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="167.64" x2="129.54" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="165.1" x2="129.54" y2="162.56" width="0.1524" layer="91"/>
@@ -12759,7 +12759,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="U$16" gate="G$1" pin="G"/>
+<pinref part="Q5" gate="G$1" pin="G"/>
 <wire x1="48.26" y1="177.8" x2="48.26" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="175.26" x2="43.18" y2="175.26" width="0.1524" layer="91"/>
 <junction x="48.26" y="175.26"/>
@@ -12769,7 +12769,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="U$16" gate="G$1" pin="D"/>
+<pinref part="Q5" gate="G$1" pin="D"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="167.64" x2="55.88" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="165.1" x2="55.88" y2="162.56" width="0.1524" layer="91"/>
@@ -12809,7 +12809,7 @@ Mark Gilliland</text>
 <net name="5V-DIG" class="0">
 <segment>
 <wire x1="48.26" y1="187.96" x2="55.88" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="U$16" gate="G$1" pin="S"/>
+<pinref part="Q5" gate="G$1" pin="S"/>
 <wire x1="55.88" y1="187.96" x2="55.88" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="187.96" x2="55.88" y2="190.5" width="0.1524" layer="91"/>
 <junction x="55.88" y="187.96"/>
@@ -12822,7 +12822,7 @@ Mark Gilliland</text>
 </segment>
 <segment>
 <wire x1="187.96" y1="187.96" x2="195.58" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="U$14" gate="G$1" pin="S"/>
+<pinref part="Q7" gate="G$1" pin="S"/>
 <wire x1="195.58" y1="187.96" x2="195.58" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="187.96" x2="195.58" y2="190.5" width="0.1524" layer="91"/>
 <junction x="195.58" y="187.96"/>
@@ -12834,7 +12834,7 @@ Mark Gilliland</text>
 <pinref part="R37" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="S"/>
+<pinref part="Q9" gate="G$1" pin="S"/>
 <pinref part="D9" gate="G$1" pin="C"/>
 <wire x1="55.88" y1="78.74" x2="63.5" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="78.74" x2="63.5" y2="76.2" width="0.1524" layer="91"/>
@@ -12850,7 +12850,7 @@ Mark Gilliland</text>
 <net name="5V-ACT" class="0">
 <segment>
 <wire x1="121.92" y1="187.96" x2="129.54" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="U$15" gate="G$1" pin="S"/>
+<pinref part="Q6" gate="G$1" pin="S"/>
 <wire x1="129.54" y1="187.96" x2="129.54" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="187.96" x2="129.54" y2="190.5" width="0.1524" layer="91"/>
 <junction x="129.54" y="187.96"/>
@@ -12863,7 +12863,7 @@ Mark Gilliland</text>
 </segment>
 <segment>
 <wire x1="251.46" y1="187.96" x2="259.08" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G$1" pin="S"/>
+<pinref part="Q8" gate="G$1" pin="S"/>
 <wire x1="259.08" y1="187.96" x2="259.08" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="187.96" x2="259.08" y2="190.5" width="0.1524" layer="91"/>
 <junction x="259.08" y="187.96"/>
@@ -12877,7 +12877,7 @@ Mark Gilliland</text>
 <segment>
 <pinref part="D10" gate="G$1" pin="C"/>
 <wire x1="137.16" y1="76.2" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="S"/>
+<pinref part="Q10" gate="G$1" pin="S"/>
 <wire x1="137.16" y1="78.74" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="88.9" x2="129.54" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="88.9" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
@@ -13062,7 +13062,7 @@ Mark Gilliland</text>
 <attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="U$22" gate="G$1" x="66.04" y="170.18" smashed="yes" rot="MR180">
+<instance part="Q11" gate="G$1" x="66.04" y="170.18" smashed="yes" rot="MR180">
 <attribute name="NAME" x="71.12" y="170.18" size="1.778" layer="95" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="71.12" y="172.72" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
@@ -13074,7 +13074,7 @@ Mark Gilliland</text>
 <attribute name="NAME" x="83.3374" y="172.72" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="86.1314" y="172.72" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$23" gate="G$1" x="203.2" y="170.18" smashed="yes" rot="MR180">
+<instance part="Q12" gate="G$1" x="203.2" y="170.18" smashed="yes" rot="MR180">
 <attribute name="NAME" x="208.28" y="170.18" size="1.778" layer="95" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="208.28" y="172.72" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
@@ -13127,7 +13127,7 @@ Mark Gilliland</text>
 <nets>
 <net name="N$34" class="0">
 <segment>
-<pinref part="U$22" gate="G$1" pin="D"/>
+<pinref part="Q11" gate="G$1" pin="D"/>
 <pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="165.1" x2="68.58" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="162.56" x2="68.58" y2="160.02" width="0.1524" layer="91"/>
@@ -13160,7 +13160,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$36" class="0">
 <segment>
-<pinref part="U$23" gate="G$1" pin="D"/>
+<pinref part="Q12" gate="G$1" pin="D"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="165.1" x2="205.74" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="162.56" x2="205.74" y2="160.02" width="0.1524" layer="91"/>
@@ -13193,7 +13193,7 @@ Mark Gilliland</text>
 </net>
 <net name="N$40" class="0">
 <segment>
-<pinref part="U$22" gate="G$1" pin="G"/>
+<pinref part="Q11" gate="G$1" pin="G"/>
 <wire x1="60.96" y1="172.72" x2="58.42" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="172.72" x2="55.88" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="175.26" x2="58.42" y2="172.72" width="0.1524" layer="91"/>
@@ -13205,7 +13205,7 @@ Mark Gilliland</text>
 <net name="12V" class="0">
 <segment>
 <wire x1="58.42" y1="185.42" x2="68.58" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="U$22" gate="G$1" pin="S"/>
+<pinref part="Q11" gate="G$1" pin="S"/>
 <wire x1="68.58" y1="185.42" x2="68.58" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="185.42" x2="68.58" y2="187.96" width="0.1524" layer="91"/>
 <junction x="68.58" y="185.42"/>
@@ -13217,7 +13217,7 @@ Mark Gilliland</text>
 <pinref part="R45" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$23" gate="G$1" pin="S"/>
+<pinref part="Q12" gate="G$1" pin="S"/>
 <wire x1="195.58" y1="185.42" x2="205.74" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="185.42" x2="205.74" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="185.42" x2="205.74" y2="187.96" width="0.1524" layer="91"/>
@@ -13234,7 +13234,7 @@ Mark Gilliland</text>
 <segment>
 <wire x1="195.58" y1="175.26" x2="195.58" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="172.72" x2="193.04" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="U$23" gate="G$1" pin="G"/>
+<pinref part="Q12" gate="G$1" pin="G"/>
 <wire x1="195.58" y1="172.72" x2="198.12" y2="172.72" width="0.1524" layer="91"/>
 <junction x="195.58" y="172.72"/>
 <pinref part="R44" gate="G$1" pin="2"/>
