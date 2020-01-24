@@ -12659,53 +12659,52 @@ Mark Gilliland</text>
 <net name="MUX-SEL-A" class="0">
 <segment>
 <pinref part="U$19" gate="G$1" pin="CH_A"/>
-<wire x1="175.26" y1="119.38" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
-<label x="88.9" y="149.86" size="1.778" layer="95"/>
-<wire x1="91.44" y1="149.86" x2="132.08" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="149.86" x2="134.62" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="149.86" x2="134.62" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U$18" gate="G$1" pin="CH_A"/>
-<wire x1="175.26" y1="160.02" x2="170.18" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="160.02" x2="170.18" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="119.38" x2="134.62" y2="149.86" width="0.1524" layer="91"/>
-<junction x="134.62" y="149.86"/>
-<pinref part="U8" gate="G$1" pin="A3/17"/>
-<wire x1="83.82" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="154.94" x2="86.36" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="149.86" x2="91.44" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="160.02" x2="175.26" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="119.38" x2="134.62" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="160.02" x2="132.08" y2="160.02" width="0.1524" layer="91"/>
+<junction x="134.62" y="160.02"/>
+<label x="132.08" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U8" gate="G$1" pin="A7/21*"/>
+<wire x1="83.82" y1="144.78" x2="86.36" y2="144.78" width="0.1524" layer="91"/>
+<label x="86.36" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MUX-SEL-B" class="0">
 <segment>
 <pinref part="U$18" gate="G$1" pin="CH_B"/>
-<wire x1="175.26" y1="157.48" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="157.48" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="157.48" x2="137.16" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="152.4" x2="137.16" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U8" gate="G$1" pin="A6/20*"/>
-<wire x1="83.82" y1="147.32" x2="88.9" y2="147.32" width="0.1524" layer="91"/>
-<label x="88.9" y="147.32" size="1.778" layer="95"/>
-<wire x1="137.16" y1="147.32" x2="88.9" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="147.32" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
-<junction x="137.16" y="147.32"/>
+<wire x1="175.26" y1="157.48" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="157.48" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="U$19" gate="G$1" pin="CH_B"/>
-<wire x1="175.26" y1="116.84" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="116.84" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="116.84" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="157.48" x2="132.08" y2="157.48" width="0.1524" layer="91"/>
+<junction x="137.16" y="157.48"/>
+<label x="132.08" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U8" gate="G$1" pin="A6/20*"/>
+<wire x1="83.82" y1="147.32" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
+<label x="86.36" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MUX-SEL-C" class="0">
 <segment>
-<pinref part="U8" gate="G$1" pin="A7/21*"/>
-<wire x1="83.82" y1="144.78" x2="139.7" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="144.78" x2="139.7" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="144.78" x2="139.7" y2="114.3" width="0.1524" layer="91"/>
-<junction x="139.7" y="144.78"/>
+<wire x1="139.7" y1="154.94" x2="139.7" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="U$19" gate="G$1" pin="CH_C"/>
 <wire x1="139.7" y1="114.3" x2="175.26" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="U$18" gate="G$1" pin="CH_C"/>
 <wire x1="175.26" y1="154.94" x2="139.7" y2="154.94" width="0.1524" layer="91"/>
-<label x="88.9" y="144.78" size="1.778" layer="95"/>
+<wire x1="139.7" y1="154.94" x2="132.08" y2="154.94" width="0.1524" layer="91"/>
+<junction x="139.7" y="154.94"/>
+<label x="132.08" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U8" gate="G$1" pin="A5/19/SCL0"/>
+<wire x1="50.8" y1="154.94" x2="48.26" y2="154.94" width="0.1524" layer="91"/>
+<label x="48.26" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MNGR-3.3V" class="0">
@@ -12726,109 +12725,109 @@ Mark Gilliland</text>
 <label x="91.44" y="121.92" size="1.778" layer="95" rot="MR0" align="center-right"/>
 </segment>
 </net>
-<net name="5V-DIG-TX-SNS" class="0">
-<segment>
-<pinref part="U$18" gate="G$1" pin="CH0"/>
-<wire x1="200.66" y1="165.1" x2="203.2" y2="165.1" width="0.1524" layer="91"/>
-<label x="203.2" y="165.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="5V-DIG-LASER-SNS" class="0">
-<segment>
-<pinref part="U$18" gate="G$1" pin="CH1"/>
-<wire x1="200.66" y1="162.56" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
-<label x="203.2" y="162.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="5V-DIG-CAM-SNS" class="0">
-<segment>
-<pinref part="U$18" gate="G$1" pin="CH2"/>
-<wire x1="200.66" y1="160.02" x2="203.2" y2="160.02" width="0.1524" layer="91"/>
-<label x="203.2" y="160.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="5V-DIG-MAG-SNS" class="0">
-<segment>
-<pinref part="U$18" gate="G$1" pin="CH3"/>
-<wire x1="200.66" y1="157.48" x2="203.2" y2="157.48" width="0.1524" layer="91"/>
-<label x="203.2" y="157.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="5V-DIG-STA-SNS" class="0">
+<net name="5V-ACT-LASER-SNS" class="0">
 <segment>
 <pinref part="U$18" gate="G$1" pin="CH4"/>
 <wire x1="200.66" y1="154.94" x2="203.2" y2="154.94" width="0.1524" layer="91"/>
-<label x="203.2" y="154.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="5V-ACT-TX-SNS" class="0">
-<segment>
-<pinref part="U$19" gate="G$1" pin="CH0"/>
-<wire x1="200.66" y1="124.46" x2="203.2" y2="124.46" width="0.1524" layer="91"/>
-<label x="203.2" y="124.46" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="5V-ACT-LASER-SNS" class="0">
-<segment>
-<pinref part="U$19" gate="G$1" pin="CH1"/>
-<wire x1="200.66" y1="121.92" x2="203.2" y2="121.92" width="0.1524" layer="91"/>
-<label x="203.2" y="121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="5V-ACT-CAM-SNS" class="0">
-<segment>
-<pinref part="U$19" gate="G$1" pin="CH2"/>
-<wire x1="200.66" y1="119.38" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
-<label x="203.2" y="119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="5V-ACT-MAG-SNS" class="0">
-<segment>
-<pinref part="U$19" gate="G$1" pin="CH3"/>
-<wire x1="200.66" y1="116.84" x2="203.2" y2="116.84" width="0.1524" layer="91"/>
-<label x="203.2" y="116.84" size="1.778" layer="95"/>
+<label x="203.2" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="5V-ACT-STA-SNS" class="0">
 <segment>
+<pinref part="U$18" gate="G$1" pin="CH6"/>
+<wire x1="200.66" y1="149.86" x2="203.2" y2="149.86" width="0.1524" layer="91"/>
+<label x="203.2" y="149.86" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="5V-ACT-TX-SNS" class="0">
+<segment>
+<pinref part="U$18" gate="G$1" pin="CH2"/>
+<wire x1="200.66" y1="160.02" x2="203.2" y2="160.02" width="0.1524" layer="91"/>
+<label x="203.2" y="160.02" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="12V-CAM-SNS" class="0">
+<segment>
+<pinref part="U$18" gate="G$1" pin="CH0"/>
+<wire x1="200.66" y1="165.1" x2="203.2" y2="165.1" width="0.1524" layer="91"/>
+<label x="203.2" y="165.1" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="5V-ACT-MAG-SNS" class="0">
+<segment>
+<pinref part="U$18" gate="G$1" pin="CH1"/>
+<wire x1="200.66" y1="162.56" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
+<label x="203.2" y="162.56" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="12V-STA-SNS" class="0">
+<segment>
+<pinref part="U$18" gate="G$1" pin="CH3"/>
+<wire x1="200.66" y1="157.48" x2="203.2" y2="157.48" width="0.1524" layer="91"/>
+<label x="203.2" y="157.48" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="5V-DIG-TX-SNS" class="0">
+<segment>
 <pinref part="U$19" gate="G$1" pin="CH4"/>
 <wire x1="200.66" y1="114.3" x2="203.2" y2="114.3" width="0.1524" layer="91"/>
-<label x="203.2" y="114.3" size="1.778" layer="95"/>
+<label x="203.2" y="114.3" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="5V-DIG-STA-SNS" class="0">
+<segment>
+<pinref part="U$19" gate="G$1" pin="CH0"/>
+<wire x1="200.66" y1="124.46" x2="203.2" y2="124.46" width="0.1524" layer="91"/>
+<label x="203.2" y="124.46" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="5V-DIG-MAG-SNS" class="0">
+<segment>
+<pinref part="U$19" gate="G$1" pin="CH1"/>
+<wire x1="200.66" y1="121.92" x2="203.2" y2="121.92" width="0.1524" layer="91"/>
+<label x="203.2" y="121.92" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="5V-DIG-CAM-SNS" class="0">
+<segment>
+<pinref part="U$19" gate="G$1" pin="CH2"/>
+<wire x1="200.66" y1="119.38" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
+<label x="203.2" y="119.38" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="5V-ACT-CAM-SNS" class="0">
+<segment>
+<pinref part="U$19" gate="G$1" pin="CH3"/>
+<wire x1="200.66" y1="116.84" x2="203.2" y2="116.84" width="0.1524" layer="91"/>
+<label x="203.2" y="116.84" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="5V-DIG-LASER-SNS" class="0">
+<segment>
+<pinref part="U$19" gate="G$1" pin="CH6"/>
+<wire x1="200.66" y1="109.22" x2="203.2" y2="109.22" width="0.1524" layer="91"/>
+<label x="203.2" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="5V-DIG-STA-EN" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="A0/14"/>
-<wire x1="83.82" y1="162.56" x2="88.9" y2="162.56" width="0.1524" layer="91"/>
-<label x="88.9" y="162.56" size="1.778" layer="95" rot="MR0" align="center-right"/>
+<wire x1="86.36" y1="162.56" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
+<label x="86.36" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="5V-ACT-STA-EN" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="A1/15"/>
-<wire x1="83.82" y1="160.02" x2="88.9" y2="160.02" width="0.1524" layer="91"/>
-<label x="88.9" y="160.02" size="1.778" layer="95" rot="MR0" align="center-right"/>
+<wire x1="83.82" y1="160.02" x2="86.36" y2="160.02" width="0.1524" layer="91"/>
+<label x="86.36" y="160.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="12V-STA-EN" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="A2/16"/>
-<wire x1="83.82" y1="157.48" x2="88.9" y2="157.48" width="0.1524" layer="91"/>
-<label x="88.9" y="157.48" size="1.778" layer="95" rot="MR0" align="center-right"/>
-</segment>
-</net>
-<net name="12V-CAM-SNS" class="0">
-<segment>
-<pinref part="U$18" gate="G$1" pin="CH5"/>
-<wire x1="200.66" y1="152.4" x2="203.2" y2="152.4" width="0.1524" layer="91"/>
-<label x="203.2" y="152.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="12V-STA-SNS" class="0">
-<segment>
-<pinref part="U$19" gate="G$1" pin="CH5"/>
-<wire x1="200.66" y1="111.76" x2="203.2" y2="111.76" width="0.1524" layer="91"/>
-<label x="203.2" y="111.76" size="1.778" layer="95"/>
+<wire x1="83.82" y1="157.48" x2="86.36" y2="157.48" width="0.1524" layer="91"/>
+<label x="86.36" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -13196,7 +13195,7 @@ Mark Gilliland</text>
 <pinref part="R29" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="5-ACT-LASER-EN" class="0">
+<net name="5V-ACT-LASER-EN" class="0">
 <segment>
 <wire x1="241.3" y1="180.34" x2="228.6" y2="180.34" width="0.1524" layer="91"/>
 <label x="228.6" y="180.34" size="1.778" layer="95" rot="R90"/>
@@ -14163,9 +14162,9 @@ Mark Gilliland</text>
 <label x="27.94" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="11"/>
-<wire x1="35.56" y1="20.32" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
-<label x="33.02" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="10"/>
+<wire x1="50.8" y1="22.86" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
+<label x="53.34" y="22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LASER-I2C-SCL" class="0">
@@ -14175,9 +14174,9 @@ Mark Gilliland</text>
 <label x="27.94" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="13"/>
-<wire x1="35.56" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
-<label x="33.02" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="11"/>
+<wire x1="35.56" y1="20.32" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
+<label x="33.02" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="STATIC-I2C-SDA" class="0">
@@ -14187,9 +14186,9 @@ Mark Gilliland</text>
 <label x="27.94" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="15"/>
-<wire x1="35.56" y1="15.24" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
-<label x="33.02" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="12"/>
+<wire x1="50.8" y1="20.32" x2="53.34" y2="20.32" width="0.1524" layer="91"/>
+<label x="53.34" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="STATIC-I2C-SCL" class="0">
@@ -14197,6 +14196,11 @@ Mark Gilliland</text>
 <pinref part="J9" gate="G$1" pin="9"/>
 <wire x1="25.4" y1="88.9" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
 <label x="27.94" y="88.9" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="14"/>
+<wire x1="50.8" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
+<label x="53.34" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MAGNET-I2C-SDA" class="0">
@@ -14206,9 +14210,9 @@ Mark Gilliland</text>
 <label x="27.94" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="17"/>
-<wire x1="35.56" y1="12.7" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
-<label x="33.02" y="12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="13"/>
+<wire x1="35.56" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
+<label x="33.02" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MAGNET-I2C-SCL" class="0">
@@ -14218,9 +14222,9 @@ Mark Gilliland</text>
 <label x="27.94" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="19"/>
-<wire x1="35.56" y1="10.16" x2="33.02" y2="10.16" width="0.1524" layer="91"/>
-<label x="33.02" y="10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="16"/>
+<wire x1="50.8" y1="15.24" x2="53.34" y2="15.24" width="0.1524" layer="91"/>
+<label x="53.34" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BOOM-I2C-SDA" class="0">
@@ -14229,12 +14233,22 @@ Mark Gilliland</text>
 <wire x1="25.4" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
 <label x="27.94" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="18"/>
+<wire x1="50.8" y1="12.7" x2="53.34" y2="12.7" width="0.1524" layer="91"/>
+<label x="53.34" y="12.7" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="BOOM-I2C-SCL" class="0">
 <segment>
 <pinref part="J9" gate="G$1" pin="13"/>
 <wire x1="25.4" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
 <label x="27.94" y="78.74" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="20"/>
+<wire x1="50.8" y1="10.16" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
+<label x="53.34" y="10.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ANT-MOSI" class="0">
@@ -14346,22 +14360,25 @@ Mark Gilliland</text>
 <label x="144.78" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="5V-ACT-STA" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="16"/>
 <wire x1="147.32" y1="71.12" x2="144.78" y2="71.12" width="0.1524" layer="91"/>
+<label x="144.78" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="5V-ACT-TX" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="15"/>
 <wire x1="147.32" y1="73.66" x2="144.78" y2="73.66" width="0.1524" layer="91"/>
+<label x="144.78" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$33" class="0">
+<net name="5V-ACT-LASER" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="14"/>
 <wire x1="147.32" y1="76.2" x2="144.78" y2="76.2" width="0.1524" layer="91"/>
+<label x="144.78" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$35" class="0">
