@@ -187,6 +187,9 @@ but 50-150mil traces might
  be a better choice here.
 
 See the pour on 12V</text>
+<text x="-67.564" y="93.218" size="1.778" layer="48">Note: Must enlarge pads for power converters
+ I feel like they are a little wimpy for being rated for 6A</text>
+<text x="3.048" y="136.398" size="1.778" layer="1">Comments on Layer48:Document</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
