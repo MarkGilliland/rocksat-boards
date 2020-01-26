@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14389,100 +14389,139 @@ Mark Gilliland</text>
 </net>
 <net name="LASER-UART-1_2" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
-<label x="93.98" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="LASER-UART-2_2" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="96.52" y1="30.48" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
-<label x="93.98" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="LASER-UART-3_2" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="5"/>
-<wire x1="96.52" y1="27.94" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
-<label x="93.98" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="LASER-UART-4_2" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="7"/>
-<wire x1="96.52" y1="25.4" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
-<label x="93.98" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="LASER-UART-5_2" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="9"/>
-<wire x1="96.52" y1="22.86" x2="93.98" y2="22.86" width="0.1524" layer="91"/>
-<label x="93.98" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="LASER-I2C-SDA_2" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="11"/>
-<wire x1="96.52" y1="20.32" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
-<label x="93.98" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="LASER-I2C-SCL_2" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="13"/>
-<wire x1="96.52" y1="17.78" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
-<label x="93.98" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="STATIC-I2C-SDA_2" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="15"/>
-<wire x1="96.52" y1="15.24" x2="93.98" y2="15.24" width="0.1524" layer="91"/>
-<label x="93.98" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="MAGNET-I2C-SDA_2" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="17"/>
-<wire x1="96.52" y1="12.7" x2="93.98" y2="12.7" width="0.1524" layer="91"/>
-<label x="93.98" y="12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="MAGNET-I2C-SCL_2" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="19"/>
-<wire x1="96.52" y1="10.16" x2="93.98" y2="10.16" width="0.1524" layer="91"/>
-<label x="93.98" y="10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ANT-MOSI_2" class="0">
-<segment>
 <pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="33.02" x2="114.3" y2="33.02" width="0.1524" layer="91"/>
 <label x="114.3" y="33.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ANT-MISO_2" class="0">
+<net name="LASER-UART-2_2" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="4"/>
 <wire x1="111.76" y1="30.48" x2="114.3" y2="30.48" width="0.1524" layer="91"/>
 <label x="114.3" y="30.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ANT-SCK_2" class="0">
+<net name="LASER-UART-3_2" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="6"/>
 <wire x1="111.76" y1="27.94" x2="114.3" y2="27.94" width="0.1524" layer="91"/>
 <label x="114.3" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ANT-SS_2" class="0">
+<net name="LASER-UART-4_2" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="8"/>
 <wire x1="111.76" y1="25.4" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
 <label x="114.3" y="25.4" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LASER-UART-5_2" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="10"/>
+<wire x1="111.76" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
+<label x="114.3" y="22.86" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LASER-I2C-SCL_2" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="12"/>
+<wire x1="111.76" y1="20.32" x2="114.3" y2="20.32" width="0.1524" layer="91"/>
+<label x="114.3" y="20.32" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MAGNET-I2C-SDA_2" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="14"/>
+<wire x1="111.76" y1="17.78" x2="114.3" y2="17.78" width="0.1524" layer="91"/>
+<label x="114.3" y="17.78" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="16"/>
+<wire x1="111.76" y1="15.24" x2="114.3" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="18"/>
+<wire x1="111.76" y1="12.7" x2="114.3" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="20"/>
+<wire x1="111.76" y1="10.16" x2="114.3" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ANT-MOSI_2" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
+<label x="93.98" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ANT-MISO_2" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="3"/>
+<wire x1="96.52" y1="30.48" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
+<label x="93.98" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ANT-SCK_2" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="5"/>
+<wire x1="96.52" y1="27.94" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
+<label x="93.98" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ANT-SS_2" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="7"/>
+<wire x1="96.52" y1="25.4" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
+<label x="93.98" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="LASER-I2C-SDA_2" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="9"/>
+<wire x1="96.52" y1="22.86" x2="93.98" y2="22.86" width="0.1524" layer="91"/>
+<label x="93.98" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="STATIC-I2C-SDA_2" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="11"/>
+<wire x1="96.52" y1="20.32" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
+<label x="93.98" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="STATIC-I2C-SCL_2" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="13"/>
+<wire x1="96.52" y1="17.78" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
+<label x="93.98" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MAGNET-I2C-SCL_2" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="15"/>
+<wire x1="96.52" y1="15.24" x2="93.98" y2="15.24" width="0.1524" layer="91"/>
+<label x="93.98" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BOOM-I2C-SDA_2" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="17"/>
+<wire x1="96.52" y1="12.7" x2="93.98" y2="12.7" width="0.1524" layer="91"/>
+<label x="93.98" y="12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BOOM-I2C-SCL_2" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="19"/>
+<wire x1="96.52" y1="10.16" x2="93.98" y2="10.16" width="0.1524" layer="91"/>
+<label x="93.98" y="10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
