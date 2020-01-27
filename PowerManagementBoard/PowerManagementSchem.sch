@@ -12557,6 +12557,11 @@ Mark Gilliland</text>
 <pinref part="U8" gate="G$1" pin="GND"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <wire x1="83.82" y1="106.68" x2="91.44" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="GND1"/>
+<wire x1="83.82" y1="104.14" x2="83.82" y2="106.68" width="0.1524" layer="91"/>
+<junction x="83.82" y="106.68"/>
+<pinref part="U8" gate="G$1" pin="AGND"/>
+<wire x1="83.82" y1="109.22" x2="83.82" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$18" gate="G$1" pin="VEE"/>
@@ -12573,69 +12578,6 @@ Mark Gilliland</text>
 <pinref part="GND21" gate="1" pin="GND"/>
 <wire x1="175.26" y1="99.06" x2="172.72" y2="99.06" width="0.1524" layer="91"/>
 <junction x="175.26" y="99.06"/>
-</segment>
-</net>
-<net name="5V-DIG-TX-EN" class="0">
-<segment>
-<pinref part="U8" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
-<label x="48.26" y="142.24" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="5V-ACT-TX-EN" class="0">
-<segment>
-<pinref part="U8" gate="G$1" pin="3*"/>
-<wire x1="50.8" y1="139.7" x2="48.26" y2="139.7" width="0.1524" layer="91"/>
-<label x="48.26" y="139.7" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="5V-DIG-LASER-EN" class="0">
-<segment>
-<pinref part="U8" gate="G$1" pin="4*"/>
-<wire x1="50.8" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
-<label x="48.26" y="137.16" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="5V-ACT-LASER-EN" class="0">
-<segment>
-<pinref part="U8" gate="G$1" pin="5*"/>
-<wire x1="50.8" y1="134.62" x2="48.26" y2="134.62" width="0.1524" layer="91"/>
-<label x="48.26" y="134.62" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="5V-DIG-CAM-EN" class="0">
-<segment>
-<pinref part="U8" gate="G$1" pin="6*"/>
-<wire x1="50.8" y1="132.08" x2="48.26" y2="132.08" width="0.1524" layer="91"/>
-<label x="48.26" y="132.08" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="5V-ACT-CAM-EN" class="0">
-<segment>
-<pinref part="U8" gate="G$1" pin="7/RX3"/>
-<wire x1="50.8" y1="129.54" x2="48.26" y2="129.54" width="0.1524" layer="91"/>
-<label x="48.26" y="129.54" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="12V-CAM-EN" class="0">
-<segment>
-<pinref part="U8" gate="G$1" pin="8/TX3"/>
-<wire x1="50.8" y1="127" x2="48.26" y2="127" width="0.1524" layer="91"/>
-<label x="48.26" y="127" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="5V-DIG-MAG-EN" class="0">
-<segment>
-<pinref part="U8" gate="G$1" pin="9*/RX2"/>
-<wire x1="50.8" y1="124.46" x2="48.26" y2="124.46" width="0.1524" layer="91"/>
-<label x="48.26" y="124.46" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="5V-ACT-MAG-EN" class="0">
-<segment>
-<pinref part="U8" gate="G$1" pin="10*/TX2/CS"/>
-<wire x1="50.8" y1="104.14" x2="48.26" y2="104.14" width="0.1524" layer="91"/>
-<label x="48.26" y="104.14" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="CURRENT-SNS-B" class="0">
@@ -12809,14 +12751,77 @@ Mark Gilliland</text>
 <label x="203.2" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
+<net name="5V-ACT-TX-EN" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="0/RX1"/>
+<wire x1="50.8" y1="147.32" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
+<label x="48.26" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="5V-ACT-LASER-EN" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="1/TX1"/>
+<wire x1="50.8" y1="144.78" x2="48.26" y2="144.78" width="0.1524" layer="91"/>
+<label x="48.26" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="5V-ACT-CAM-EN" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
+<label x="48.26" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
 <net name="5V-DIG-STA-EN" class="0">
 <segment>
-<pinref part="U8" gate="G$1" pin="A0/14"/>
-<wire x1="86.36" y1="162.56" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
-<label x="86.36" y="162.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="U8" gate="G$1" pin="3*"/>
+<wire x1="50.8" y1="139.7" x2="48.26" y2="139.7" width="0.1524" layer="91"/>
+<label x="48.26" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="5V-DIG-MAG-EN" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="4*"/>
+<wire x1="50.8" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
+<label x="48.26" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="5V-DIG-LASER-EN" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="5*"/>
+<wire x1="50.8" y1="134.62" x2="48.26" y2="134.62" width="0.1524" layer="91"/>
+<label x="48.26" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="5V-DIG-CAM-EN" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="6*"/>
+<wire x1="50.8" y1="132.08" x2="48.26" y2="132.08" width="0.1524" layer="91"/>
+<label x="48.26" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="5V-DIG-TX-EN" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="7/RX3"/>
+<wire x1="50.8" y1="129.54" x2="48.26" y2="129.54" width="0.1524" layer="91"/>
+<label x="48.26" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="5V-ACT-STA-EN" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="A3/17"/>
+<wire x1="83.82" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
+<label x="86.36" y="154.94" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="5V-ACT-MAG-EN" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="A2/16"/>
+<wire x1="83.82" y1="157.48" x2="86.36" y2="157.48" width="0.1524" layer="91"/>
+<label x="86.36" y="157.48" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="12V-CAM-EN" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="A1/15"/>
 <wire x1="83.82" y1="160.02" x2="86.36" y2="160.02" width="0.1524" layer="91"/>
@@ -12825,9 +12830,9 @@ Mark Gilliland</text>
 </net>
 <net name="12V-STA-EN" class="0">
 <segment>
-<pinref part="U8" gate="G$1" pin="A2/16"/>
-<wire x1="83.82" y1="157.48" x2="86.36" y2="157.48" width="0.1524" layer="91"/>
-<label x="86.36" y="157.48" size="1.27" layer="95" xref="yes"/>
+<pinref part="U8" gate="G$1" pin="A0/14"/>
+<wire x1="83.82" y1="162.56" x2="86.36" y2="162.56" width="0.1524" layer="91"/>
+<label x="86.36" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -14519,12 +14524,6 @@ Mark Gilliland</text>
 <label x="149.86" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$37" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="20"/>
-<wire x1="111.76" y1="10.16" x2="114.3" y2="10.16" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="ANT-MOSI_2" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
@@ -14648,6 +14647,27 @@ Mark Gilliland</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,2,83.82,104.14,U8,GND1,GND,,,"/>
+<approved hash="204,2,83.82,119.38,U8,VBAT,,,,"/>
+<approved hash="104,2,83.82,121.92,U8,3.3V,MNGR-3.3V,,,"/>
+<approved hash="204,2,83.82,127,U8,VIN,,,,"/>
+<approved hash="104,2,83.82,109.22,U8,AGND,GND,,,"/>
+<approved hash="204,2,83.82,116.84,U8,VUSB,,,,"/>
+<approved hash="209,1,60.96,81.28,5V-ACT-CTRL,,,,,"/>
+<approved hash="209,1,63.5,81.28,5V-ACT-CTRL,,,,,"/>
+<approved hash="209,1,60.96,124.46,5V-DIG-CTRL,,,,,"/>
+<approved hash="209,1,63.5,124.46,5V-DIG-CTRL,,,,,"/>
+<approved hash="209,1,66.04,35.56,12V-CTRL,,,,,"/>
+<approved hash="209,1,63.5,35.56,12V-CTRL,,,,,"/>
+<approved hash="113,1,139.596,107.846,FRAME1,,,,,"/>
+<approved hash="113,2,139.596,107.846,FRAME2,,,,,"/>
+<approved hash="113,3,139.596,107.846,FRAME3,,,,,"/>
+<approved hash="113,4,139.596,107.846,FRAME4,,,,,"/>
+<approved hash="113,5,139.596,107.846,FRAME5,,,,,"/>
+<approved hash="113,5,43.18,23.0226,J2,,,,,"/>
+<approved hash="113,5,104.14,23.0226,J3,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
