@@ -3342,13 +3342,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="3.343225" y1="20.5098" x2="1.016" y2="22.837025" width="0.254" layer="1"/>
 <wire x1="1.016" y1="22.837025" x2="1.016" y2="48.326" width="0.254" layer="1"/>
 <wire x1="1.016" y1="48.326" x2="2.54" y2="49.85" width="0.254" layer="1"/>
-<wire x1="92.456" y1="83.566" x2="92.456" y2="54.864" width="0.6096" layer="1"/>
+<wire x1="88.392" y1="87.63" x2="88.392" y2="50.8" width="0.6096" layer="1"/>
 <wire x1="71.374" y1="45.974" x2="66.04" y2="40.64" width="0.6096" layer="1"/>
-<wire x1="92.456" y1="54.864" x2="83.566" y2="45.974" width="0.6096" layer="1"/>
+<wire x1="88.392" y1="50.8" x2="83.566" y2="45.974" width="0.6096" layer="1"/>
 <wire x1="83.566" y1="45.974" x2="71.374" y2="45.974" width="0.6096" layer="1"/>
 <wire x1="92.456" y1="91.694" x2="88.392" y2="87.63" width="0.6096" layer="16"/>
 <via x="88.392" y="87.63" extent="1-16" drill="0.5"/>
-<wire x1="88.392" y1="87.63" x2="92.456" y2="83.566" width="0.6096" layer="1"/>
 </signal>
 <signal name="5V-DIG">
 <contactref element="U2" pad="3"/>
