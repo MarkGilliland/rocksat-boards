@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11602,6 +11602,11 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <clearance class="0" value="0.1524"/>
 <clearance class="1" value="0.2032"/>
 </class>
+<class number="2" name="hv-lines" width="0" drill="0">
+<clearance class="0" value="0.254"/>
+<clearance class="1" value="0.254"/>
+<clearance class="2" value="0.254"/>
+</class>
 </classes>
 <parts>
 <part name="U2" library="CUI_DCDC_Conv" deviceset="PYB20-Q24-S5" device=""/>
@@ -12361,7 +12366,7 @@ and 1 wire per position.</text>
 <wire x1="236.22" y1="60.96" x2="220.98" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SUPPLY_FOR_5V-DIG" class="0">
+<net name="SUPPLY_FOR_5V-DIG" class="2">
 <segment>
 <pinref part="U2" gate="G$1" pin="VIN"/>
 <wire x1="63.5" y1="129.54" x2="35.56" y2="129.54" width="0.1524" layer="91"/>
@@ -12480,7 +12485,7 @@ and 1 wire per position.</text>
 <wire x1="187.96" y1="104.14" x2="187.96" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SUPPLY_FOR_ACT" class="0">
+<net name="SUPPLY_FOR_ACT" class="2">
 <segment>
 <pinref part="J1" gate="G$1" pin="14"/>
 <wire x1="35.56" y1="165.1" x2="38.1" y2="165.1" width="0.1524" layer="91"/>
