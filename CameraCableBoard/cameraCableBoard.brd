@@ -224,6 +224,57 @@
 </package>
 </packages>
 </library>
+<library name="SparkFun-Retired" urn="urn:adsk.eagle:library:533">
+<description>&lt;h3&gt;SparkFun Electronics' Retired foot prints&lt;/h3&gt;
+In this library you'll find all manner of retired footprints for resistors, capacitors, board names, ICs, etc., that are &lt;b&gt; no longer used&lt;/b&gt; in our catalog.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="DB15" library_version="1">
+<wire x1="-8.128" y1="12.079" x2="-7.62" y2="12.587" width="0.2032" layer="51" curve="-90"/>
+<wire x1="7.62" y1="12.587" x2="8.128" y2="12.079" width="0.2032" layer="51" curve="-90"/>
+<wire x1="-15.4" y1="-9.65" x2="-15.4" y2="2.38" width="0.2032" layer="21"/>
+<wire x1="-15.4" y1="2.38" x2="-15.4" y2="6.35" width="0.2032" layer="51"/>
+<wire x1="15.4" y1="-9.65" x2="15.4" y2="2.38" width="0.2032" layer="21"/>
+<wire x1="15.4" y1="2.38" x2="15.4" y2="6.35" width="0.2032" layer="51"/>
+<wire x1="-8.128" y1="6.999" x2="-8.128" y2="12.079" width="0.2032" layer="51"/>
+<wire x1="-8.763" y1="6.364" x2="-8.128" y2="6.999" width="0.2032" layer="51" curve="90"/>
+<wire x1="-15.4" y1="6.35" x2="15.4" y2="6.35" width="0.2032" layer="51"/>
+<wire x1="8.128" y1="6.999" x2="8.128" y2="12.079" width="0.2032" layer="51"/>
+<wire x1="8.128" y1="6.999" x2="8.763" y2="6.364" width="0.2032" layer="51" curve="90"/>
+<wire x1="-7.62" y1="12.587" x2="7.62" y2="12.587" width="0.2032" layer="51"/>
+<wire x1="-15.4" y1="-9.65" x2="15.4" y2="-9.65" width="0.2032" layer="21"/>
+<pad name="7" x="-3.17" y="-5.08" drill="1.016" diameter="1.8796"/>
+<pad name="8" x="-0.88" y="-5.08" drill="1.016" diameter="1.8796"/>
+<pad name="9" x="1.41" y="-5.08" drill="1.016" diameter="1.8796"/>
+<pad name="10" x="3.7" y="-5.08" drill="1.016" diameter="1.8796"/>
+<pad name="11" x="-4.32" y="-2.54" drill="1.016" diameter="1.8796"/>
+<pad name="12" x="-2.03" y="-2.54" drill="1.016" diameter="1.8796"/>
+<pad name="13" x="0.26" y="-2.54" drill="1.016" diameter="1.8796"/>
+<pad name="14" x="2.55" y="-2.54" drill="1.016" diameter="1.8796"/>
+<pad name="G1" x="-12.5" y="-5.08" drill="3.302" diameter="5.08"/>
+<pad name="G2" x="12.5" y="-5.08" drill="3.302" diameter="5.08"/>
+<pad name="6" x="-5.46" y="-5.08" drill="1.016" diameter="1.8796"/>
+<pad name="15" x="4.84" y="-2.54" drill="1.016" diameter="1.8796"/>
+<pad name="1" x="-4.32" y="-7.62" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="-2.03" y="-7.62" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="0.26" y="-7.62" drill="1.016" diameter="1.8796"/>
+<pad name="4" x="2.55" y="-7.62" drill="1.016" diameter="1.8796"/>
+<pad name="5" x="4.84" y="-7.62" drill="1.016" diameter="1.8796"/>
+<text x="-1.27" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="0.762" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -421,8 +472,92 @@ design rules under a new name.
 <attribute name="PACKAGE" value="None" x="10.16" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-30.8408" y="6.20466875" size="1.272509375" layer="27"/>
 </element>
+<element name="U$1" library="SparkFun-Retired" library_urn="urn:adsk.eagle:library:533" package="DB15" value="DB15" x="-15.24" y="-12.7" smashed="yes">
+<attribute name="NAME" x="-16.51" y="-10.922" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="-16.51" y="-11.938" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
 </elements>
 <signals>
+<signal name="GND">
+<contactref element="J2" pad="1"/>
+<contactref element="J2" pad="4"/>
+<contactref element="J2" pad="7"/>
+<contactref element="J2" pad="10"/>
+<contactref element="U$1" pad="1"/>
+<contactref element="U$1" pad="7"/>
+<wire x1="-18.41" y1="-17.78" x2="-19.56" y2="-20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.32" y1="13.97" x2="-18.41" y2="-17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.32" y1="13.97" x2="-18.32" y2="13.97" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.32" y1="13.97" x2="-21.32" y2="13.97" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.32" y1="13.97" x2="-24.32" y2="13.97" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CON_D0N">
+<contactref element="J2" pad="2"/>
+<contactref element="U$1" pad="6"/>
+<wire x1="-26.32" y1="13.97" x2="-20.7" y2="-17.78" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CON_D0P">
+<contactref element="J2" pad="3"/>
+<contactref element="U$1" pad="11"/>
+<wire x1="-25.32" y1="13.97" x2="-19.56" y2="-15.24" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CON_D1N">
+<contactref element="J2" pad="5"/>
+</signal>
+<signal name="CON_D1P">
+<contactref element="J2" pad="6"/>
+</signal>
+<signal name="CON_CLKN">
+<contactref element="J2" pad="8"/>
+</signal>
+<signal name="CON_CLKP">
+<contactref element="J2" pad="9"/>
+</signal>
+<signal name="ENABLE">
+<contactref element="J2" pad="11"/>
+</signal>
+<signal name="SCL">
+<contactref element="J2" pad="13"/>
+</signal>
+<signal name="SDA">
+<contactref element="J2" pad="14"/>
+</signal>
+<signal name="3.3V">
+<contactref element="J2" pad="15"/>
+</signal>
+<signal name="N$2">
+<contactref element="U$1" pad="2"/>
+</signal>
+<signal name="N$3">
+<contactref element="U$1" pad="3"/>
+</signal>
+<signal name="N$4">
+<contactref element="U$1" pad="4"/>
+</signal>
+<signal name="N$5">
+<contactref element="U$1" pad="5"/>
+</signal>
+<signal name="N$9">
+<contactref element="U$1" pad="12"/>
+</signal>
+<signal name="N$10">
+<contactref element="U$1" pad="13"/>
+</signal>
+<signal name="N$11">
+<contactref element="U$1" pad="8"/>
+</signal>
+<signal name="N$12">
+<contactref element="U$1" pad="9"/>
+</signal>
+<signal name="N$13">
+<contactref element="U$1" pad="14"/>
+</signal>
+<signal name="N$14">
+<contactref element="U$1" pad="10"/>
+</signal>
+<signal name="N$15">
+<contactref element="U$1" pad="15"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -433,4 +568,11 @@ design rules under a new name.
 </mfgpreviewcolors>
 </board>
 </drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+</compatibility>
 </eagle>
