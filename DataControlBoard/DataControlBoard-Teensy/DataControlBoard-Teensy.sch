@@ -12727,6 +12727,9 @@ power bus for teensy</text>
 <wire x1="160.02" y1="175.26" x2="160.02" y2="121.92" width="0.1524" layer="97"/>
 <text x="167.64" y="35.56" size="1.778" layer="97" rot="R90" align="top-left">Level Shift
 from 5V to 3.3V</text>
+<text x="7.62" y="116.84" size="1.778" layer="97">PDB1 - MSB
+PDB16 - LSB 
+Mines was assigned the MSB side</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
