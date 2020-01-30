@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -741,6 +741,17 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <rectangle x1="-1.5" y1="-1.75" x2="-0.75" y2="1.75" layer="51"/>
 <rectangle x1="-1.5" y1="1.25" x2="-0.75" y2="1.75" layer="21"/>
 <rectangle x1="-1.5" y1="-1.75" x2="-0.75" y2="-1.25" layer="21"/>
+</package>
+<package name="MTA106">
+<pad name="P$1" x="0" y="0" drill="1.27" shape="long"/>
+<pad name="P$2" x="0" y="4.318" drill="1.27" shape="long"/>
+<pad name="P$3" x="0" y="-4.318" drill="1.27" shape="long"/>
+<wire x1="-4.0005" y1="6.5024" x2="-4.0005" y2="-6.5024" width="0.127" layer="21"/>
+<wire x1="4.0005" y1="6.5024" x2="4.0005" y2="-6.5024" width="0.127" layer="21"/>
+<wire x1="-4.0005" y1="-6.5024" x2="4.0005" y2="-6.5024" width="0.127" layer="21"/>
+<wire x1="-4.0005" y1="6.5024" x2="4.0005" y2="6.5024" width="0.127" layer="21"/>
+<text x="-3.175" y="6.858" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.302" y="-8.001" size="1.27" layer="25">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -1743,6 +1754,23 @@ AOD4189, https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MTA106">
+<gates>
+<gate name="G$1" symbol="TOGGLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MTA106">
+<connects>
+<connect gate="G$1" pin="O" pad="P$2"/>
+<connect gate="G$1" pin="P" pad="P$1"/>
+<connect gate="G$1" pin="S" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
