@@ -586,11 +586,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="INPUT-DSUB" library="D-Sub Connectors" library_urn="urn:adsk.eagle:library:11816059" deviceset="182-037-213R531" device="" package3d_urn="urn:adsk.eagle:package:11705754/3"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="NO_PACKAGE"/>
 <part name="OUTPUT-DSUB" library="D-Sub Connectors" library_urn="urn:adsk.eagle:library:11816059" deviceset="182-037-213R531" device="" package3d_urn="urn:adsk.eagle:package:11705754/3"/>
-<part name="U$1" library="PowerManagementParts" deviceset="MTA106" device=""/>
-<part name="U$2" library="PowerManagementParts" deviceset="MTA106" device=""/>
-<part name="U$3" library="PowerManagementParts" deviceset="MTA106" device=""/>
-<part name="U$4" library="PowerManagementParts" deviceset="MTA106" device=""/>
-<part name="U$5" library="PowerManagementParts" deviceset="MTA106" device=""/>
+<part name="5V_CAM" library="PowerManagementParts" deviceset="MTA106" device=""/>
+<part name="5V_LASER" library="PowerManagementParts" deviceset="MTA106" device=""/>
+<part name="5V_TX" library="PowerManagementParts" deviceset="MTA106" device=""/>
+<part name="5V_STA" library="PowerManagementParts" deviceset="MTA106" device=""/>
+<part name="5V_MAG" library="PowerManagementParts" deviceset="MTA106" device=""/>
 <part name="12V_CAM" library="PowerManagementParts" deviceset="MTA106" device=""/>
 <part name="12V_STA" library="PowerManagementParts" deviceset="MTA106" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -616,23 +616,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="125.73" y="130.556" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="125.984" y="25.4" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="U$1" gate="G$1" x="215.9" y="175.26" smashed="yes">
+<instance part="5V_CAM" gate="G$1" x="215.9" y="175.26" smashed="yes">
 <attribute name="NAME" x="217.17" y="178.308" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="216.916" y="171.958" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="U$2" gate="G$1" x="215.9" y="160.02" smashed="yes">
+<instance part="5V_LASER" gate="G$1" x="215.9" y="160.02" smashed="yes">
 <attribute name="NAME" x="217.17" y="163.068" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="216.916" y="156.718" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="U$3" gate="G$1" x="215.9" y="144.78" smashed="yes">
+<instance part="5V_TX" gate="G$1" x="215.9" y="144.78" smashed="yes">
 <attribute name="NAME" x="217.17" y="147.828" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="216.916" y="141.478" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="U$4" gate="G$1" x="215.9" y="129.54" smashed="yes">
+<instance part="5V_STA" gate="G$1" x="215.9" y="129.54" smashed="yes">
 <attribute name="NAME" x="217.17" y="132.588" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="216.916" y="126.238" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="U$5" gate="G$1" x="215.9" y="114.3" smashed="yes">
+<instance part="5V_MAG" gate="G$1" x="215.9" y="114.3" smashed="yes">
 <attribute name="NAME" x="217.17" y="117.348" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="216.916" y="110.998" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
@@ -862,7 +862,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="55.88" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P"/>
+<pinref part="5V_CAM" gate="G$1" pin="P"/>
 <wire x1="213.36" y1="175.26" x2="210.82" y2="175.26" width="0.1524" layer="91"/>
 <label x="210.82" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -886,7 +886,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="55.88" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P"/>
+<pinref part="5V_LASER" gate="G$1" pin="P"/>
 <wire x1="213.36" y1="160.02" x2="210.82" y2="160.02" width="0.1524" layer="91"/>
 <label x="210.82" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -898,7 +898,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="55.88" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="P"/>
+<pinref part="5V_TX" gate="G$1" pin="P"/>
 <wire x1="213.36" y1="144.78" x2="210.82" y2="144.78" width="0.1524" layer="91"/>
 <label x="210.82" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -910,7 +910,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="55.88" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P"/>
+<pinref part="5V_STA" gate="G$1" pin="P"/>
 <wire x1="213.36" y1="129.54" x2="210.82" y2="129.54" width="0.1524" layer="91"/>
 <label x="210.82" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -922,7 +922,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="55.88" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="P"/>
+<pinref part="5V_MAG" gate="G$1" pin="P"/>
 <wire x1="213.36" y1="114.3" x2="210.82" y2="114.3" width="0.1524" layer="91"/>
 <label x="210.82" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -1109,7 +1109,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="5V-ACT-CAM-SWITCHED" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="O"/>
+<pinref part="5V_CAM" gate="G$1" pin="O"/>
 <wire x1="220.98" y1="177.8" x2="223.52" y2="177.8" width="0.1524" layer="91"/>
 <label x="223.52" y="177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -1121,7 +1121,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="5V-ACT-LASER-SWITCHED" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="O"/>
+<pinref part="5V_LASER" gate="G$1" pin="O"/>
 <wire x1="220.98" y1="162.56" x2="223.52" y2="162.56" width="0.1524" layer="91"/>
 <label x="223.52" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -1133,7 +1133,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="5V-ACT-TX-SWITCHED" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="O"/>
+<pinref part="5V_TX" gate="G$1" pin="O"/>
 <wire x1="220.98" y1="147.32" x2="223.52" y2="147.32" width="0.1524" layer="91"/>
 <label x="223.52" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -1145,7 +1145,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="5V-ACT-MAG-SWITCHED" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="O"/>
+<pinref part="5V_MAG" gate="G$1" pin="O"/>
 <wire x1="220.98" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
 <label x="223.52" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -1181,7 +1181,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="5V-ACT-STA-SWITCHED" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="O"/>
+<pinref part="5V_STA" gate="G$1" pin="O"/>
 <wire x1="220.98" y1="132.08" x2="223.52" y2="132.08" width="0.1524" layer="91"/>
 <label x="223.52" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
