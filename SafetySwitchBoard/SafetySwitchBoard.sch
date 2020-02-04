@@ -581,6 +581,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="USB-DIFF" width="0" drill="0">
+</class>
 </classes>
 <parts>
 <part name="INPUT-DSUB" library="D-Sub Connectors" library_urn="urn:adsk.eagle:library:11816059" deviceset="182-037-213R531" device="" package3d_urn="urn:adsk.eagle:package:11705754/3"/>
@@ -951,7 +953,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="210.82" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="USB-CAM_N" class="0">
+<net name="USB-CAM_N" class="1">
 <segment>
 <pinref part="INPUT-DSUB" gate="G$1" pin="26"/>
 <wire x1="53.34" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
@@ -963,7 +965,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="109.22" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="USB-CAM_P" class="0">
+<net name="USB-CAM_P" class="1">
 <segment>
 <pinref part="INPUT-DSUB" gate="G$1" pin="27"/>
 <wire x1="53.34" y1="60.96" x2="55.88" y2="60.96" width="0.1524" layer="91"/>

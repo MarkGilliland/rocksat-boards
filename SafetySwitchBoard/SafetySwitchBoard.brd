@@ -317,6 +317,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="USB-DIFF" width="0" drill="0">
+</class>
 </classes>
 <designrules name="SparkFun-2-layer-STANDARD_13milDrill">
 <description language="en">&lt;b&gt;SparkFun 2 Layer Design Rule Checks - STANDARD/TIGHT/FAB-LIMIT&lt;/b&gt;
@@ -800,7 +802,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="20.8788" y1="64.0588" x2="24.13" y2="67.31" width="2.286" layer="1"/>
 <wire x1="11.3388" y1="64.0588" x2="20.8788" y2="64.0588" width="2.286" layer="1"/>
 </signal>
-<signal name="USB-CAM_N">
+<signal name="USB-CAM_N" class="1">
 <contactref element="INPUT-DSUB" pad="26"/>
 <contactref element="OUTPUT-DSUB" pad="31"/>
 <wire x1="6.2" y1="43.755" x2="9.585" y2="43.755" width="0.508" layer="16"/>
@@ -812,7 +814,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="13.208" y1="40.132" x2="34.5240375" y2="40.132" width="0.508" layer="16"/>
 <wire x1="37.422" y1="43.6447" x2="40.6797" y2="43.6447" width="0.508" layer="16"/>
 </signal>
-<signal name="USB-CAM_P">
+<signal name="USB-CAM_P" class="1">
 <contactref element="INPUT-DSUB" pad="27"/>
 <contactref element="OUTPUT-DSUB" pad="30"/>
 <wire x1="8.512" y1="40.8747" x2="9.568" y2="40.8747" width="0.508" layer="16"/>
