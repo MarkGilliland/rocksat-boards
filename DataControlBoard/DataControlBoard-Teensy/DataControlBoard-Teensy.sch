@@ -13435,13 +13435,6 @@ Mines was assigned the MSB side</text>
 <label x="142.24" y="157.48" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
-<net name="ANT-SS" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="P17"/>
-<wire x1="139.7" y1="154.94" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
-<label x="142.24" y="154.94" size="1.778" layer="95" align="center-left"/>
-</segment>
-</net>
 <net name="5V-DIG-LASER" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="P21"/>
@@ -13997,6 +13990,27 @@ Mines was assigned the MSB side</text>
 <pinref part="B1" gate="G$1" pin="3.3V"/>
 <wire x1="20.32" y1="68.58" x2="17.78" y2="68.58" width="0.1524" layer="91"/>
 <label x="17.78" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ANT-SS" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="P17"/>
+<wire x1="139.7" y1="154.94" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
+<label x="142.24" y="154.94" size="1.778" layer="95" align="center-left"/>
+</segment>
+</net>
+<net name="CAM-USB_P" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="P18"/>
+<wire x1="139.7" y1="152.4" x2="142.24" y2="152.4" width="0.1524" layer="91"/>
+<label x="142.24" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CAM-USB_N" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="P19"/>
+<wire x1="139.7" y1="149.86" x2="142.24" y2="149.86" width="0.1524" layer="91"/>
+<label x="142.24" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -14596,29 +14610,36 @@ converter Board</text>
 <net name="ANT-SS" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
-<label x="147.32" y="132.08" size="1.778" layer="95" rot="R180"/>
+<label x="147.32" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="149.86" y1="132.08" x2="147.32" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ANT-MOSI" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="3"/>
-<label x="147.32" y="127" size="1.778" layer="95" rot="R180"/>
+<label x="147.32" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="149.86" y1="127" x2="147.32" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ANT-MISO" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="4"/>
-<label x="147.32" y="124.46" size="1.778" layer="95" rot="R180"/>
+<label x="147.32" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="149.86" y1="124.46" x2="147.32" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ANT-SCK" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="5"/>
-<label x="147.32" y="121.92" size="1.778" layer="95" rot="R180"/>
+<label x="147.32" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="149.86" y1="121.92" x2="147.32" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ANT-BUSY" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="129.54" x2="147.32" y2="129.54" width="0.1524" layer="91"/>
+<label x="147.32" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
