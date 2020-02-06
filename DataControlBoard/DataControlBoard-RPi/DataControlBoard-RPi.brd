@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="2.5" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="2.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -95,7 +95,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="no"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="no"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -105,8 +108,10 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="no"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
@@ -172,7 +177,7 @@ Cam</text>
 DataControlBoard-RPi
 Mark Gilliland, Graham Braly
 2019 Mines RockSat-X</text>
-<text x="22.733" y="11.303" size="1.778" layer="25">Rev 1.0</text>
+<text x="24.003" y="11.938" size="1.778" layer="25">Rev 2.0</text>
 <text x="33.782" y="20.828" size="1.016" layer="25" font="vector" rot="R270">Boom 
 Cam 
 USB</text>
@@ -180,7 +185,11 @@ USB</text>
 USB</text>
 <text x="34.798" y="11.43" size="1.016" layer="25" font="vector" rot="R270">Magnet
 USB</text>
-<text x="1.778" y="9.398" size="1.778" layer="51">1   2   3</text>
+<text x="1.778" y="9.398" size="1.27" layer="51">1   2   3</text>
+<wire x1="8.255" y1="29.21" x2="8.255" y2="10.16" width="0.1524" layer="20"/>
+<wire x1="8.255" y1="10.16" x2="22.86" y2="10.16" width="0.1524" layer="20"/>
+<wire x1="22.86" y1="10.16" x2="22.86" y2="29.21" width="0.1524" layer="20"/>
+<wire x1="22.86" y1="29.21" x2="8.255" y2="29.21" width="0.1524" layer="20"/>
 </plain>
 <libraries>
 <library name="RPi-Parts">
@@ -257,8 +266,6 @@ USB</text>
 <pad name="5" x="1.3" y="0.65" drill="0.45" diameter="0.635"/>
 <pad name="S3" x="-1.5" y="-0.93" drill="0.55" diameter="0.79"/>
 <pad name="S4" x="1.5" y="-0.93" drill="0.55" diameter="0.79"/>
-<pad name="S2" x="1.5" y="1.57" drill="0.55" diameter="0.79"/>
-<pad name="S1" x="-1.5" y="1.57" drill="0.55" diameter="0.79"/>
 <pad name="S5" x="-3.325" y="0.03" drill="0.7" diameter="1.016" shape="offset" rot="R270"/>
 <pad name="S6" x="3.325" y="0.03" drill="0.7" diameter="1.016" shape="offset" rot="R270"/>
 <hole x="-2.8" y="1.07" drill="0.8"/>
@@ -271,6 +278,8 @@ USB</text>
 <wire x1="2.5" y1="1.5" x2="3.5" y2="0.5" width="0.127" layer="201"/>
 <wire x1="3.5" y1="0.5" x2="3.5" y2="-1" width="0.127" layer="201"/>
 <wire x1="3.5" y1="-1" x2="-3.5" y2="-1" width="0.127" layer="201"/>
+<hole x="-1.4986" y="1.569975" drill="0.55"/>
+<pad name="P$1" x="1.4986" y="1.56971875" drill="0.55" diameter="0.8128"/>
 </package>
 <package name="LIDAR-PLACEHOLDER">
 <rectangle x1="-8.89" y1="-1.016" x2="8.89" y2="2.54" layer="200"/>
@@ -650,11 +659,9 @@ design rules under a new name.</description>
 <contactref element="J8" pad="5"/>
 <contactref element="J8" pad="S3"/>
 <contactref element="J8" pad="S6"/>
-<contactref element="J8" pad="S2"/>
 <contactref element="J8" pad="S4"/>
 <contactref element="J8" pad="S5"/>
-<contactref element="J8" pad="S1"/>
-<polygon width="0.1524" layer="16">
+<polygon width="0.1524" layer="16" isolate="0.3048">
 <vertex x="66.04" y="0"/>
 <vertex x="0" y="0"/>
 <vertex x="0" y="30.48"/>
@@ -663,55 +670,39 @@ design rules under a new name.</description>
 <contactref element="J5-S-DATA" pad="5"/>
 <contactref element="J5-S-DATA" pad="S3"/>
 <contactref element="J5-S-DATA" pad="S6"/>
-<contactref element="J5-S-DATA" pad="S2"/>
 <contactref element="J5-S-DATA" pad="S4"/>
 <contactref element="J5-S-DATA" pad="S5"/>
-<contactref element="J5-S-DATA" pad="S1"/>
 <contactref element="J3-M-DATA" pad="5"/>
 <contactref element="J3-M-DATA" pad="S3"/>
 <contactref element="J3-M-DATA" pad="S6"/>
-<contactref element="J3-M-DATA" pad="S2"/>
 <contactref element="J3-M-DATA" pad="S4"/>
 <contactref element="J3-M-DATA" pad="S5"/>
-<contactref element="J3-M-DATA" pad="S1"/>
 <contactref element="J1-L-DATA" pad="5"/>
 <contactref element="J1-L-DATA" pad="S3"/>
 <contactref element="J1-L-DATA" pad="S6"/>
-<contactref element="J1-L-DATA" pad="S2"/>
 <contactref element="J1-L-DATA" pad="S4"/>
 <contactref element="J1-L-DATA" pad="S5"/>
-<contactref element="J1-L-DATA" pad="S1"/>
 <contactref element="J2-L-PWR" pad="S3"/>
 <contactref element="J2-L-PWR" pad="S6"/>
-<contactref element="J2-L-PWR" pad="S2"/>
 <contactref element="J2-L-PWR" pad="S4"/>
 <contactref element="J2-L-PWR" pad="S5"/>
-<contactref element="J2-L-PWR" pad="S1"/>
 <contactref element="J2-L-PWR" pad="5"/>
 <contactref element="J4-M-PWR" pad="5"/>
 <contactref element="J4-M-PWR" pad="S3"/>
 <contactref element="J4-M-PWR" pad="S6"/>
-<contactref element="J4-M-PWR" pad="S2"/>
 <contactref element="J4-M-PWR" pad="S4"/>
 <contactref element="J4-M-PWR" pad="S5"/>
-<contactref element="J4-M-PWR" pad="S1"/>
 <contactref element="J6-S-PWR" pad="S3"/>
 <contactref element="J6-S-PWR" pad="S6"/>
-<contactref element="J6-S-PWR" pad="S2"/>
 <contactref element="J6-S-PWR" pad="S4"/>
 <contactref element="J6-S-PWR" pad="S5"/>
-<contactref element="J6-S-PWR" pad="S1"/>
 <contactref element="J6-S-PWR" pad="5"/>
 <contactref element="J1" pad="5"/>
-<contactref element="J1" pad="S1"/>
-<contactref element="J1" pad="S2"/>
 <contactref element="J1" pad="S3"/>
 <contactref element="J1" pad="S4"/>
 <contactref element="J1" pad="S5"/>
 <contactref element="J1" pad="S6"/>
 <contactref element="J2" pad="5"/>
-<contactref element="J2" pad="S1"/>
-<contactref element="J2" pad="S2"/>
 <contactref element="J2" pad="S3"/>
 <contactref element="J2" pad="S4"/>
 <contactref element="J2" pad="S5"/>
@@ -719,6 +710,21 @@ design rules under a new name.</description>
 <contactref element="J3" pad="1"/>
 <contactref element="J3" pad="3"/>
 <contactref element="J3" pad="5"/>
+<polygon width="0.1524" layer="1" isolate="0.3048">
+<vertex x="0" y="30.48"/>
+<vertex x="0" y="0"/>
+<vertex x="66.04" y="0"/>
+<vertex x="66.04" y="30.48"/>
+</polygon>
+<contactref element="J1-L-DATA" pad="P$1"/>
+<contactref element="J2-L-PWR" pad="P$1"/>
+<contactref element="J3-M-DATA" pad="P$1"/>
+<contactref element="J4-M-PWR" pad="P$1"/>
+<contactref element="J5-S-DATA" pad="P$1"/>
+<contactref element="J6-S-PWR" pad="P$1"/>
+<contactref element="J8" pad="P$1"/>
+<contactref element="J1" pad="P$1"/>
+<contactref element="J2" pad="P$1"/>
 </signal>
 <signal name="5V-DIG-MAG">
 <contactref element="J7" pad="1"/>

@@ -95,7 +95,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="no"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="no"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -105,8 +108,10 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="no"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
@@ -315,8 +320,6 @@ DIN A4, landscape with location and doc. field</description>
 <pad name="5" x="1.3" y="0.65" drill="0.45" diameter="0.635"/>
 <pad name="S3" x="-1.5" y="-0.93" drill="0.55" diameter="0.79"/>
 <pad name="S4" x="1.5" y="-0.93" drill="0.55" diameter="0.79"/>
-<pad name="S2" x="1.5" y="1.57" drill="0.55" diameter="0.79"/>
-<pad name="S1" x="-1.5" y="1.57" drill="0.55" diameter="0.79"/>
 <pad name="S5" x="-3.325" y="0.03" drill="0.7" diameter="1.016" shape="offset" rot="R270"/>
 <pad name="S6" x="3.325" y="0.03" drill="0.7" diameter="1.016" shape="offset" rot="R270"/>
 <hole x="-2.8" y="1.07" drill="0.8"/>
@@ -329,6 +332,8 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="2.5" y1="1.5" x2="3.5" y2="0.5" width="0.127" layer="201"/>
 <wire x1="3.5" y1="0.5" x2="3.5" y2="-1" width="0.127" layer="201"/>
 <wire x1="3.5" y1="-1" x2="-3.5" y2="-1" width="0.127" layer="201"/>
+<hole x="-1.4986" y="1.569975" drill="0.55"/>
+<pad name="P$1" x="1.4986" y="1.56971875" drill="0.55" diameter="0.8128"/>
 </package>
 <package name="LIDAR-PLACEHOLDER">
 <rectangle x1="-8.89" y1="-1.016" x2="8.89" y2="2.54" layer="200"/>
@@ -423,7 +428,7 @@ Special UART/USB Bridge</text>
 <connect gate="G$1" pin="D-" pad="2"/>
 <connect gate="G$1" pin="GND" pad="5"/>
 <connect gate="G$1" pin="ID" pad="4"/>
-<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4 S5 S6"/>
+<connect gate="G$1" pin="SHIELD" pad="P$1 S3 S4 S5 S6"/>
 <connect gate="G$1" pin="VBUS" pad="1"/>
 </connects>
 <technologies>

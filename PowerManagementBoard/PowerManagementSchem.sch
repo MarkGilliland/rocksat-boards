@@ -14435,11 +14435,6 @@ Mark Gilliland</text>
 <wire x1="152.4" y1="50.8" x2="149.86" y2="50.8" width="0.1524" layer="91"/>
 <label x="149.86" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="J8" gate="G$1" pin="25"/>
-<wire x1="152.4" y1="48.26" x2="149.86" y2="48.26" width="0.1524" layer="91"/>
-<label x="149.86" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="5V-DIG-LASER" class="0">
 <segment>
@@ -14990,6 +14985,25 @@ Mark Gilliland</text>
 <pinref part="J8" gate="G$1" pin="28"/>
 <wire x1="152.4" y1="40.64" x2="149.86" y2="40.64" width="0.1524" layer="91"/>
 <label x="149.86" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ANT-BUSY" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="19"/>
+<wire x1="35.56" y1="10.16" x2="33.02" y2="10.16" width="0.1524" layer="91"/>
+<label x="33.02" y="10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ANT-BUSY_2" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="20"/>
+<wire x1="111.76" y1="10.16" x2="114.3" y2="10.16" width="0.1524" layer="91"/>
+<label x="114.3" y="10.16" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J8" gate="G$1" pin="25"/>
+<wire x1="152.4" y1="48.26" x2="149.86" y2="48.26" width="0.1524" layer="91"/>
+<label x="149.86" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
