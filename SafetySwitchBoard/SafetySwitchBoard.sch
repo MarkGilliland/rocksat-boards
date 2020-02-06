@@ -581,7 +581,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="USB-DIFF" width="0" drill="0">
+<class number="1" name="USB-DIFF" width="0.4064" drill="0">
+<clearance class="1" value="0.254"/>
 </class>
 </classes>
 <parts>
