@@ -12062,7 +12062,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0"/>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0"/>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0"/>
-<part name="H5" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0"/>
 <part name="H6" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0"/>
 <part name="Q9" library="usbMotorDriverParts" deviceset="PMOSFET" device="" package3d_urn="urn:adsk.eagle:package:38459/1"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.01Ω"/>
@@ -12369,10 +12368,6 @@ and 1 wire per position.</text>
 <instance part="H4" gate="G$1" x="254" y="106.68" smashed="yes">
 <attribute name="NAME" x="256.032" y="107.2642" size="1.778" layer="95"/>
 <attribute name="VALUE" x="256.032" y="104.2162" size="1.778" layer="96"/>
-</instance>
-<instance part="H5" gate="G$1" x="254" y="99.06" smashed="yes">
-<attribute name="NAME" x="256.032" y="99.6442" size="1.778" layer="95"/>
-<attribute name="VALUE" x="256.032" y="96.5962" size="1.778" layer="96"/>
 </instance>
 <instance part="H6" gate="G$1" x="254" y="91.44" smashed="yes">
 <attribute name="NAME" x="256.032" y="92.0242" size="1.778" layer="95"/>
