@@ -12781,6 +12781,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="USB-Diff" width="0.254" drill="0">
+<clearance class="0" value="0.3048"/>
+<clearance class="1" value="0.1524"/>
+</class>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
@@ -12873,6 +12877,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="JP2" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="TP21" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
+<part name="TP22" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1" value="TPPAD1-13"/>
+<part name="TP23" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1" value="TPPAD1-13"/>
 </parts>
 <sheets>
 <sheet>
@@ -13993,14 +13999,14 @@ Mines was assigned the MSB side</text>
 <label x="142.24" y="154.94" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
-<net name="CAM-USB_P" class="0">
+<net name="CAM-USB_P" class="1">
 <segment>
 <pinref part="J2" gate="G$1" pin="P18"/>
 <wire x1="139.7" y1="152.4" x2="142.24" y2="152.4" width="0.1524" layer="91"/>
 <label x="142.24" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CAM-USB_N" class="0">
+<net name="CAM-USB_N" class="1">
 <segment>
 <pinref part="J2" gate="G$1" pin="P19"/>
 <wire x1="139.7" y1="149.86" x2="142.24" y2="149.86" width="0.1524" layer="91"/>
@@ -14182,6 +14188,14 @@ converter Board</text>
 <instance part="TP21" gate="G$1" x="157.48" y="55.88" smashed="yes">
 <attribute name="NAME" x="156.21" y="57.15" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="158.75" y="54.61" size="1.778" layer="97"/>
+</instance>
+<instance part="TP22" gate="G$1" x="127" y="101.6" smashed="yes">
+<attribute name="NAME" x="125.73" y="102.87" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="128.27" y="100.33" size="1.778" layer="97"/>
+</instance>
+<instance part="TP23" gate="G$1" x="129.54" y="96.52" smashed="yes">
+<attribute name="NAME" x="128.27" y="97.79" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="130.81" y="95.25" size="1.778" layer="97"/>
 </instance>
 </instances>
 <busses>
@@ -14646,6 +14660,20 @@ converter Board</text>
 <pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="129.54" x2="147.32" y2="129.54" width="0.1524" layer="91"/>
 <label x="147.32" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CAM-USB_P" class="1">
+<segment>
+<pinref part="TP22" gate="G$1" pin="TP"/>
+<wire x1="127" y1="99.06" x2="124.46" y2="99.06" width="0.1524" layer="91"/>
+<label x="124.46" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CAM-USB_N" class="1">
+<segment>
+<pinref part="TP23" gate="G$1" pin="TP"/>
+<wire x1="129.54" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
+<label x="124.46" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
