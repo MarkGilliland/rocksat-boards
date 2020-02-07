@@ -1,0 +1,1092 @@
+Set wire_bend 2;
+Layer 125 '_tNames';
+Layer 126 '_bNames';
+layer 100 'Muster';
+set color_layer 100 7;
+layer 101 'Patch_Top';
+set color_layer 101 12;
+layer 102 'Vscore';
+set color_layer 102 7;
+layer 103 'tMap';
+set color_layer 103 7;
+layer 104 'Name';
+set color_layer 104 16;
+layer 105 'tPlate';
+set color_layer 105 7;
+layer 106 'bPlate';
+set color_layer 106 7;
+layer 107 'Crop';
+set color_layer 107 7;
+layer 108 'tplace-old';
+set color_layer 108 10;
+layer 109 'ref-old';
+set color_layer 109 11;
+layer 110 'fp0';
+set color_layer 110 7;
+layer 111 'LPC17xx';
+set color_layer 111 7;
+layer 112 'tSilk';
+set color_layer 112 7;
+layer 113 'IDFDebug';
+set color_layer 113 7;
+layer 114 'Badge_Outline';
+set color_layer 114 11;
+layer 115 'ReferenceISLANDS';
+set color_layer 115 7;
+layer 116 'Patch_BOT';
+set color_layer 116 9;
+layer 117 'BACKMAAT1';
+set color_layer 117 7;
+layer 118 'Rect_Pads';
+set color_layer 118 7;
+layer 119 'KAP_TEKEN';
+set color_layer 119 7;
+layer 120 'KAP_MAAT1';
+set color_layer 120 7;
+layer 121 '_tsilk';
+set color_layer 121 7;
+layer 122 '_bsilk';
+set color_layer 122 7;
+layer 123 'tTestmark';
+set color_layer 123 7;
+layer 124 'bTestmark';
+set color_layer 124 7;
+layer 125 '_tNames';
+set color_layer 125 7;
+layer 126 '_bNames';
+set color_layer 126 7;
+layer 127 '_tValues';
+set color_layer 127 7;
+layer 128 '_bValues';
+set color_layer 128 7;
+layer 129 'Mask';
+set color_layer 129 7;
+layer 130 'SMDSTROOK';
+set color_layer 130 7;
+layer 131 'tAdjust';
+set color_layer 131 7;
+layer 132 'bAdjust';
+set color_layer 132 7;
+layer 133 'bottom_silk';
+set color_layer 133 7;
+layer 144 'Drill_legend';
+set color_layer 144 7;
+layer 150 'Notes';
+set color_layer 150 7;
+layer 151 'HeatSink';
+set color_layer 151 7;
+layer 152 '_bDocu';
+set color_layer 152 7;
+layer 153 'FabDoc1';
+set color_layer 153 7;
+layer 154 'FabDoc2';
+set color_layer 154 7;
+layer 155 'FabDoc3';
+set color_layer 155 7;
+layer 199 'Contour';
+set color_layer 199 7;
+layer 200 'RPI-DIMS';
+set color_layer 200 39;
+layer 201 'RPI-PORTS';
+set color_layer 201 22;
+layer 202 'RPI-Mounting';
+set color_layer 202 23;
+layer 203 '203bmp';
+set color_layer 203 4;
+layer 204 '204bmp';
+set color_layer 204 5;
+layer 205 '205bmp';
+set color_layer 205 6;
+layer 206 '206bmp';
+set color_layer 206 7;
+layer 207 '207bmp';
+set color_layer 207 8;
+layer 208 '208bmp';
+set color_layer 208 9;
+layer 209 '209bmp';
+set color_layer 209 7;
+layer 210 '210bmp';
+set color_layer 210 7;
+layer 211 '211bmp';
+set color_layer 211 7;
+layer 212 '212bmp';
+set color_layer 212 7;
+layer 213 '213bmp';
+set color_layer 213 7;
+layer 214 '214bmp';
+set color_layer 214 7;
+layer 215 '215bmp';
+set color_layer 215 7;
+layer 216 '216bmp';
+set color_layer 216 7;
+layer 217 '217bmp';
+set color_layer 217 18;
+layer 218 '218bmp';
+set color_layer 218 19;
+layer 219 '219bmp';
+set color_layer 219 20;
+layer 220 '220bmp';
+set color_layer 220 21;
+layer 221 '221bmp';
+set color_layer 221 22;
+layer 222 '222bmp';
+set color_layer 222 23;
+layer 223 '223bmp';
+set color_layer 223 24;
+layer 224 '224bmp';
+set color_layer 224 25;
+layer 225 '225bmp';
+set color_layer 225 7;
+layer 226 '226bmp';
+set color_layer 226 7;
+layer 227 '227bmp';
+set color_layer 227 7;
+layer 228 '228bmp';
+set color_layer 228 7;
+layer 229 '229bmp';
+set color_layer 229 7;
+layer 230 '230bmp';
+set color_layer 230 7;
+layer 231 '231bmp';
+set color_layer 231 7;
+layer 232 'Eagle3D_PG2';
+set color_layer 232 7;
+layer 233 'Eagle3D_PG3';
+set color_layer 233 7;
+layer 248 'Housing';
+set color_layer 248 7;
+layer 249 'Edge';
+set color_layer 249 7;
+layer 250 'Descript';
+set color_layer 250 3;
+layer 251 'SMDround';
+set color_layer 251 12;
+layer 254 'cooling';
+set color_layer 254 7;
+layer 255 'routoute';
+set color_layer 255 7;
+add AMPHENOL_SFW15R-1STE1LF@RPi-Parts J2x11 R180.000000 (450.000000 400.000000);
+add DB15-BOARD-EDGE@RPi-Parts U$2x11 R180.000000 (450.000000 10.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM1x11' 10.000000 (827.952756 108.425197) (827.952756 297.637795);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM1x11' 10.000000 (827.952756 297.637795) (725.590551 400.000000);
+change drill 13.779528;
+via 'CAM2x11' 33.779528 round (770.000000 250.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM2x11' 10.000000 (774.015748 112.755906) (774.015748 245.984252);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM2x11' 10.000000 (774.015748 245.984252) (770.000000 250.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM2x11' 10.000000 (686.220472 333.779528) (770.000000 250.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM2x11' 10.000000 (686.220472 333.779528) (686.220472 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM3x11' 10.000000 (720.078740 108.425197) (720.078740 229.921260);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM3x11' 10.000000 (646.850394 303.149606) (646.850394 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM3x11' 10.000000 (646.850394 303.149606) (720.078740 229.921260);
+change drill 13.779528;
+via 'CAM4x11' 33.779528 round (650.000000 250.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM4x11' 10.000000 (666.141732 112.755906) (666.141732 233.858268);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM4x11' 10.000000 (666.141732 233.858268) (650.000000 250.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM4x11' 10.000000 (650.000000 250.000000) (607.480315 292.519685);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM4x11' 10.000000 (607.480315 292.519685) (607.480315 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM5x11' 10.000000 (612.204724 108.425197) (612.204724 237.795276);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM5x11' 10.000000 (568.110236 281.889764) (568.110236 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM5x11' 10.000000 (612.204724 237.795276) (568.110236 281.889764);
+change drill 13.779528;
+via 'CAM6x11' 33.779528 round (550.000000 250.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM6x11' 10.000000 (558.267717 112.755906) (558.267717 241.732283);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM6x11' 10.000000 (558.267717 241.732283) (550.000000 250.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM6x11' 10.000000 (550.000000 250.000000) (528.740157 271.259843);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM6x11' 10.000000 (528.740157 271.259843) (528.740157 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM7x11' 10.000000 (504.330709 108.425197) (504.330709 245.669291);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM7x11' 10.000000 (489.370079 260.629921) (489.370079 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM7x11' 10.000000 (504.330709 245.669291) (489.370079 260.629921);
+change drill 13.779528;
+via 'CAM8x11' 33.779528 round (450.000000 250.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM8x11' 10.000000 (450.393701 112.755906) (450.393701 249.606299);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM8x11' 10.000000 (450.393701 249.606299) (450.000000 250.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM8x11' 10.000000 (450.000000 250.000000) (450.000000 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM9x11' 10.000000 (396.456693 108.425197) (396.456693 246.456693);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM9x11' 10.000000 (410.629921 260.629921) (410.629921 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM9x11' 10.000000 (396.456693 246.456693) (410.629921 260.629921);
+change drill 13.779528;
+via 'CAM10x11' 33.779528 round (350.000000 250.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM10x11' 10.000000 (342.519685 112.755906) (342.519685 242.519685);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM10x11' 10.000000 (342.519685 242.519685) (350.000000 250.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM10x11' 10.000000 (350.000000 250.000000) (371.259843 271.259843);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM10x11' 10.000000 (371.259843 271.259843) (371.259843 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM11x11' 10.000000 (288.582677 108.425197) (288.582677 248.582677);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM11x11' 10.000000 (331.889764 291.889764) (331.889764 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM11x11' 10.000000 (288.582677 248.582677) (331.889764 291.889764);
+change drill 13.779528;
+via 'CAM12x11' 33.779528 round (240.000000 250.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM12x11' 10.000000 (234.645669 112.755906) (234.645669 244.645669);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM12x11' 10.000000 (234.645669 244.645669) (240.000000 250.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM12x11' 10.000000 (240.000000 250.000000) (292.519685 302.519685);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM12x11' 10.000000 (292.519685 302.519685) (292.519685 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM13x11' 10.000000 (180.708661 108.425197) (180.708661 240.708661);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM13x11' 10.000000 (253.149606 313.149606) (253.149606 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM13x11' 10.000000 (180.708661 240.708661) (253.149606 313.149606);
+change drill 13.779528;
+via 'CAM14x11' 33.779528 round (130.000000 250.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM14x11' 10.000000 (126.771654 112.755906) (126.771654 246.771654);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM14x11' 10.000000 (126.771654 246.771654) (130.000000 250.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM14x11' 10.000000 (130.000000 250.000000) (215.000000 335.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM14x11' 10.000000 (215.000000 398.779528) (215.000000 335.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM14x11' 10.000000 (213.779528 400.000000) (215.000000 398.779528);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM15x11' 10.000000 (72.834646 108.425197) (72.834646 298.425197);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM15x11' 10.000000 (72.834646 298.425197) (174.409449 400.000000);
+change layer 20;
+change style CONTINUOUS;
+line 0.000000 (0.000000 0.000000) (899.212598 0.000000);
+change layer 20;
+change style CONTINUOUS;
+line 0.000000 (899.212598 0.000000) (899.212598 687.007874);
+change layer 20;
+change style CONTINUOUS;
+line 0.000000 (899.212598 687.007874) (0.000000 687.007874);
+change layer 20;
+change style CONTINUOUS;
+line 0.000000 (0.000000 687.007874) (0.000000 0.000000);
+change layer 51;
+change ratio 8;
+change size 50.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'Estimated Clock Skew: 3.8picoseconds' R0.000000 (940.000000 290.000000);
+signal 'CAM1x11'	'J2x11'	'1'\
+	'U$2x11'	'P8'\
+;
+signal 'CAM2x11'	'J2x11'	'2'\
+	'U$2x11'	'P15'\
+;
+signal 'CAM3x11'	'J2x11'	'3'\
+	'U$2x11'	'P7'\
+;
+signal 'CAM4x11'	'J2x11'	'4'\
+	'U$2x11'	'P14'\
+;
+signal 'CAM5x11'	'J2x11'	'5'\
+	'U$2x11'	'P6'\
+;
+signal 'CAM6x11'	'J2x11'	'6'\
+	'U$2x11'	'P13'\
+;
+signal 'CAM7x11'	'J2x11'	'7'\
+	'U$2x11'	'P5'\
+;
+signal 'CAM8x11'	'J2x11'	'8'\
+	'U$2x11'	'P12'\
+;
+signal 'CAM9x11'	'J2x11'	'9'\
+	'U$2x11'	'P4'\
+;
+signal 'CAM10x11'	'J2x11'	'10'\
+	'U$2x11'	'P11'\
+;
+signal 'CAM11x11'	'J2x11'	'11'\
+	'U$2x11'	'P3'\
+;
+signal 'CAM12x11'	'J2x11'	'12'\
+	'U$2x11'	'P10'\
+;
+signal 'CAM13x11'	'J2x11'	'13'\
+	'U$2x11'	'P2'\
+;
+signal 'CAM14x11'	'J2x11'	'14'\
+	'U$2x11'	'P9'\
+;
+signal 'CAM15x11'	'J2x11'	'15'\
+	'U$2x11'	'P1'\
+;
+add AMPHENOL_SFW15R-1STE1LF@RPi-Parts J2x12 R180.000000 (450.000000 1200.000000);
+add DB15-BOARD-EDGE@RPi-Parts U$2x12 R180.000000 (450.000000 810.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM1x12' 10.000000 (827.952756 908.425197) (827.952756 1097.637795);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM1x12' 10.000000 (827.952756 1097.637795) (725.590551 1200.000000);
+change drill 13.779528;
+via 'CAM2x12' 33.779528 round (770.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM2x12' 10.000000 (774.015748 912.755906) (774.015748 1045.984252);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM2x12' 10.000000 (774.015748 1045.984252) (770.000000 1050.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM2x12' 10.000000 (686.220472 1133.779528) (770.000000 1050.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM2x12' 10.000000 (686.220472 1133.779528) (686.220472 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM3x12' 10.000000 (720.078740 908.425197) (720.078740 1029.921260);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM3x12' 10.000000 (646.850394 1103.149606) (646.850394 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM3x12' 10.000000 (646.850394 1103.149606) (720.078740 1029.921260);
+change drill 13.779528;
+via 'CAM4x12' 33.779528 round (650.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM4x12' 10.000000 (666.141732 912.755906) (666.141732 1033.858268);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM4x12' 10.000000 (666.141732 1033.858268) (650.000000 1050.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM4x12' 10.000000 (650.000000 1050.000000) (607.480315 1092.519685);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM4x12' 10.000000 (607.480315 1092.519685) (607.480315 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM5x12' 10.000000 (612.204724 908.425197) (612.204724 1037.795276);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM5x12' 10.000000 (568.110236 1081.889764) (568.110236 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM5x12' 10.000000 (612.204724 1037.795276) (568.110236 1081.889764);
+change drill 13.779528;
+via 'CAM6x12' 33.779528 round (550.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM6x12' 10.000000 (558.267717 912.755906) (558.267717 1041.732283);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM6x12' 10.000000 (558.267717 1041.732283) (550.000000 1050.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM6x12' 10.000000 (550.000000 1050.000000) (528.740157 1071.259843);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM6x12' 10.000000 (528.740157 1071.259843) (528.740157 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM7x12' 10.000000 (504.330709 908.425197) (504.330709 1045.669291);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM7x12' 10.000000 (489.370079 1060.629921) (489.370079 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM7x12' 10.000000 (504.330709 1045.669291) (489.370079 1060.629921);
+change drill 13.779528;
+via 'CAM8x12' 33.779528 round (450.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM8x12' 10.000000 (450.393701 912.755906) (450.393701 1049.606299);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM8x12' 10.000000 (450.393701 1049.606299) (450.000000 1050.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM8x12' 10.000000 (450.000000 1050.000000) (450.000000 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM9x12' 10.000000 (396.456693 908.425197) (396.456693 1046.456693);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM9x12' 10.000000 (410.629921 1060.629921) (410.629921 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM9x12' 10.000000 (396.456693 1046.456693) (410.629921 1060.629921);
+change drill 13.779528;
+via 'CAM10x12' 33.779528 round (350.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM10x12' 10.000000 (342.519685 912.755906) (342.519685 1042.519685);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM10x12' 10.000000 (342.519685 1042.519685) (350.000000 1050.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM10x12' 10.000000 (350.000000 1050.000000) (371.259843 1071.259843);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM10x12' 10.000000 (371.259843 1071.259843) (371.259843 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM11x12' 10.000000 (288.582677 908.425197) (288.582677 1048.582677);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM11x12' 10.000000 (331.889764 1091.889764) (331.889764 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM11x12' 10.000000 (288.582677 1048.582677) (331.889764 1091.889764);
+change drill 13.779528;
+via 'CAM12x12' 33.779528 round (240.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM12x12' 10.000000 (234.645669 912.755906) (234.645669 1044.645669);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM12x12' 10.000000 (234.645669 1044.645669) (240.000000 1050.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM12x12' 10.000000 (240.000000 1050.000000) (292.519685 1102.519685);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM12x12' 10.000000 (292.519685 1102.519685) (292.519685 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM13x12' 10.000000 (180.708661 908.425197) (180.708661 1040.708661);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM13x12' 10.000000 (253.149606 1113.149606) (253.149606 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM13x12' 10.000000 (180.708661 1040.708661) (253.149606 1113.149606);
+change drill 13.779528;
+via 'CAM14x12' 33.779528 round (130.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM14x12' 10.000000 (126.771654 912.755906) (126.771654 1046.771654);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM14x12' 10.000000 (126.771654 1046.771654) (130.000000 1050.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM14x12' 10.000000 (130.000000 1050.000000) (215.000000 1135.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM14x12' 10.000000 (215.000000 1198.779528) (215.000000 1135.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM14x12' 10.000000 (213.779528 1200.000000) (215.000000 1198.779528);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM15x12' 10.000000 (72.834646 908.425197) (72.834646 1098.425197);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM15x12' 10.000000 (72.834646 1098.425197) (174.409449 1200.000000);
+change layer 20;
+change style CONTINUOUS;
+line 0.000000 (0.000000 800.000000) (899.212598 800.000000);
+change layer 20;
+change style CONTINUOUS;
+line 0.000000 (899.212598 800.000000) (899.212598 1487.007874);
+change layer 20;
+change style CONTINUOUS;
+line 0.000000 (899.212598 1487.007874) (0.000000 1487.007874);
+change layer 20;
+change style CONTINUOUS;
+line 0.000000 (0.000000 1487.007874) (0.000000 800.000000);
+change layer 51;
+change ratio 8;
+change size 50.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'Estimated Clock Skew: 3.8picoseconds' R0.000000 (940.000000 1090.000000);
+signal 'CAM1x12'	'J2x12'	'1'\
+	'U$2x12'	'P8'\
+;
+signal 'CAM2x12'	'J2x12'	'2'\
+	'U$2x12'	'P15'\
+;
+signal 'CAM3x12'	'J2x12'	'3'\
+	'U$2x12'	'P7'\
+;
+signal 'CAM4x12'	'J2x12'	'4'\
+	'U$2x12'	'P14'\
+;
+signal 'CAM5x12'	'J2x12'	'5'\
+	'U$2x12'	'P6'\
+;
+signal 'CAM6x12'	'J2x12'	'6'\
+	'U$2x12'	'P13'\
+;
+signal 'CAM7x12'	'J2x12'	'7'\
+	'U$2x12'	'P5'\
+;
+signal 'CAM8x12'	'J2x12'	'8'\
+	'U$2x12'	'P12'\
+;
+signal 'CAM9x12'	'J2x12'	'9'\
+	'U$2x12'	'P4'\
+;
+signal 'CAM10x12'	'J2x12'	'10'\
+	'U$2x12'	'P11'\
+;
+signal 'CAM11x12'	'J2x12'	'11'\
+	'U$2x12'	'P3'\
+;
+signal 'CAM12x12'	'J2x12'	'12'\
+	'U$2x12'	'P10'\
+;
+signal 'CAM13x12'	'J2x12'	'13'\
+	'U$2x12'	'P2'\
+;
+signal 'CAM14x12'	'J2x12'	'14'\
+	'U$2x12'	'P9'\
+;
+signal 'CAM15x12'	'J2x12'	'15'\
+	'U$2x12'	'P1'\
+;
+add AMPHENOL_SFW15R-1STE1LF@RPi-Parts J2x21 R180.000000 (1450.000000 400.000000);
+add DB15-BOARD-EDGE@RPi-Parts U$2x21 R180.000000 (1450.000000 10.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM1x21' 10.000000 (1827.952756 108.425197) (1827.952756 297.637795);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM1x21' 10.000000 (1827.952756 297.637795) (1725.590551 400.000000);
+change drill 13.779528;
+via 'CAM2x21' 33.779528 round (1770.000000 250.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM2x21' 10.000000 (1774.015748 112.755906) (1774.015748 245.984252);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM2x21' 10.000000 (1774.015748 245.984252) (1770.000000 250.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM2x21' 10.000000 (1686.220472 333.779528) (1770.000000 250.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM2x21' 10.000000 (1686.220472 333.779528) (1686.220472 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM3x21' 10.000000 (1720.078740 108.425197) (1720.078740 229.921260);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM3x21' 10.000000 (1646.850394 303.149606) (1646.850394 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM3x21' 10.000000 (1646.850394 303.149606) (1720.078740 229.921260);
+change drill 13.779528;
+via 'CAM4x21' 33.779528 round (1650.000000 250.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM4x21' 10.000000 (1666.141732 112.755906) (1666.141732 233.858268);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM4x21' 10.000000 (1666.141732 233.858268) (1650.000000 250.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM4x21' 10.000000 (1650.000000 250.000000) (1607.480315 292.519685);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM4x21' 10.000000 (1607.480315 292.519685) (1607.480315 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM5x21' 10.000000 (1612.204724 108.425197) (1612.204724 237.795276);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM5x21' 10.000000 (1568.110236 281.889764) (1568.110236 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM5x21' 10.000000 (1612.204724 237.795276) (1568.110236 281.889764);
+change drill 13.779528;
+via 'CAM6x21' 33.779528 round (1550.000000 250.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM6x21' 10.000000 (1558.267717 112.755906) (1558.267717 241.732283);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM6x21' 10.000000 (1558.267717 241.732283) (1550.000000 250.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM6x21' 10.000000 (1550.000000 250.000000) (1528.740157 271.259843);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM6x21' 10.000000 (1528.740157 271.259843) (1528.740157 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM7x21' 10.000000 (1504.330709 108.425197) (1504.330709 245.669291);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM7x21' 10.000000 (1489.370079 260.629921) (1489.370079 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM7x21' 10.000000 (1504.330709 245.669291) (1489.370079 260.629921);
+change drill 13.779528;
+via 'CAM8x21' 33.779528 round (1450.000000 250.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM8x21' 10.000000 (1450.393701 112.755906) (1450.393701 249.606299);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM8x21' 10.000000 (1450.393701 249.606299) (1450.000000 250.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM8x21' 10.000000 (1450.000000 250.000000) (1450.000000 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM9x21' 10.000000 (1396.456693 108.425197) (1396.456693 246.456693);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM9x21' 10.000000 (1410.629921 260.629921) (1410.629921 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM9x21' 10.000000 (1396.456693 246.456693) (1410.629921 260.629921);
+change drill 13.779528;
+via 'CAM10x21' 33.779528 round (1350.000000 250.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM10x21' 10.000000 (1342.519685 112.755906) (1342.519685 242.519685);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM10x21' 10.000000 (1342.519685 242.519685) (1350.000000 250.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM10x21' 10.000000 (1350.000000 250.000000) (1371.259843 271.259843);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM10x21' 10.000000 (1371.259843 271.259843) (1371.259843 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM11x21' 10.000000 (1288.582677 108.425197) (1288.582677 248.582677);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM11x21' 10.000000 (1331.889764 291.889764) (1331.889764 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM11x21' 10.000000 (1288.582677 248.582677) (1331.889764 291.889764);
+change drill 13.779528;
+via 'CAM12x21' 33.779528 round (1240.000000 250.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM12x21' 10.000000 (1234.645669 112.755906) (1234.645669 244.645669);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM12x21' 10.000000 (1234.645669 244.645669) (1240.000000 250.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM12x21' 10.000000 (1240.000000 250.000000) (1292.519685 302.519685);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM12x21' 10.000000 (1292.519685 302.519685) (1292.519685 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM13x21' 10.000000 (1180.708661 108.425197) (1180.708661 240.708661);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM13x21' 10.000000 (1253.149606 313.149606) (1253.149606 400.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM13x21' 10.000000 (1180.708661 240.708661) (1253.149606 313.149606);
+change drill 13.779528;
+via 'CAM14x21' 33.779528 round (1130.000000 250.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM14x21' 10.000000 (1126.771654 112.755906) (1126.771654 246.771654);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM14x21' 10.000000 (1126.771654 246.771654) (1130.000000 250.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM14x21' 10.000000 (1130.000000 250.000000) (1215.000000 335.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM14x21' 10.000000 (1215.000000 398.779528) (1215.000000 335.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM14x21' 10.000000 (1213.779528 400.000000) (1215.000000 398.779528);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM15x21' 10.000000 (1072.834646 108.425197) (1072.834646 298.425197);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM15x21' 10.000000 (1072.834646 298.425197) (1174.409449 400.000000);
+change layer 20;
+change style CONTINUOUS;
+line 0.000000 (1000.000000 0.000000) (1899.212598 0.000000);
+change layer 20;
+change style CONTINUOUS;
+line 0.000000 (1899.212598 0.000000) (1899.212598 687.007874);
+change layer 20;
+change style CONTINUOUS;
+line 0.000000 (1899.212598 687.007874) (1000.000000 687.007874);
+change layer 20;
+change style CONTINUOUS;
+line 0.000000 (1000.000000 687.007874) (1000.000000 0.000000);
+change layer 51;
+change ratio 8;
+change size 50.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'Estimated Clock Skew: 3.8picoseconds' R0.000000 (1940.000000 290.000000);
+signal 'CAM1x21'	'J2x21'	'1'\
+	'U$2x21'	'P8'\
+;
+signal 'CAM2x21'	'J2x21'	'2'\
+	'U$2x21'	'P15'\
+;
+signal 'CAM3x21'	'J2x21'	'3'\
+	'U$2x21'	'P7'\
+;
+signal 'CAM4x21'	'J2x21'	'4'\
+	'U$2x21'	'P14'\
+;
+signal 'CAM5x21'	'J2x21'	'5'\
+	'U$2x21'	'P6'\
+;
+signal 'CAM6x21'	'J2x21'	'6'\
+	'U$2x21'	'P13'\
+;
+signal 'CAM7x21'	'J2x21'	'7'\
+	'U$2x21'	'P5'\
+;
+signal 'CAM8x21'	'J2x21'	'8'\
+	'U$2x21'	'P12'\
+;
+signal 'CAM9x21'	'J2x21'	'9'\
+	'U$2x21'	'P4'\
+;
+signal 'CAM10x21'	'J2x21'	'10'\
+	'U$2x21'	'P11'\
+;
+signal 'CAM11x21'	'J2x21'	'11'\
+	'U$2x21'	'P3'\
+;
+signal 'CAM12x21'	'J2x21'	'12'\
+	'U$2x21'	'P10'\
+;
+signal 'CAM13x21'	'J2x21'	'13'\
+	'U$2x21'	'P2'\
+;
+signal 'CAM14x21'	'J2x21'	'14'\
+	'U$2x21'	'P9'\
+;
+signal 'CAM15x21'	'J2x21'	'15'\
+	'U$2x21'	'P1'\
+;
+add AMPHENOL_SFW15R-1STE1LF@RPi-Parts J2x22 R180.000000 (1450.000000 1200.000000);
+add DB15-BOARD-EDGE@RPi-Parts U$2x22 R180.000000 (1450.000000 810.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM1x22' 10.000000 (1827.952756 908.425197) (1827.952756 1097.637795);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM1x22' 10.000000 (1827.952756 1097.637795) (1725.590551 1200.000000);
+change drill 13.779528;
+via 'CAM2x22' 33.779528 round (1770.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM2x22' 10.000000 (1774.015748 912.755906) (1774.015748 1045.984252);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM2x22' 10.000000 (1774.015748 1045.984252) (1770.000000 1050.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM2x22' 10.000000 (1686.220472 1133.779528) (1770.000000 1050.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM2x22' 10.000000 (1686.220472 1133.779528) (1686.220472 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM3x22' 10.000000 (1720.078740 908.425197) (1720.078740 1029.921260);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM3x22' 10.000000 (1646.850394 1103.149606) (1646.850394 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM3x22' 10.000000 (1646.850394 1103.149606) (1720.078740 1029.921260);
+change drill 13.779528;
+via 'CAM4x22' 33.779528 round (1650.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM4x22' 10.000000 (1666.141732 912.755906) (1666.141732 1033.858268);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM4x22' 10.000000 (1666.141732 1033.858268) (1650.000000 1050.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM4x22' 10.000000 (1650.000000 1050.000000) (1607.480315 1092.519685);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM4x22' 10.000000 (1607.480315 1092.519685) (1607.480315 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM5x22' 10.000000 (1612.204724 908.425197) (1612.204724 1037.795276);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM5x22' 10.000000 (1568.110236 1081.889764) (1568.110236 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM5x22' 10.000000 (1612.204724 1037.795276) (1568.110236 1081.889764);
+change drill 13.779528;
+via 'CAM6x22' 33.779528 round (1550.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM6x22' 10.000000 (1558.267717 912.755906) (1558.267717 1041.732283);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM6x22' 10.000000 (1558.267717 1041.732283) (1550.000000 1050.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM6x22' 10.000000 (1550.000000 1050.000000) (1528.740157 1071.259843);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM6x22' 10.000000 (1528.740157 1071.259843) (1528.740157 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM7x22' 10.000000 (1504.330709 908.425197) (1504.330709 1045.669291);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM7x22' 10.000000 (1489.370079 1060.629921) (1489.370079 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM7x22' 10.000000 (1504.330709 1045.669291) (1489.370079 1060.629921);
+change drill 13.779528;
+via 'CAM8x22' 33.779528 round (1450.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM8x22' 10.000000 (1450.393701 912.755906) (1450.393701 1049.606299);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM8x22' 10.000000 (1450.393701 1049.606299) (1450.000000 1050.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM8x22' 10.000000 (1450.000000 1050.000000) (1450.000000 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM9x22' 10.000000 (1396.456693 908.425197) (1396.456693 1046.456693);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM9x22' 10.000000 (1410.629921 1060.629921) (1410.629921 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM9x22' 10.000000 (1396.456693 1046.456693) (1410.629921 1060.629921);
+change drill 13.779528;
+via 'CAM10x22' 33.779528 round (1350.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM10x22' 10.000000 (1342.519685 912.755906) (1342.519685 1042.519685);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM10x22' 10.000000 (1342.519685 1042.519685) (1350.000000 1050.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM10x22' 10.000000 (1350.000000 1050.000000) (1371.259843 1071.259843);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM10x22' 10.000000 (1371.259843 1071.259843) (1371.259843 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM11x22' 10.000000 (1288.582677 908.425197) (1288.582677 1048.582677);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM11x22' 10.000000 (1331.889764 1091.889764) (1331.889764 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM11x22' 10.000000 (1288.582677 1048.582677) (1331.889764 1091.889764);
+change drill 13.779528;
+via 'CAM12x22' 33.779528 round (1240.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM12x22' 10.000000 (1234.645669 912.755906) (1234.645669 1044.645669);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM12x22' 10.000000 (1234.645669 1044.645669) (1240.000000 1050.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM12x22' 10.000000 (1240.000000 1050.000000) (1292.519685 1102.519685);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM12x22' 10.000000 (1292.519685 1102.519685) (1292.519685 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM13x22' 10.000000 (1180.708661 908.425197) (1180.708661 1040.708661);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM13x22' 10.000000 (1253.149606 1113.149606) (1253.149606 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM13x22' 10.000000 (1180.708661 1040.708661) (1253.149606 1113.149606);
+change drill 13.779528;
+via 'CAM14x22' 33.779528 round (1130.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM14x22' 10.000000 (1126.771654 912.755906) (1126.771654 1046.771654);
+change layer 16;
+change style CONTINUOUS;
+line 'CAM14x22' 10.000000 (1126.771654 1046.771654) (1130.000000 1050.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM14x22' 10.000000 (1130.000000 1050.000000) (1215.000000 1135.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM14x22' 10.000000 (1215.000000 1198.779528) (1215.000000 1135.000000);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM14x22' 10.000000 (1213.779528 1200.000000) (1215.000000 1198.779528);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM15x22' 10.000000 (1072.834646 908.425197) (1072.834646 1098.425197);
+change layer 1;
+change style CONTINUOUS;
+line 'CAM15x22' 10.000000 (1072.834646 1098.425197) (1174.409449 1200.000000);
+change layer 20;
+change style CONTINUOUS;
+line 0.000000 (1000.000000 800.000000) (1899.212598 800.000000);
+change layer 20;
+change style CONTINUOUS;
+line 0.000000 (1899.212598 800.000000) (1899.212598 1487.007874);
+change layer 20;
+change style CONTINUOUS;
+line 0.000000 (1899.212598 1487.007874) (1000.000000 1487.007874);
+change layer 20;
+change style CONTINUOUS;
+line 0.000000 (1000.000000 1487.007874) (1000.000000 800.000000);
+change layer 51;
+change ratio 8;
+change size 50.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'Estimated Clock Skew: 3.8picoseconds' R0.000000 (1940.000000 1090.000000);
+signal 'CAM1x22'	'J2x22'	'1'\
+	'U$2x22'	'P8'\
+;
+signal 'CAM2x22'	'J2x22'	'2'\
+	'U$2x22'	'P15'\
+;
+signal 'CAM3x22'	'J2x22'	'3'\
+	'U$2x22'	'P7'\
+;
+signal 'CAM4x22'	'J2x22'	'4'\
+	'U$2x22'	'P14'\
+;
+signal 'CAM5x22'	'J2x22'	'5'\
+	'U$2x22'	'P6'\
+;
+signal 'CAM6x22'	'J2x22'	'6'\
+	'U$2x22'	'P13'\
+;
+signal 'CAM7x22'	'J2x22'	'7'\
+	'U$2x22'	'P5'\
+;
+signal 'CAM8x22'	'J2x22'	'8'\
+	'U$2x22'	'P12'\
+;
+signal 'CAM9x22'	'J2x22'	'9'\
+	'U$2x22'	'P4'\
+;
+signal 'CAM10x22'	'J2x22'	'10'\
+	'U$2x22'	'P11'\
+;
+signal 'CAM11x22'	'J2x22'	'11'\
+	'U$2x22'	'P3'\
+;
+signal 'CAM12x22'	'J2x22'	'12'\
+	'U$2x22'	'P10'\
+;
+signal 'CAM13x22'	'J2x22'	'13'\
+	'U$2x22'	'P2'\
+;
+signal 'CAM14x22'	'J2x22'	'14'\
+	'U$2x22'	'P9'\
+;
+signal 'CAM15x22'	'J2x22'	'15'\
+	'U$2x22'	'P1'\
+;
+window fit;
+ratsnest;
+disp -25;
+display -25;
+display -26;
+display -27;
+display -28;
+display -37;
+display -38;

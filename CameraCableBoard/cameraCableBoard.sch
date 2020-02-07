@@ -280,19 +280,19 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="P15" x="-8.23" y="-2.61" dx="5" dy="1.5" layer="16" rot="R90"/>
 <text x="-9.31" y="0.52633125" size="1.778" layer="25">&gt;NAME</text>
 <text x="4.39" y="0.63566875" size="1.778" layer="27">&gt;VALUE</text>
-<wire x1="-19.38" y1="4.7" x2="-19.38" y2="0" width="0.1524" layer="21"/>
-<wire x1="-19.38" y1="0" x2="-16.66" y2="0" width="0.1524" layer="21"/>
-<wire x1="-16.66" y1="0" x2="16.66" y2="0" width="0.1524" layer="21"/>
-<wire x1="16.66" y1="0" x2="19.38" y2="0" width="0.1524" layer="21"/>
-<wire x1="19.38" y1="0" x2="19.38" y2="4.7" width="0.1524" layer="21"/>
-<wire x1="19.38" y1="4.7" x2="13.625" y2="4.7" width="0.1524" layer="21"/>
-<wire x1="13.625" y1="4.7" x2="-13.625" y2="4.7" width="0.1524" layer="21"/>
-<wire x1="-13.625" y1="4.7" x2="-19.38" y2="4.7" width="0.1524" layer="21"/>
-<wire x1="-13.625" y1="4.7" x2="-13.625" y2="10.7" width="0.1524" layer="21"/>
-<wire x1="-13.625" y1="10.7" x2="13.625" y2="10.7" width="0.1524" layer="21"/>
-<wire x1="13.625" y1="10.7" x2="13.625" y2="4.7" width="0.1524" layer="21"/>
-<wire x1="-16.66" y1="4.11" x2="-16.66" y2="0" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="16.66" y1="4.11" x2="16.66" y2="0" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="-19.38" y1="4.7" x2="-19.38" y2="0" width="0.1524" layer="51"/>
+<wire x1="-19.38" y1="0" x2="-16.66" y2="0" width="0.1524" layer="51"/>
+<wire x1="-16.66" y1="0" x2="16.66" y2="0" width="0.1524" layer="51"/>
+<wire x1="16.66" y1="0" x2="19.38" y2="0" width="0.1524" layer="51"/>
+<wire x1="19.38" y1="0" x2="19.38" y2="4.7" width="0.1524" layer="51"/>
+<wire x1="19.38" y1="4.7" x2="13.625" y2="4.7" width="0.1524" layer="51"/>
+<wire x1="13.625" y1="4.7" x2="-13.625" y2="4.7" width="0.1524" layer="51"/>
+<wire x1="-13.625" y1="4.7" x2="-19.38" y2="4.7" width="0.1524" layer="51"/>
+<wire x1="-13.625" y1="4.7" x2="-13.625" y2="10.7" width="0.1524" layer="51"/>
+<wire x1="-13.625" y1="10.7" x2="13.625" y2="10.7" width="0.1524" layer="51"/>
+<wire x1="13.625" y1="10.7" x2="13.625" y2="4.7" width="0.1524" layer="51"/>
+<wire x1="-16.66" y1="4.11" x2="-16.66" y2="0" width="0.1524" layer="51" style="shortdash"/>
+<wire x1="16.66" y1="4.11" x2="16.66" y2="0" width="0.1524" layer="51" style="shortdash"/>
 <text x="-12.33" y="12.33" size="1.778" layer="51">Male pin numbering</text>
 </package>
 </packages>
