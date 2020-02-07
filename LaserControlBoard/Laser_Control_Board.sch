@@ -7377,6 +7377,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="10kΩ"/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO_SILK" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7637,6 +7638,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND18" gate="1" x="190.5" y="40.64" smashed="yes">
 <attribute name="VALUE" x="190.5" y="40.386" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="JP3" gate="G$1" x="238.76" y="96.52" smashed="yes">
+<attribute name="NAME" x="241.3" y="96.901" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="241.3" y="96.139" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7889,6 +7894,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="220.98" y="68.58" size="1.778" layer="95"/>
 <pinref part="JP2" gate="G$1" pin="3"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="3"/>
+<wire x1="238.76" y1="91.44" x2="241.3" y2="91.44" width="0.1524" layer="91"/>
+<label x="241.3" y="91.44" size="1.27" layer="95"/>
+</segment>
 </net>
 <net name="5V_ACT" class="0">
 <segment>
@@ -7900,16 +7910,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="20.32" y="20.32"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="10"/>
-<wire x1="231.14" y1="99.06" x2="233.68" y2="99.06" width="0.1524" layer="91"/>
-<label x="233.68" y="99.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="STEPPER" gate="G$1" pin="5"/>
-<wire x1="15.24" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
-<label x="17.78" y="60.96" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="83.82" y1="60.96" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
 <label x="73.66" y="60.96" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
@@ -7918,6 +7918,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="226.06" y1="58.42" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
 <label x="215.9" y="58.42" size="1.778" layer="95"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="101.6" x2="241.3" y2="101.6" width="0.1524" layer="91"/>
+<label x="241.3" y="101.6" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -8316,6 +8321,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J8" gate="J1" pin="4"/>
 <wire x1="180.34" y1="149.86" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
 <label x="182.88" y="149.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="10"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<wire x1="231.14" y1="99.06" x2="233.68" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="99.06" x2="233.68" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="STEPPER" gate="G$1" pin="5"/>
+<wire x1="15.24" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
+<label x="17.78" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
