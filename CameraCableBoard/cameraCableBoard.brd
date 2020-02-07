@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -163,10 +163,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="22.84" y2="0" width="0" layer="20"/>
-<wire x1="22.84" y1="0" x2="22.84" y2="17.45" width="0" layer="20"/>
-<wire x1="22.84" y1="17.45" x2="0" y2="17.45" width="0" layer="20"/>
-<wire x1="0" y1="17.45" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="22.86" y2="0" width="0" layer="20"/>
+<wire x1="22.86" y1="0" x2="22.86" y2="17.78" width="0" layer="20"/>
+<wire x1="22.86" y1="17.78" x2="0" y2="17.78" width="0" layer="20"/>
+<wire x1="0" y1="17.78" x2="0" y2="0" width="0" layer="20"/>
 <text x="23.876" y="7.366" size="1.27" layer="51">Estimated Clock Skew: 3.8picoseconds</text>
 </plain>
 <libraries>
