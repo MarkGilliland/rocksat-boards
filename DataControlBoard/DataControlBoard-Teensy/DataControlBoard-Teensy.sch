@@ -12872,6 +12872,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="JP1" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1"/>
 <part name="JP2" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="TP21" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -13856,13 +13857,6 @@ Mines was assigned the MSB side</text>
 <label x="121.92" y="160.02" size="1.778" layer="95" rot="R180" align="center-left"/>
 </segment>
 </net>
-<net name="LASER-VS-1" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="P3"/>
-<wire x1="124.46" y1="157.48" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
-<label x="121.92" y="157.48" size="1.778" layer="95" rot="R180" align="center-left"/>
-</segment>
-</net>
 <net name="LASER-DTR" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="P4"/>
@@ -14011,6 +14005,13 @@ Mines was assigned the MSB side</text>
 <pinref part="J2" gate="G$1" pin="P19"/>
 <wire x1="139.7" y1="149.86" x2="142.24" y2="149.86" width="0.1524" layer="91"/>
 <label x="142.24" y="149.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ANT-BUSY" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="P3"/>
+<wire x1="124.46" y1="157.48" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
+<label x="121.92" y="157.48" size="1.778" layer="95" rot="R180" align="center-left"/>
 </segment>
 </net>
 </nets>
@@ -14177,6 +14178,10 @@ converter Board</text>
 <instance part="H5" gate="G$1" x="101.6" y="30.48" smashed="yes">
 <attribute name="NAME" x="103.632" y="31.0642" size="1.778" layer="95"/>
 <attribute name="VALUE" x="103.632" y="28.0162" size="1.778" layer="96"/>
+</instance>
+<instance part="TP21" gate="G$1" x="157.48" y="55.88" smashed="yes">
+<attribute name="NAME" x="156.21" y="57.15" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="158.75" y="54.61" size="1.778" layer="97"/>
 </instance>
 </instances>
 <busses>
@@ -14575,8 +14580,9 @@ converter Board</text>
 <net name="LASER-VS-1" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="4"/>
-<wire x1="134.62" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
 <label x="137.16" y="53.34" size="1.778" layer="95"/>
+<wire x1="134.62" y1="53.34" x2="157.48" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="TP21" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="LASER-DTR" class="0">
